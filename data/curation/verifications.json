@@ -1,0 +1,365 @@
+{
+  "_doc_fr": "Recettes sourcées dont les valeurs ont été relues sur la page source à la date indiquée (lecture automatisée de la page). curate.py renseigne source.checked_on seulement si les valeurs du catalogue sont toujours identiques à expected ; sinon il s'arrête en erreur.",
+  "verifications": [
+    {
+      "id": "green-sencha",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 80,
+        "duration_seconds_min": 90,
+        "duration_seconds_max": 90
+      }
+    },
+    {
+      "id": "black-darjeeling",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 90,
+        "duration_seconds_min": 150,
+        "duration_seconds_max": 150
+      }
+    },
+    {
+      "id": "green-dragon-well-longjing",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 80,
+        "duration_seconds_min": 120,
+        "duration_seconds_max": 120
+      }
+    },
+    {
+      "id": "oolong-tie-guan-yin",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 4,
+        "water_ml": 250,
+        "temperature_c": 90,
+        "duration_seconds_min": 120,
+        "duration_seconds_max": 120
+      }
+    },
+    {
+      "id": "pu_erh-shou-pu-erh",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 100,
+        "duration_seconds_min": 60,
+        "duration_seconds_max": 60
+      }
+    },
+    {
+      "id": "oolong-da-hong-pao",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 5,
+        "water_ml": 250,
+        "temperature_c": 93,
+        "duration_seconds_min": 90,
+        "duration_seconds_max": 90
+      }
+    },
+    {
+      "id": "oolong-li-shan",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 88,
+        "duration_seconds_min": 120,
+        "duration_seconds_max": 120
+      }
+    },
+    {
+      "id": "oolong-ali-shan",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 88,
+        "duration_seconds_min": 120,
+        "duration_seconds_max": 120
+      }
+    },
+    {
+      "id": "white-bai-hao-yin-zhen",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 85,
+        "duration_seconds_min": 300,
+        "duration_seconds_max": 300
+      }
+    },
+    {
+      "id": "white-bai-mudan",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 85,
+        "duration_seconds_min": 240,
+        "duration_seconds_max": 240
+      }
+    },
+    {
+      "id": "white-moonlight-white",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 4,
+        "water_ml": 250,
+        "temperature_c": 88,
+        "duration_seconds_min": 180,
+        "duration_seconds_max": 180
+      }
+    },
+    {
+      "id": "white-bourgeons-de-neige-du-yunnan",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 82,
+        "duration_seconds_min": 300,
+        "duration_seconds_max": 300
+      }
+    },
+    {
+      "id": "white-white-darjeeling",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 85,
+        "duration_seconds_min": 240,
+        "duration_seconds_max": 240
+      }
+    },
+    {
+      "id": "black-earl-grey",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 98,
+        "duration_seconds_min": 180,
+        "duration_seconds_max": 180
+      }
+    },
+    {
+      "id": "black-the-noir-chai",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 4,
+        "water_ml": 250,
+        "temperature_c": 100,
+        "duration_seconds_min": 300,
+        "duration_seconds_max": 300
+      }
+    },
+    {
+      "id": "green-moroccan-mint",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 100,
+        "duration_seconds_min": 180,
+        "duration_seconds_max": 180
+      }
+    },
+    {
+      "id": "herbal-camomille",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 95,
+        "duration_seconds_min": 360,
+        "duration_seconds_max": 360
+      }
+    },
+    {
+      "id": "herbal-hibiscus",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 4,
+        "water_ml": 250,
+        "temperature_c": 100,
+        "duration_seconds_min": 360,
+        "duration_seconds_max": 360
+      }
+    },
+    {
+      "id": "oolong-jin-xuan",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 90,
+        "duration_seconds_min": 120,
+        "duration_seconds_max": 120
+      }
+    },
+    {
+      "id": "oolong-oriental-beauty",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 85,
+        "duration_seconds_min": 150,
+        "duration_seconds_max": 150
+      }
+    },
+    {
+      "id": "pu_erh-menghai-7542",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 90,
+        "duration_seconds_min": 40,
+        "duration_seconds_max": 40
+      }
+    },
+    {
+      "id": "pu_erh-menghai-7572",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 100,
+        "duration_seconds_min": 50,
+        "duration_seconds_max": 50
+      }
+    },
+    {
+      "id": "pu_erh-sheng-pu-erh",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 2.5,
+        "water_ml": 250,
+        "temperature_c": 90,
+        "duration_seconds_min": 45,
+        "duration_seconds_max": 45
+      }
+    },
+    {
+      "id": "green-enshi-yulu",
+      "url": "https://teafinity.app/fr/charts/temperature-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 80,
+        "duration_seconds_min": 120,
+        "duration_seconds_max": 120
+      }
+    },
+    {
+      "id": "green-mao-feng",
+      "url": "https://teafinity.app/fr/charts/temperature-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 80,
+        "duration_seconds_min": 90,
+        "duration_seconds_max": 90
+      }
+    },
+    {
+      "id": "green-liu-an-gua-pian",
+      "url": "https://teafinity.app/fr/charts/temperature-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 82,
+        "duration_seconds_min": 90,
+        "duration_seconds_max": 90
+      }
+    },
+    {
+      "id": "green-earl-grey-vert",
+      "url": "https://teafinity.app/fr/charts/temperature-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 80,
+        "duration_seconds_min": 120,
+        "duration_seconds_max": 120
+      }
+    },
+    {
+      "id": "green-gyokuro",
+      "url": "https://teafinity.app/fr/thes/gyokuro/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 6,
+        "water_ml": 250,
+        "temperature_c": 60,
+        "duration_seconds_min": 120,
+        "duration_seconds_max": 120
+      }
+    },
+    {
+      "id": "green-hojicha",
+      "url": "https://teafinity.app/fr/thes/hojicha/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 90,
+        "duration_seconds_min": 60,
+        "duration_seconds_max": 60
+      }
+    },
+    {
+      "id": "green-genmaicha",
+      "url": "https://teafinity.app/fr/thes/genmaicha/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 4,
+        "water_ml": 250,
+        "temperature_c": 82,
+        "duration_seconds_min": 120,
+        "duration_seconds_max": 120
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "_doc_fr": "Sous-familles : chaque membre (fiche sans recette propre) reçoit une copie de la recette de la fiche d'ancrage, qui doit être une recette sourcée (legacy_referenced). Aucune valeur nouvelle n'est inventée : on corrige seulement les fiches dont la valeur de famille contredisait une fiche sœur sourcée. La recette copiée est marquée reliability=subfamily_default et derived_from=<ancre>.",
+  "subfamilies": [],
+  "needs_review": [
+    {
+      "id": "green-funmatsucha",
+      "reason_fr": "Thé vert en poudre qui se dissout : la recette d'infusion de famille ne convient pas. Utiliser la consigne du paquet."
+    },
+    {
+      "id": "herbal-cafe-de-cereales",
+      "reason_fr": "Boisson à base de céréales torréfiées (souvent soluble) : la recette d'infusion de famille ne convient pas. Utiliser la consigne du paquet."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "_doc_fr": "Théine et précautions. caffeine vaut contains, none ou unknown ; l'appli n'affiche « sans théine » que pour none. medicinal_caution est un premier tri des plantes à usage médicinal connu : liste à relire, pas un avis médical.",
+  "caffeine": {
+    "families_contains": ["green", "black", "white", "oolong", "yellow", "pu_erh", "dark", "matcha"],
+    "contains": [
+      "cold-the-noir-glace",
+      "cold-the-vert-glace-a-temperatu-99871427",
+      "herbal-mate-vert",
+      "herbal-mate-torrefie",
+      "herbal-mate-citron",
+      "herbal-guayusa",
+      "herbal-yaupon",
+      "herbal-coques-de-cacao",
+      "herbal-infusion-de-cacao"
+    ],
+    "none": ["herbal-rooibos", "herbal-rooibos-vert", "herbal-honeybush"],
+    "notes_fr": {
+      "herbal-coques-de-cacao": "Surtout de la théobromine, un peu de théine.",
+      "herbal-infusion-de-cacao": "Surtout de la théobromine, un peu de théine."
+    }
+  },
+  "medicinal_caution": {
+    "note_fr": "Plante à usage médicinal : demander l'avis d'un médecin ou d'un pharmacien en cas de grossesse, d'allaitement, de traitement en cours, ou avant d'en donner à un enfant.",
+    "ids": [
+      "herbal-racine-de-reglisse",
+      "herbal-tisane-reglisse-menthe",
+      "herbal-valeriane",
+      "herbal-passiflore",
+      "herbal-echinacee",
+      "herbal-ginseng",
+      "oolong-oolong-au-ginseng",
+      "herbal-reine-des-pres",
+      "herbal-sauge",
+      "herbal-chardon-marie",
+      "herbal-aubepine",
+      "herbal-baies-d-aubepine",
+      "herbal-anis-etoile",
+      "herbal-fenouil",
+      "herbal-achillee-millefeuille",
+      "herbal-achillee-blanche",
+      "herbal-feuille-de-framboisier",
+      "herbal-jiaogulan",
+      "herbal-kuding",
+      "herbal-curcuma",
+      "herbal-feuille-d-olivier"
+    ]
+  }
+}

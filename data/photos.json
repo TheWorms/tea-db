@@ -1,0 +1,5 @@
+{
+  "_doc_fr": "Crédit des images de docs/assets/photos/catalogue/. Un thé a une photo si le fichier <id>.webp existe. Le crédit par défaut s'applique à toutes les images (illustrations générées par IA, photo_exacte = false). Exception pour une vraie photo du produit : \"photos\": {\"<id>\": {\"credit\": \"Thib\", \"exacte\": true}}.",
+  "credit_par_defaut": "Théothèque (IA)",
+  "photos": {}
+}
