@@ -11,3 +11,6 @@ __pycache__/
 *.key
 id_rsa*
 id_ed25519*
+
+# Outils de test de la page
+node_modules/

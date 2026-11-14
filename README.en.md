@@ -2,6 +2,8 @@
 
 [Français](README.md) | English
 
+**Browse the catalogue online: [theworms.github.io/tea-db](https://theworms.github.io/tea-db/?lang=en)**
+
 A catalogue of teas and herbal infusions in French. Each entry gives the dose, water temperature, steeping time, a short description and an illustration. It is read by the Théothèque Android app.
 
 ## Contents
@@ -10,10 +12,11 @@ A catalogue of teas and herbal infusions in French. Each entry gives the dose, w
 |---|---|
 | `docs/thes.json` | Catalogue read by the app: a list of entries sorted by identifier |
 | `docs/redirections.json` | Old identifiers mapped to the identifier that was kept (duplicates removed) |
+| `docs/index.html` | Catalogue browsing page (`app.js`, `volume.js`, `catalogue.js`) |
 | `docs/assets/photos/catalogue/` | Illustrations in WebP, 1200 × 800 px, added over time (the folder is absent until there are some) |
 | `data/` | Source data: master file, texts, recipes by style, verifications |
 | `scripts/` | `curate.py` generates the published files; `add_photo.py` converts images |
-| `tests/` | Catalogue consistency tests |
+| `tests/` | Catalogue consistency tests (Python) and page tests (Node.js) |
 | `FORMAT.md` | Full description of the `thes.json` fields (in French) |
 
 ## How it works
@@ -28,9 +31,21 @@ Herbal infusions with a medicinal use carry a `precaution` field. The catalogue 
 
 Read `docs/thes.json` directly, or serve the repository from static hosting. Photo paths are relative to the `docs/` folder. Field details are in [FORMAT.md](FORMAT.md).
 
+## Browsing the catalogue
+
+Online: **[theworms.github.io/tea-db](https://theworms.github.io/tea-db/?lang=en)**. Offline: open `index.html` at the root (or `docs/index.html`) in a browser, no server needed.
+
+The page shows the catalogue as cards, with search and a family filter. On each entry it computes the dose for the chosen volume: 100 to 350 ml in 50 ml steps, the volumes of the BRU machine, with no preselection; the last chosen volume is remembered in the browser. When an entry has a `froid` recipe, a "Hot / Cold" choice appears; herbal infusions never have one. The page is available in French and English (only the interface is translated: names and descriptions stay in French), in light or dark theme, and each entry has its own direct link (`#identifier`). It is published by GitHub Pages from the `docs/` folder of the `main` branch.
+
+```bash
+node --test tests/volume.test.cjs   # dose calculation and volume memory
+node tests/browser.cjs              # full walkthrough, with Playwright and Chromium
+# Optional variables: PLAYWRIGHT_MODULE=/path/to/playwright CHROMIUM_PATH=/path/to/chromium
+```
+
 ## Contributing
 
-`docs/thes.json`, `docs/redirections.json` and `data/teas.json` are generated: edit the sources in `data/`, then regenerate.
+`docs/thes.json`, `docs/redirections.json`, `docs/catalogue.js` and `data/teas.json` are generated: edit the sources in `data/`, then regenerate.
 
 ```bash
 python3 scripts/curate.py          # regenerate the published files
