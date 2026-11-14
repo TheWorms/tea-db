@@ -1,7 +1,16 @@
 {
   "_doc_fr": "Théine et précautions. caffeine vaut contains, none ou unknown ; l'appli n'affiche « sans théine » que pour none. medicinal_caution est un premier tri des plantes à usage médicinal connu : liste à relire, pas un avis médical.",
   "caffeine": {
-    "families_contains": ["green", "black", "white", "oolong", "yellow", "pu_erh", "dark", "matcha"],
+    "families_contains": [
+      "green",
+      "black",
+      "white",
+      "oolong",
+      "yellow",
+      "pu_erh",
+      "dark",
+      "matcha"
+    ],
     "contains": [
       "cold-the-noir-glace",
       "cold-the-vert-glace-a-temperatu-99871427",
@@ -13,7 +22,12 @@
       "herbal-coques-de-cacao",
       "herbal-infusion-de-cacao"
     ],
-    "none": ["herbal-rooibos", "herbal-rooibos-vert", "herbal-honeybush"],
+    "none": [
+      "herbal-rooibos",
+      "herbal-rooibos-vert",
+      "herbal-honeybush",
+      "herbal-rooibos-vanille-amande"
+    ],
     "notes_fr": {
       "herbal-coques-de-cacao": "Surtout de la théobromine, un peu de théine.",
       "herbal-infusion-de-cacao": "Surtout de la théobromine, un peu de théine."
