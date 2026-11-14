@@ -77,16 +77,6 @@
       "exacte": false,
       "source": "https://commons.wikimedia.org/wiki/File:Earl_Grey_FBOP-Wilson_Ceylon_Teas.jpg"
     },
-    "black-english-afternoon": {
-      "credit": "HarshLight, CC BY 2.0 (Wikimedia Commons)",
-      "exacte": false,
-      "source": "https://commons.wikimedia.org/wiki/File:Classic_Tea_at_the_Disneyland_Hotel_-_28239299271.jpg"
-    },
-    "black-english-breakfast": {
-      "credit": "ashishlohorung, CC BY-SA 3.0 (Wikimedia Commons)",
-      "exacte": false,
-      "source": "https://commons.wikimedia.org/wiki/File:English_breakfast_tea,_Marrickville,_Sydney.jpg"
-    },
     "black-french-earl-grey": {
       "credit": "Selena N. B. H., CC BY 2.0 (Wikimedia Commons)",
       "exacte": true,
@@ -96,11 +86,6 @@
       "credit": "Oraola, CC BY-SA 4.0 (Wikimedia Commons)",
       "exacte": false,
       "source": "https://commons.wikimedia.org/wiki/File:Assam-mangalam.jpg"
-    },
-    "black-irish-breakfast": {
-      "credit": "Lexane Sirac, CC BY-SA 4.0 (Wikimedia Commons)",
-      "exacte": false,
-      "source": "https://commons.wikimedia.org/wiki/File:Milk_in_Irish_Breakfast_tea.jpg"
     },
     "black-jin-jun-mei": {
       "credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
@@ -142,11 +127,6 @@
       "exacte": false,
       "source": "https://commons.wikimedia.org/wiki/File:Theae_folium_%22lapsang_souchong%221.JPG"
     },
-    "black-london-fog": {
-      "credit": "Andy Li, CC0 (Wikimedia Commons)",
-      "exacte": false,
-      "source": "https://commons.wikimedia.org/wiki/File:London_fog_latte_-_Jolliffes_Coffee_Shop_2024-01-07.jpg"
-    },
     "black-nepal-black": {
       "credit": "Oraola, CC BY-SA 4.0 (Wikimedia Commons)",
       "exacte": false,
@@ -187,25 +167,10 @@
       "exacte": false,
       "source": "https://commons.wikimedia.org/wiki/File:Pineapple_Mango_tea.jpg"
     },
-    "black-the-noir-au-citron": {
-      "credit": "Peachyeung316, CC BY-SA 4.0 (Wikimedia Commons)",
-      "exacte": false,
-      "source": "https://commons.wikimedia.org/wiki/File:A_Hong_Kong_style_Lemon_Black_Tea_at_Spot_Cafe.jpg"
-    },
     "black-the-noir-aux-epices": {
       "credit": "A Girl With Tea from USA, CC BY 2.0 (Wikimedia Commons)",
       "exacte": false,
       "source": "https://commons.wikimedia.org/wiki/File:Pumpkin_Spice_Tea_-_Adagio.jpg"
-    },
-    "black-the-noir-aux-fruits-rouges": {
-      "credit": "Kay Yuen from Hong Kong, CC BY 2.0 (Wikimedia Commons)",
-      "exacte": false,
-      "source": "https://commons.wikimedia.org/wiki/File:Very_Berry_Tea.jpg"
-    },
-    "black-the-noir-chai": {
-      "credit": "Miansari66, Public domain (Wikimedia Commons)",
-      "exacte": false,
-      "source": "https://commons.wikimedia.org/wiki/File:Masala_Chai.JPG"
     },
     "black-yunnan-gold": {
       "credit": "Whiteness, CC BY-SA 4.0 (Wikimedia Commons)",
@@ -236,16 +201,6 @@
       "credit": "Editor at Large, CC BY-SA 2.5 (Wikimedia Commons)",
       "exacte": true,
       "source": "https://commons.wikimedia.org/wiki/File:Iced_tea_with_ice_cubes.jpg"
-    },
-    "cold-the-vert-glace-a-temperatu-99871427": {
-      "credit": "Missvain, CC BY 4.0 (Wikimedia Commons)",
-      "exacte": false,
-      "source": "https://commons.wikimedia.org/wiki/File:Pearl_Petaluma_-_Sarah_Stierch_-_Jan_2019_02.jpg"
-    },
-    "cold-tisane-glacee-a-temperatur-d9505d99": {
-      "credit": "Andy Li, CC0 (Wikimedia Commons)",
-      "exacte": false,
-      "source": "https://commons.wikimedia.org/wiki/File:Hibiscus_and_berry_iced_tea_-_Lost_in_the_Lanes_2025-07-08.jpg"
     },
     "dark-fu-zhuan": {
       "credit": "Kasuga, CC BY-SA 4.0 (Wikimedia Commons)",
@@ -286,11 +241,6 @@
       "credit": "Ash Crow, CC BY-SA 4.0 (Wikimedia Commons)",
       "exacte": false,
       "source": "https://commons.wikimedia.org/wiki/File:Tekoe_-_Green_Grey_tea_-_WikiTea.jpg"
-    },
-    "green-enshi-yulu": {
-      "credit": "Washing Machine, CC0 (Wikimedia Commons)",
-      "exacte": false,
-      "source": "https://commons.wikimedia.org/wiki/File:Gyokuro-after-steeping.jpg"
     },
     "green-funmatsucha": {
       "credit": "Kaminix, CC0 (Wikimedia Commons)",
@@ -397,11 +347,6 @@
       "exacte": true,
       "source": "https://commons.wikimedia.org/wiki/File:Green_mint_tea_Touareg_Damann.jpg"
     },
-    "green-nokcha": {
-      "credit": "강응규, CC BY 2.0 (Wikimedia Commons)",
-      "exacte": false,
-      "source": "https://commons.wikimedia.org/wiki/File:Boseong_green_tea_and_green_tea_desserts.jpg"
-    },
     "green-sencha": {
       "credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
       "exacte": false,
@@ -457,11 +402,6 @@
       "exacte": false,
       "source": "https://commons.wikimedia.org/wiki/File:Green_tea_with_rose,_jasmine,_and_sunflower_blossoms.jpg"
     },
-    "green-the-vert-au-gingembre": {
-      "credit": "Elmer Centeno Guevarra, CC BY-SA 4.0 (Wikimedia Commons)",
-      "exacte": false,
-      "source": "https://commons.wikimedia.org/wiki/File:Honey_Yellow_Ginger_Tea.jpg"
-    },
     "green-the-vert-au-jasmin": {
       "credit": "Hayden Soloviev, CC BY 4.0 (Wikimedia Commons)",
       "exacte": true,
@@ -496,11 +436,6 @@
       "credit": "Maojian.jpg, CC BY-SA 3.0 (Wikimedia Commons)",
       "exacte": true,
       "source": "https://commons.wikimedia.org/wiki/File:Maojian.jpg"
-    },
-    "green-yunnan-green": {
-      "credit": "MrsMyer, CC BY-SA 3.0 (Wikimedia Commons)",
-      "exacte": false,
-      "source": "https://commons.wikimedia.org/wiki/File:BoneChinaTassemitgr%C3%BCnemTee.JPG"
     },
     "green-yunnan-silver-strands": {
       "credit": "CEphoto, Uwe Aranas, CC BY-SA 4.0 (Wikimedia Commons)",

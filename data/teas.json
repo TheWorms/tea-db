@@ -41,7 +41,7 @@
     },
     "with_notes": 458,
     "commons_photos": 0,
-    "with_photo": 276,
+    "with_photo": 263,
     "style_referenced_entries": 441,
     "aligned_on_style": 7
   },
@@ -2879,13 +2879,7 @@
           }
         }
       ],
-      "image": {
-        "path": "assets/photos/catalogue/black-english-afternoon.webp",
-        "photo_credit": "HarshLight, CC BY 2.0 (Wikimedia Commons)",
-        "photo_exacte": false,
-        "width": 1200,
-        "height": 800
-      },
+      "image": null,
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -2961,13 +2955,7 @@
           }
         }
       ],
-      "image": {
-        "path": "assets/photos/catalogue/black-english-breakfast.webp",
-        "photo_credit": "ashishlohorung, CC BY-SA 3.0 (Wikimedia Commons)",
-        "photo_exacte": false,
-        "width": 1200,
-        "height": 800
-      },
+      "image": null,
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -3352,13 +3340,7 @@
           }
         }
       ],
-      "image": {
-        "path": "assets/photos/catalogue/black-irish-breakfast.webp",
-        "photo_credit": "Lexane Sirac, CC BY-SA 4.0 (Wikimedia Commons)",
-        "photo_exacte": false,
-        "width": 1200,
-        "height": 800
-      },
+      "image": null,
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -4214,13 +4196,7 @@
           }
         }
       ],
-      "image": {
-        "path": "assets/photos/catalogue/black-london-fog.webp",
-        "photo_credit": "Andy Li, CC0 (Wikimedia Commons)",
-        "photo_exacte": false,
-        "width": 1200,
-        "height": 800
-      },
+      "image": null,
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -6335,13 +6311,7 @@
           }
         }
       ],
-      "image": {
-        "path": "assets/photos/catalogue/black-the-noir-au-citron.webp",
-        "photo_credit": "Peachyeung316, CC BY-SA 4.0 (Wikimedia Commons)",
-        "photo_exacte": false,
-        "width": 1200,
-        "height": 800
-      },
+      "image": null,
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -6495,13 +6465,7 @@
           }
         }
       ],
-      "image": {
-        "path": "assets/photos/catalogue/black-the-noir-aux-fruits-rouges.webp",
-        "photo_credit": "Kay Yuen from Hong Kong, CC BY 2.0 (Wikimedia Commons)",
-        "photo_exacte": false,
-        "width": 1200,
-        "height": 800
-      },
+      "image": null,
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -6577,13 +6541,7 @@
           }
         }
       ],
-      "image": {
-        "path": "assets/photos/catalogue/black-the-noir-chai.webp",
-        "photo_credit": "Miansari66, Public domain (Wikimedia Commons)",
-        "photo_exacte": false,
-        "width": 1200,
-        "height": 800
-      },
+      "image": null,
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -7847,13 +7805,7 @@
           "notes_fr": "Valeur compilée avec source, lien non revérifié individuellement ; privilégier la consigne sur l’emballage."
         }
       ],
-      "image": {
-        "path": "assets/photos/catalogue/cold-the-vert-glace-a-temperatu-99871427.webp",
-        "photo_credit": "Missvain, CC BY 4.0 (Wikimedia Commons)",
-        "photo_exacte": false,
-        "width": 1200,
-        "height": 800
-      },
+      "image": null,
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -7913,13 +7865,7 @@
           "notes_fr": "Valeur compilée avec source, lien non revérifié individuellement ; privilégier la consigne sur l’emballage."
         }
       ],
-      "image": {
-        "path": "assets/photos/catalogue/cold-tisane-glacee-a-temperatur-d9505d99.webp",
-        "photo_credit": "Andy Li, CC0 (Wikimedia Commons)",
-        "photo_exacte": false,
-        "width": 1200,
-        "height": 800
-      },
+      "image": null,
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -9950,13 +9896,7 @@
           }
         }
       ],
-      "image": {
-        "path": "assets/photos/catalogue/green-enshi-yulu.webp",
-        "photo_credit": "Washing Machine, CC0 (Wikimedia Commons)",
-        "photo_exacte": false,
-        "width": 1200,
-        "height": 800
-      },
+      "image": null,
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -12889,13 +12829,7 @@
           }
         }
       ],
-      "image": {
-        "path": "assets/photos/catalogue/green-nokcha.webp",
-        "photo_credit": "강응규, CC BY 2.0 (Wikimedia Commons)",
-        "photo_exacte": false,
-        "width": 1200,
-        "height": 800
-      },
+      "image": null,
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -14844,13 +14778,7 @@
           }
         }
       ],
-      "image": {
-        "path": "assets/photos/catalogue/green-the-vert-au-gingembre.webp",
-        "photo_credit": "Elmer Centeno Guevarra, CC BY-SA 4.0 (Wikimedia Commons)",
-        "photo_exacte": false,
-        "width": 1200,
-        "height": 800
-      },
+      "image": null,
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -16447,13 +16375,7 @@
           }
         }
       ],
-      "image": {
-        "path": "assets/photos/catalogue/green-yunnan-green.webp",
-        "photo_credit": "MrsMyer, CC BY-SA 3.0 (Wikimedia Commons)",
-        "photo_exacte": false,
-        "width": 1200,
-        "height": 800
-      },
+      "image": null,
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
