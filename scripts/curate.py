@@ -27,6 +27,7 @@ Fichiers générés :
   data/teas.json          maître enrichi
   docs/thes.json          catalogue lu par l'appli (liste de fiches)
   docs/redirections.json  ancien id → id conservé, pour les doublons retirés
+  docs/catalogue.js       copie de thes.json pour la page docs/index.html
 
 Limites de l'appli contrôlées (erreur = refus) : id ≤ 40, nom ≤ 30,
 origine ≤ 30, notes ≤ 300, photo_credit ≤ 60, photo de 800×533 à 1600×1067 px
@@ -688,6 +689,12 @@ def render_app(catalog: dict) -> str:
     return text
 
 
+def render_browser_catalogue(app_text: str) -> str:
+    """docs/catalogue.js : copie de thes.json pour ouvrir docs/index.html sans serveur."""
+    return ("// Copie de thes.json pour une ouverture locale sans serveur, générée par scripts/curate.py.\n"
+            "window.theothequeCatalogue = " + app_text.strip().replace("<", "\\u003c") + ";\n")
+
+
 def render_redirections(catalog: dict) -> str:
     return dump_json({e["id"]: e["replaced_by"] for e in sorted(catalog["entries"], key=lambda e: e["id"])
                       if e["status"] == "merged"})
@@ -712,6 +719,7 @@ def render_all(root: Path = ROOT) -> tuple[dict[Path, str], dict, list[str]]:
         master: dump_json(catalog),
         root / "docs" / "thes.json": app_text,
         root / "docs" / "redirections.json": render_redirections(catalog),
+        root / "docs" / "catalogue.js": render_browser_catalogue(app_text),
     }
     return outputs, catalog, warnings
 

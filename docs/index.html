@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Catalogue libre de thés et de tisanes : dose, température, durée d'infusion, recette à froid. Free catalogue of teas and herbal infusions.">
+<title>Théothèque — catalogue de thés</title>
+<style>
+:root{
+  --bg:#eef2f0; --card:#ffffff; --ink:#18211d; --mute:#5b6a63; --line:#d3ddd8; --accent:#1d6b58; --on-accent:#ffffff;
+  --ok:#2e7d4f; --info:#1f6f8b; --warn:#9a6a12; --grey:#6c756f; --danger:#9b3b2a; --cold:#1f6f8b;
+  --display:"Fraunces", Georgia, "Times New Roman", serif;
+  --body:"Figtree", "Segoe UI", system-ui, -apple-system, sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0f1513; --card:#17201c; --ink:#e4ebe7; --mute:#97a6a0; --line:#2a3631; --accent:#5ec2a6; --on-accent:#0f1513;
+    --ok:#62c58b; --info:#5bb6d4; --warn:#e0b04f; --grey:#a2aba6; --danger:#e3836f; --cold:#5bb6d4;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0f1513; --card:#17201c; --ink:#e4ebe7; --mute:#97a6a0; --line:#2a3631; --accent:#5ec2a6; --on-accent:#0f1513;
+  --ok:#62c58b; --info:#5bb6d4; --warn:#e0b04f; --grey:#a2aba6; --danger:#e3836f; --cold:#5bb6d4;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:15px/1.45 var(--body)}
+a{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+header.top{padding:22px 16px 14px;max-width:1280px;margin:0 auto;display:grid;gap:10px}
+.title-row{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center}
+h1{font:600 28px/1.15 var(--display);margin:0;text-wrap:balance}
+.lede{color:var(--mute);margin:0;max-width:75ch}
+.head-tools{margin-left:auto;display:flex;gap:6px}
+.btn{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:8px;padding:5px 10px;cursor:pointer}
+.btn:hover{border-color:var(--accent)}
+.toolbar{position:sticky;top:0;z-index:3;background:var(--bg);border-bottom:1px solid var(--line)}
+.toolbar-in{max-width:1280px;margin:0 auto;padding:10px 16px;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+input[type=search],select{font:inherit;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:7px 10px}
+input[type=search]{flex:1 1 220px;min-width:0}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:4px 10px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.toggle{display:flex;gap:6px;align-items:center;font-size:14px;color:var(--mute)}
+.count{margin-left:auto;color:var(--mute);font-size:13px;font-variant-numeric:tabular-nums}
+main{max-width:1280px;margin:0 auto;padding:16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+body.phone main{max-width:412px;border-left:1px solid var(--line);border-right:1px solid var(--line)}
+body.phone .grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+body.phone .card .notes{display:none}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column;cursor:pointer;text-align:left;color:inherit;font:inherit;padding:0}
+.card:hover{border-color:var(--accent)}
+.card[hidden]{display:none}
+.pic{position:relative;aspect-ratio:3/2;background:var(--line);overflow:hidden;width:100%}
+.pic svg,.pic img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.pic .fam{position:absolute;left:8px;top:8px;font-size:12px;font-weight:600;background:rgba(0,0,0,.55);color:#fff;border-radius:6px;padding:2px 7px}
+.credit{font-size:11px;color:var(--mute);padding:4px 10px 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-height:1.5em}
+.body{padding:8px 10px 10px;display:grid;gap:5px;width:100%}
+.name{font-weight:600;font-size:16px;line-height:1.25;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:2.5em}
+.origin{font-size:13px;color:var(--mute);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-height:1.45em}
+.recipe{font-size:13px;font-variant-numeric:tabular-nums}
+.notes{font-size:13px;color:var(--mute);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.tags{display:flex;flex-wrap:wrap;gap:5px}
+.pill{font-size:11px;font-weight:600;border-radius:999px;padding:2px 8px;border:1px solid currentColor}
+.r-src{color:var(--ok)} .r-est{color:var(--grey)} .p-cold{color:var(--cold)} .p-mute{color:var(--mute)} .p-warn{color:var(--danger)}
+dialog{border:none;border-radius:12px;padding:0;max-width:min(580px,calc(100% - 24px));width:100%;background:var(--card);color:var(--ink);box-shadow:0 20px 60px rgba(0,0,0,.35)}
+dialog::backdrop{background:rgba(10,15,13,.55)}
+.d-pic{position:relative;aspect-ratio:3/2;background:var(--line)}
+.d-pic svg,.d-pic img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.close{position:absolute;right:8px;top:8px;font:inherit;font-size:13px;border:none;border-radius:6px;padding:4px 9px;background:rgba(0,0,0,.6);color:#fff;cursor:pointer}
+.d-body{padding:14px 18px 18px;display:grid;gap:12px}
+.d-body h2{font:600 22px/1.2 var(--display);margin:0;text-wrap:balance}
+.meta{color:var(--mute);font-size:14px}
+.calc{border:1px solid var(--line);border-radius:10px;padding:12px;display:grid;gap:10px}
+.calc-row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.calc label{font-size:13px;color:var(--mute);display:flex;gap:8px;align-items:center}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.seg button{font:inherit;font-size:13px;border:none;background:var(--card);color:var(--ink);padding:6px 14px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--on-accent)}
+.big{display:flex;flex-wrap:wrap;gap:6px 22px;font-variant-numeric:tabular-nums}
+.big span{font-size:20px;font-weight:600}
+.big small{display:block;font-size:12px;font-weight:400;color:var(--mute)}
+.note{border-left:3px solid var(--info);padding:6px 10px;font-size:14px}
+.warnbox{border-left:3px solid var(--danger);padding:6px 10px;font-size:14px}
+.reviewbox{border-left:3px solid var(--warn);padding:6px 10px;font-size:14px}
+.small{font-size:13px;color:var(--mute)}
+footer{max-width:1280px;margin:0 auto;padding:8px 16px 40px;color:var(--mute);font-size:13px;line-height:1.7}
+@media (prefers-reduced-motion:no-preference){.card{transition:border-color .15s}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="title-row">
+    <h1>Théothèque</h1>
+    <div class="head-tools">
+      <button class="btn" type="button" id="lang"></button>
+      <button class="btn" type="button" id="theme"></button>
+    </div>
+  </div>
+  <p class="lede" id="lede"></p>
+</header>
+<div class="toolbar"><div class="toolbar-in">
+  <input type="search" id="q">
+  <div class="chips" id="fams" role="group"></div>
+  <label class="toggle" for="cold-only"><input type="checkbox" id="cold-only"> <span data-i18n="filtreFroid"></span></label>
+  <label class="toggle" for="phone"><input type="checkbox" id="phone"> <span data-i18n="vueTel"></span></label>
+  <span class="count" id="count" aria-live="polite"></span>
+</div></div>
+<main><div class="grid" id="grid"></div></main>
+<dialog id="detail" aria-labelledby="d-title"></dialog>
+<footer id="footer"></footer>
+<script src="catalogue.js"></script>
+<script src="volume.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
