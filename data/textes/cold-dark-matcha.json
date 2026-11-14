@@ -1,0 +1,22 @@
+{
+  "cold-the-noir-glace": {"origine": null, "notes": "Thé noir infusé longuement dans de l'eau à température ambiante, puis servi frais. Tasse plus douce et moins amère qu'un thé chaud refroidi. Ajouter des glaçons au service."},
+  "cold-the-vert-glace-a-temperatu-99871427": {"nom": "Thé vert glacé", "origine": null, "notes": "Thé vert infusé dans de l'eau à température ambiante, puis servi frais. L'infusion lente donne une tasse douce, sans l'amertume d'un thé vert trop chaud."},
+  "cold-tisane-glacee-a-temperatur-d9505d99": {"nom": "Tisane glacée", "origine": null, "notes": "Tisane infusée longuement dans de l'eau à température ambiante, puis servie fraîche. Convient bien aux fleurs et aux fruits (hibiscus, menthe, verveine…)."},
+
+  "dark-anhua-hei-cha": {"origine": "Chine (Hunan, Anhua)", "notes": "Thé sombre du district d'Anhua, dans le Hunan, fermenté après séchage et souvent pressé (briques, colonnes, paniers). Tasse ronde et douce, aux notes boisées et de fruits secs."},
+  "dark-dark-tea-sichuan": {"origine": "Chine (Sichuan)", "notes": "Thé sombre du Sichuan, pressé en briques depuis des siècles pour le commerce vers le Tibet. Tasse ronde et boisée ; au Tibet, il se fait bouillir avec du beurre et du sel."},
+  "dark-fu-zhuan": {"origine": "Chine (Hunan, Anhua)", "notes": "Brique de thé sombre d'Anhua où se développent des « fleurs d'or », une moisissure recherchée (Eurotium cristatum). Tasse douce, boisée et légèrement fruitée."},
+  "dark-hei-zhuan": {"origine": "Chine (Hunan, Anhua)", "notes": "« Brique noire » d'Anhua, pressée à partir de thé sombre. Tasse brun foncé, ronde et boisée ; se casse en morceaux avant infusion."},
+  "dark-hua-zhuan": {"origine": "Chine (Hunan, Anhua)", "notes": "« Brique fleurie » d'Anhua, version en brique de l'ancien Qian Liang Cha. Tasse ronde et boisée, aux notes de pin et de fruits secs."},
+  "dark-hubei-qing-zhuan": {"origine": "Chine (Hubei, Chibi)", "notes": "Brique de thé sombre du sud du Hubei (région de Chibi), au motif en relief. Tasse ambrée et douce, légèrement boisée."},
+  "dark-kang-zhuan": {"origine": "Chine (Sichuan, Ya'an)", "notes": "Brique de thé sombre de Ya'an, dans le Sichuan, destinée de longue date au Tibet. Tasse ronde, boisée et douce, souvent préparée bouillie."},
+  "dark-liu-an-dark-tea": {"origine": "Chine (Anhui)", "notes": "Thé sombre de l'Anhui (Liu An Lan Cha), tassé dans des paniers de bambou doublés de feuilles, puis vieilli. Tasse douce et fraîche, aux notes de bois et de bambou."},
+  "dark-liu-bao": {"origine": "Chine (Guangxi)", "notes": "Thé sombre du Guangxi (région de Wuzhou), fermenté et vieilli, souvent en paniers. Tasse rouge-brun, douce et lisse, aux notes de bois, de noix d'arec et de terre."},
+  "dark-qian-liang-cha": {"origine": "Chine (Hunan, Anhua)", "notes": "« Thé de mille taels » d'Anhua : longue colonne de thé tassée dans une gaine de bambou, pesant environ 36 kg. Tasse ronde et boisée qui s'adoucit avec l'âge."},
+  "dark-tian-jian": {"origine": "Chine (Hunan, Anhua)", "notes": "Thé sombre en vrac d'Anhua, fait des feuilles les plus fines, traditionnellement tassé en paniers. Tasse douce et ronde, aux notes boisées et fumées."},
+  "dark-ya-an-zang-cha": {"origine": "Chine (Sichuan, Ya'an)", "notes": "Thé sombre de Ya'an (Zang Cha, « thé tibétain »), pressé pour être transporté vers le Tibet. Tasse brune, boisée et douce, souvent bouillie avec du beurre de yak."},
+
+  "matcha-matcha": {"origine": "Japon", "notes": "Thé vert ombragé moulu en poudre très fine, à fouetter dans l'eau au fouet de bambou, sans infuser. On boit la feuille entière : tasse intense, végétale et riche en umami."},
+  "matcha-matcha-ceremonial": {"origine": "Japon", "notes": "Matcha de premier choix, fait des jeunes feuilles de la première récolte. Couleur vert vif, goût doux et riche en umami, peu amer ; se boit seul."},
+  "matcha-matcha-culinaire": {"origine": "Japon", "notes": "Matcha de récolte plus tardive, plus amer et d'un vert moins vif, destiné à la cuisine, aux pâtisseries et au matcha latte."}
+}

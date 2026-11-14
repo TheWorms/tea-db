@@ -1,0 +1,5 @@
+{
+  "_doc_fr": "Versions publiées. schema_version : contrat de data/teas.json (fichier maître). Incrémenter dataset_version à chaque publication de données.",
+  "schema_version": "1.3.0",
+  "dataset_version": "0.3.0"
+}

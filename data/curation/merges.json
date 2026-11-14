@@ -1,0 +1,66 @@
+{
+  "_doc_fr": "Doublons : la fiche reste dans le catalogue (son id ne disparaît jamais, l'appli peut y avoir des favoris) mais reçoit status=merged et replaced_by. Son nom et ses alias sont ajoutés aux alias de la fiche conservée. Une fiche à recette sourcée (legacy_referenced) ne peut pas être fusionnée.",
+  "merges": [
+    {"id": "green-fukamushi-sencha", "replaced_by": "green-sencha-fukamushi", "reason_fr": "Même thé, ordre des mots inversé."},
+    {"id": "green-pi-lo-chun", "replaced_by": "green-biluochun", "reason_fr": "Transcription Wade-Giles de Biluochun."},
+    {"id": "green-mao-jian-xinyang", "replaced_by": "green-xinyang-maojian", "reason_fr": "Même thé, ordre des mots inversé."},
+    {"id": "green-the-vert-coreen-joongjak", "replaced_by": "green-jungjak", "reason_fr": "Joongjak et Jungjak sont deux romanisations du même grade coréen."},
+    {"id": "green-the-vert-coreen-ujeon", "replaced_by": "green-woojeon", "reason_fr": "Ujeon et Woojeon sont deux romanisations du même grade coréen."},
+    {"id": "green-guricha", "replaced_by": "green-tamaryokucha", "reason_fr": "Guricha est un autre nom du Tamaryokucha."},
+    {"id": "green-bancha-hojicha", "replaced_by": "green-hojicha", "reason_fr": "Le Hojicha est généralement un bancha torréfié."},
+    {"id": "green-the-vert-a-la-bergamote", "replaced_by": "green-earl-grey-vert", "reason_fr": "Thé vert à la bergamote = Earl Grey vert."},
+    {"id": "green-the-vert-a-la-menthe", "replaced_by": "green-moroccan-mint", "reason_fr": "Même boisson que le thé à la menthe marocain (thé vert + menthe)."},
+    {"id": "green-pouchong", "replaced_by": "oolong-baozhong", "reason_fr": "Le Pouchong (Baozhong) est un oolong peu oxydé, pas un thé vert."},
+    {"id": "green-nishio-matcha", "replaced_by": "matcha-matcha", "reason_fr": "Nishio est une région de production de matcha ; il se fouette, il ne s'infuse pas."},
+    {"id": "green-the-vert-glace", "replaced_by": "cold-the-vert-glace-a-temperatu-99871427", "reason_fr": "La fiche portait une recette chaude (80 °C, 2 min) pour un thé glacé."},
+
+    {"id": "black-the-noir-a-la-bergamote", "replaced_by": "black-earl-grey", "reason_fr": "« Thé à la bergamote » est déjà un alias de l'Earl Grey."},
+    {"id": "black-yunnan-black", "replaced_by": "black-dian-hong", "reason_fr": "Dian Hong signifie thé noir du Yunnan."},
+    {"id": "black-yunnan-dian-hong", "replaced_by": "black-dian-hong", "reason_fr": "Dian Hong signifie thé noir du Yunnan."},
+    {"id": "black-taiwan-red-jade", "replaced_by": "black-taiwan-ruby-18", "reason_fr": "Red Jade (Hong Yu) est le cultivar TTES n° 18."},
+    {"id": "black-masala-chai", "replaced_by": "black-the-noir-chai", "reason_fr": "Même mélange ; la préparation au lait ou en décoction n'est pas couverte par le catalogue."},
+
+    {"id": "oolong-pouchong", "replaced_by": "oolong-baozhong", "reason_fr": "Pouchong est la transcription Wade-Giles de Baozhong."},
+    {"id": "oolong-dong-fang-mei-ren", "replaced_by": "oolong-oriental-beauty", "reason_fr": "Dong Fang Mei Ren est déjà un alias d'Oriental Beauty."},
+    {"id": "oolong-bai-hao-oolong", "replaced_by": "oolong-oriental-beauty", "reason_fr": "Bai Hao Oolong est un autre nom de l'Oriental Beauty."},
+    {"id": "oolong-milk-oolong", "replaced_by": "oolong-jin-xuan", "reason_fr": "« Milk Oolong naturel » est déjà un alias du Jin Xuan."},
+    {"id": "oolong-shui-xian", "replaced_by": "oolong-wuyi-shui-xian", "reason_fr": "Shui Xian désigne le plus souvent le Shui Xian des monts Wuyi."},
+    {"id": "oolong-rou-gui", "replaced_by": "oolong-wuyi-rou-gui", "reason_fr": "Le Rou Gui est un thé de roche des monts Wuyi."},
+    {"id": "oolong-four-seasons-oolong", "replaced_by": "oolong-si-ji-chun", "reason_fr": "Si Ji Chun signifie « printemps des quatre saisons »."},
+
+    {"id": "pu_erh-dayi-7542", "replaced_by": "pu_erh-menghai-7542", "reason_fr": "Dayi est la marque de l'usine de thé de Menghai."},
+    {"id": "pu_erh-dayi-7572", "replaced_by": "pu_erh-menghai-7572", "reason_fr": "Dayi est la marque de l'usine de thé de Menghai."},
+
+    {"id": "dark-fu-brick-tea", "replaced_by": "dark-fu-zhuan", "reason_fr": "Fu Zhuan signifie brique Fu."},
+    {"id": "dark-guangxi-liubao", "replaced_by": "dark-liu-bao", "reason_fr": "Le Liu Bao vient du Guangxi."},
+    {"id": "dark-yue-guang-bai", "replaced_by": "white-moonlight-white", "reason_fr": "Yue Guang Bai (Moonlight White) est un thé blanc du Yunnan, pas un thé sombre."},
+
+    {"id": "white-silver-needle", "replaced_by": "white-bai-hao-yin-zhen", "reason_fr": "Silver Needle = Bai Hao Yin Zhen (Aiguilles d'argent)."},
+    {"id": "white-silver-needle-fujian", "replaced_by": "white-bai-hao-yin-zhen", "reason_fr": "Le Bai Hao Yin Zhen est l'Aiguilles d'argent du Fujian."},
+    {"id": "white-white-needle", "replaced_by": "white-bai-hao-yin-zhen", "reason_fr": "Autre traduction de Yin Zhen."},
+    {"id": "white-white-peony", "replaced_by": "white-bai-mudan", "reason_fr": "White Peony est déjà un alias du Bai Mudan."},
+    {"id": "white-snow-buds", "replaced_by": "white-bourgeons-de-neige-du-yunnan", "reason_fr": "Traduction anglaise de la même fiche."},
+    {"id": "white-yue-guang-bai", "replaced_by": "white-moonlight-white", "reason_fr": "Yue Guang Bai = Moonlight White (Blanc clair de lune)."},
+
+    {"id": "yellow-meng-ding-huang-ya", "replaced_by": "yellow-mengding-huang-ya", "reason_fr": "Même thé, espace en plus."},
+    {"id": "yellow-huoshan-yellow-buds", "replaced_by": "yellow-huo-shan-huang-ya", "reason_fr": "Traduction anglaise de Huo Shan Huang Ya."},
+    {"id": "yellow-guangdong-dayeqing", "replaced_by": "yellow-da-ye-qing", "reason_fr": "Le Da Ye Qing vient du Guangdong."},
+    {"id": "yellow-wan-xi-huang-da-cha", "replaced_by": "yellow-huang-da-cha", "reason_fr": "Le Huang Da Cha vient de l'ouest de l'Anhui (Wanxi)."},
+
+    {"id": "herbal-bissap", "replaced_by": "herbal-hibiscus", "reason_fr": "Le bissap est une infusion d'hibiscus (Hibiscus sabdariffa)."},
+    {"id": "herbal-rosella", "replaced_by": "herbal-hibiscus", "reason_fr": "Rosella (roselle) = Hibiscus sabdariffa."},
+    {"id": "herbal-eglantier", "replaced_by": "herbal-cynorrhodon", "reason_fr": "Le cynorrhodon est le fruit de l'églantier."},
+    {"id": "herbal-matricaire", "replaced_by": "herbal-camomille", "reason_fr": "La matricaire est la camomille allemande, la camomille la plus courante en tisane."},
+    {"id": "herbal-nettle-tea", "replaced_by": "herbal-ortie", "reason_fr": "Traduction anglaise."},
+    {"id": "herbal-dandelion-root", "replaced_by": "herbal-pissenlit", "reason_fr": "Traduction anglaise (racine de pissenlit)."},
+    {"id": "herbal-batons-de-cannelle", "replaced_by": "herbal-cannelle", "reason_fr": "Même plante, même partie (écorce)."},
+    {"id": "herbal-ecorce-de-cannelle", "replaced_by": "herbal-cannelle", "reason_fr": "Même plante, même partie (écorce)."},
+    {"id": "herbal-racine-de-gingembre", "replaced_by": "herbal-gingembre", "reason_fr": "Même plante, même partie (rhizome)."},
+    {"id": "herbal-fleur-de-rose", "replaced_by": "herbal-petales-de-rose", "reason_fr": "Même ingrédient."},
+    {"id": "herbal-fleur-de-souci", "replaced_by": "herbal-calendula", "reason_fr": "Le souci est Calendula officinalis."},
+    {"id": "herbal-ecorce-de-citron", "replaced_by": "herbal-zeste-de-citron", "reason_fr": "Même ingrédient."},
+    {"id": "herbal-feuille-de-moringa", "replaced_by": "herbal-moringa", "reason_fr": "Le moringa s'infuse sous forme de feuilles."},
+    {"id": "herbal-osmanthus", "replaced_by": "herbal-osmanthus-osmanthe", "reason_fr": "Même plante ; la fiche conservée a une recette sourcée."},
+    {"id": "herbal-verveine-odorante", "replaced_by": "herbal-verveine-citronnelle", "reason_fr": "Verveine odorante et verveine citronnelle désignent Aloysia citrodora."}
+  ]
+}
