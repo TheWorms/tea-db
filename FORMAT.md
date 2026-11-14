@@ -26,10 +26,23 @@ Une liste de fiches, triée par id, en JSON compact (431 thés, environ 230 Ko).
 | `source` | toujours | Page d'où vient la recette. |
 | `alias` | parfois | Autres noms du thé, dont ceux des doublons retirés. |
 | `theine` | toujours | `oui`, `non` ou `inconnu`. N'afficher « sans théine » que pour `non`. |
-| `precaution` | parfois | Texte à afficher pour une plante à usage médicinal. |
+| `precaution` | parfois | Précaution à afficher : plante à usage médicinal, ou consigne de sécurité propre à la fiche. |
+| `froid` | parfois | Infusion à froid au réfrigérateur : `{"eau_ml", "the_g", "duree_s", "duree_max_s"}`. Absent pour les tisanes, le matcha, les pu-erh et les thés sombres ou jaunes. |
 | `a_revoir` | parfois | La recette d'infusion ne convient pas : afficher ce texte et renvoyer au paquet. |
 
-Dosage pour un autre volume : `the_g × volume ÷ eau_ml`, avec un volume de 350 ml au plus. Température et durée ne changent pas.
+## Volume d'eau
+
+`eau_ml` est le volume pour lequel la dose `the_g` est donnée. Ce n'est pas un volume à imposer : l'appli laisse choisir le volume de 100 ml à 350 ml, par pas de 50 ml (100, 150, 200, 250, 300, 350 : les volumes de la machine BRU), sans présélectionner 250 ml.
+
+Dose pour le volume choisi : `the_g × volume ÷ eau_ml`, arrondie à 0,1 g. Température et durée ne changent pas.
+
+Exemple : une fiche à 3 g pour 250 ml donne 1,2 g pour 100 ml, 1,8 g pour 150 ml et 4,2 g pour 350 ml.
+
+## Infusion à froid
+
+`froid` donne une seconde recette : thé et eau froide dans une carafe au réfrigérateur, sans chauffer. La dose suit la même règle de volume (`froid.the_g × volume ÷ froid.eau_ml`), et la durée se compte en heures (`duree_s` à `duree_max_s`, par exemple 28800 à 43200 s, soit 8 à 12 h).
+
+Les tisanes n'ont jamais de recette à froid : l'Institut fédéral allemand d'évaluation des risques (BfR) recommande de les préparer à l'eau bouillante, au moins 5 minutes, à cause des germes possibles dans les plantes séchées. Pour une tisane glacée, l'appli doit indiquer de l'infuser à chaud puis de la refroidir, sauf produit vendu pour l'infusion à froid.
 
 ## docs/redirections.json
 

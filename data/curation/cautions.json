@@ -1,5 +1,5 @@
 {
-  "_doc_fr": "Théine et précautions. caffeine vaut contains, none ou unknown ; l'appli n'affiche « sans théine » que pour none. medicinal_caution est un premier tri des plantes à usage médicinal connu : liste à relire, pas un avis médical.",
+  "_doc_fr": "Théine et précautions. caffeine vaut contains, none ou unknown ; l'appli n'affiche « sans théine » que pour none. medicinal_caution est un premier tri des plantes à usage médicinal connu : liste à relire, pas un avis médical. precautions_fiche : texte de précaution propre à une fiche, ajouté à celui de medicinal_caution.",
   "caffeine": {
     "families_contains": [
       "green",
@@ -58,5 +58,8 @@
       "herbal-curcuma",
       "herbal-feuille-d-olivier"
     ]
+  },
+  "precautions_fiche": {
+    "cold-tisane-glacee-a-temperatur-d9505d99": "À température ambiante, seulement avec une tisane vendue pour l'infusion à froid. Sinon, verser de l'eau bouillante, laisser infuser 5 min au moins, puis refroidir (recommandation du BfR)."
   }
 }

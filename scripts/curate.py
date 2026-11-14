@@ -68,7 +68,7 @@ MAX_EAU_ML = 350
 ENTRY_FIELDS = (
     "status", "replaced_by", "merge_reason_fr", "merged_from", "merged_aliases",
     "subfamily", "style", "needs_review", "caffeine", "medicinal_caution_fr",
-    "short_name", "origin_fr", "notes_fr",
+    "short_name", "origin_fr", "notes_fr", "cold_brew",
 )
 CSV_BASE_COLUMNS = [
     "id", "name", "family", "aliases", "catalog_status", "tea_g", "water_ml",
@@ -114,6 +114,7 @@ def load_curation(root: Path = ROOT) -> dict:
         "merges": load_json(cur / "merges.json")["merges"],
         "subfamilies": load_json(cur / "subfamilies.json"),
         "styles": load_json(cur / "styles.json")["styles"],
+        "froid": load_json(cur / "styles.json").get("froid", []),
         "cautions": load_json(cur / "cautions.json"),
         "verifications": load_json(cur / "verifications.json")["verifications"],
         "release": load_json(cur / "release.json"),
@@ -224,13 +225,56 @@ def style_recipe(style: dict) -> tuple[dict | None, list[str]]:
         return None, errors
     t_min = int(_round(statistics.median(mins), 30))
     t_max = max(int(_round(statistics.median(maxs), 30)), t_min)
+    temperature = None if ambient else int(_round(statistics.median(temps), 5))
+    if temperature is not None and style.get("temperature_min_c"):
+        temperature = max(temperature, style["temperature_min_c"])
     return {
         "water_ml": base,
         "tea_g": _round(statistics.median(doses), 0.5),
-        "temperature_c": None if ambient else int(_round(statistics.median(temps), 5)),
+        "temperature_c": temperature,
         "duration_seconds_min": t_min,
         "duration_seconds_max": t_max,
     }, []
+
+
+COLD_BASE_ML, COLD_STEP_S = 250, 1800
+
+
+def cold_recipe(group: dict) -> tuple[dict | None, list[str]]:
+    """Infusion à froid d'un groupe de styles (styles.json/froid) : dose pour 250 ml et
+    durées au réfrigérateur, médianes d'au moins deux maisons, durées arrondies à 30 min."""
+    where = f"styles.json/froid/{group.get('key')}"
+    errors, srcs = [], group.get("sources") or []
+    houses = {src["maison"] for src in srcs}
+    for src in srcs:
+        if not str(src.get("url", "")).startswith("https://"):
+            errors.append(f"{where} : source sans URL https ({src.get('the')})")
+        if (src.get("dose_g") is None) != (src.get("eau_ml") is None):
+            errors.append(f"{where} : dose_g et eau_ml vont ensemble ({src.get('the')})")
+        pair = src.get("duree_s")
+        if pair is not None and (len(pair) != 2 or pair[0] > pair[1]):
+            errors.append(f"{where} : duree_s doit être [min, max] ({src.get('the')})")
+
+    def by_house(values):
+        grouped: dict[str, list[float]] = {}
+        for house, value in values:
+            grouped.setdefault(house, []).append(value)
+        return [statistics.median(v) for v in grouped.values()]
+
+    doses = by_house([(x["maison"], x["dose_g"] * COLD_BASE_ML / x["eau_ml"]) for x in srcs if x.get("dose_g")])
+    mins = by_house([(x["maison"], x["duree_s"][0]) for x in srcs if x.get("duree_s")])
+    maxs = by_house([(x["maison"], x["duree_s"][1]) for x in srcs if x.get("duree_s")])
+    if len(houses) < 2:
+        errors.append(f"{where} : il faut au moins deux maisons différentes")
+    for label, values in (("dose", doses), ("durée", mins)):
+        if len(values) < 2:
+            errors.append(f"{where} : {label} donnée par moins de deux maisons")
+    if errors:
+        return None, errors
+    t_min = int(_round(statistics.median(mins), COLD_STEP_S))
+    t_max = max(int(_round(statistics.median(maxs), COLD_STEP_S)), t_min)
+    return {"eau_ml": COLD_BASE_ML, "the_g": _round(statistics.median(doses), 0.5),
+            "duree_s": t_min, "duree_max_s": t_max}, []
 
 
 def _reset_entry(entry: dict, family_defaults: dict) -> None:
@@ -452,6 +496,23 @@ def curate(catalog: dict, cur: dict, photos: dict[str, dict]) -> dict:
                 new["aliases"].append(alias)
                 new["merged_aliases"].append(alias)
 
+    # 3b. Infusion à froid par groupe de styles (thés seulement).
+    style_keys = {style["key"] for style in cur["styles"]}
+    cold_by_style: dict[str, dict] = {}
+    for group in cur["froid"]:
+        computed, problems = cold_recipe(group)
+        errors.extend(problems)
+        for key in group.get("styles", []):
+            if key not in style_keys:
+                errors.append(f"styles.json/froid/{group.get('key')} : style inconnu {key}")
+            elif key in cold_by_style:
+                errors.append(f"styles.json/froid : le style {key} est dans deux groupes")
+            elif computed is not None:
+                cold_by_style[key] = computed
+    for entry in entries:
+        key = (entry.get("style") or {}).get("key")
+        entry["cold_brew"] = copy.deepcopy(cold_by_style[key]) if key in cold_by_style and entry["status"] == "active" else None
+
     # 4. Théine et précautions.
     caf = cur["cautions"]["caffeine"]
     contains, none = set(caf["contains"]), set(caf["none"])
@@ -463,6 +524,8 @@ def curate(catalog: dict, cur: dict, photos: dict[str, dict]) -> dict:
     med_ids = set(med["ids"])
     for entry_id in sorted(med_ids):
         require(entry_id, "cautions.json/medicinal_caution")
+    for entry_id in sorted(cur["cautions"].get("precautions_fiche", {})):
+        require(entry_id, "cautions.json/precautions_fiche")
     for entry in entries:
         if entry["family"] in caf["families_contains"] or entry["id"] in contains:
             status = "contains"
@@ -472,6 +535,9 @@ def curate(catalog: dict, cur: dict, photos: dict[str, dict]) -> dict:
             status = "unknown"
         entry["caffeine"] = {"status": status, "note_fr": caf.get("notes_fr", {}).get(entry["id"])}
         entry["medicinal_caution_fr"] = med["note_fr"] if entry["id"] in med_ids else None
+        own = cur["cautions"].get("precautions_fiche", {}).get(entry["id"])
+        if own:
+            entry["medicinal_caution_fr"] = f"{entry['medicinal_caution_fr']} {own}" if entry["medicinal_caution_fr"] else own
 
     # 5. Nom court, origine, descriptif.
     textes = cur["textes"]
@@ -612,6 +678,8 @@ def render_app(catalog: dict) -> str:
             tea["precaution"] = e["medicinal_caution_fr"]
         if e["needs_review"]:
             tea["a_revoir"] = e["needs_review"]["reason_fr"]
+        if e.get("cold_brew"):
+            tea["froid"] = e["cold_brew"]
         teas.append(tea)
     text = json.dumps(teas, ensure_ascii=False, separators=(",", ":")) + "\n"
     size = len(text.encode("utf-8"))
