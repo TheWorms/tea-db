@@ -1,4 +1,6 @@
-# thea-db
+# tea-db
+
+Français | [English](README.en.md)
 
 Catalogue de thés et de tisanes en français : pour chaque fiche, la dose, la température de l'eau, la durée d'infusion, une courte description et une illustration. Il est lu par l'application Android Théothèque.
 
