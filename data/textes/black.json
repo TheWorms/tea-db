@@ -1,88 +1,350 @@
 {
-  "black-assam": {"origine": "Inde (Assam)", "notes": "Thé noir de la vallée du Brahmapoutre, dans le nord-est de l'Inde. Liqueur sombre, corsée et maltée, qui supporte bien le lait. Base de la plupart des thés du petit-déjeuner."},
-  "black-assam-ctc": {"origine": "Inde (Assam)", "notes": "Assam travaillé selon la méthode CTC (écraser, déchirer, rouler) : petites billes qui infusent vite et donnent une tasse très foncée et puissante, idéale avec du lait. Courant en sachets et pour le chai."},
-  "black-assam-golden-tips": {"origine": "Inde (Assam)", "notes": "Assam riche en bourgeons dorés (tips). Plus doux et plus rond que l'Assam classique, avec des notes de malt, de miel et de cacao."},
-  "black-assam-halmari": {"origine": "Inde (Assam)", "notes": "Jardin de Halmari, en Haute-Assam. Thé noir rond et malté aux notes de miel et de cacao, apprécié pour ses lots riches en bourgeons dorés."},
-  "black-assam-mangalam": {"origine": "Inde (Assam)", "notes": "Jardin de Mangalam, en Assam. Liqueur cuivrée, corsée et maltée, aux notes de pain grillé ; se boit nature ou avec un nuage de lait."},
-  "black-assam-second-flush": {"origine": "Inde (Assam)", "notes": "Récolte d'été (mai-juin), la plus recherchée en Assam. Feuilles riches en bourgeons dorés, tasse pleine, maltée et légèrement épicée."},
-  "black-assam-tgfop": {"origine": "Inde (Assam)", "notes": "Grade de feuilles entières avec de nombreux bourgeons dorés (Tippy Golden Flowery Orange Pekoe). Assam malté et rond, plus fin que les grades brisés."},
-  "black-bailin-gongfu": {"origine": "Chine (Fujian, Fuding)", "notes": "L'un des trois grands Gongfu du Fujian, produit autour de Fuding. Feuilles fines et duveteuses, tasse douce aux notes de miel, de caramel et de fruits secs, très peu astringente."},
-  "black-breakfast-blend": {"origine": "Assemblage", "notes": "Assemblage de thés noirs corsés (souvent Assam, Ceylan, Kenya) pensé pour le matin. Tasse foncée et tonique qui accepte le lait. La composition varie d'une maison à l'autre."},
-  "black-broken-orange-pekoe": {"origine": null, "notes": "Grade de feuilles brisées (BOP). Les feuilles cassées infusent plus vite et donnent une tasse plus foncée et plus forte qu'une feuille entière. Courant pour les thés de Ceylan et d'Inde."},
-  "black-ceylan": {"origine": "Sri Lanka", "notes": "Thé noir du Sri Lanka, cultivé de la plaine à plus de 2 000 m. Tasse vive et brillante, aux notes d'agrumes et de bois, plus ou moins corsée selon l'altitude."},
-  "black-ceylan-dimbula": {"origine": "Sri Lanka (Dimbula)", "notes": "Région de moyenne et haute altitude, à l'ouest des hauts plateaux. Thé frais et équilibré, liqueur dorée, notes d'agrumes ; récoltes les plus fines en début d'année."},
-  "black-ceylan-kandy": {"origine": "Sri Lanka (Kandy)", "notes": "Région de moyenne altitude autour de Kandy, berceau du thé à Ceylan. Tasse cuivrée, ronde et assez corsée, qui supporte le lait."},
-  "black-ceylan-nuwara-eliya": {"origine": "Sri Lanka (Nuwara Eliya)", "notes": "Thé de la région la plus haute du Sri Lanka. Liqueur claire, fine et florale, avec une vivacité qui rappelle un Darjeeling. Se boit plutôt nature."},
-  "black-ceylan-ruhuna": {"origine": "Sri Lanka (Ruhuna)", "notes": "Thé de basse altitude du sud de l'île. Feuilles noires et tasse sombre, sucrée et corsée, aux notes de mélasse ; supporte bien le lait."},
-  "black-ceylan-sabaragamuwa": {"origine": "Sri Lanka (Sabaragamuwa)", "notes": "Thé de basse altitude du sud-ouest du Sri Lanka. Liqueur rouge-brun, douce et ronde, aux notes de caramel et de fruits secs."},
-  "black-ceylan-uva": {"origine": "Sri Lanka (Uva)", "notes": "Région de haute altitude à l'est des plateaux, balayée par des vents secs. Thé vif et tonique, aux notes mentholées et boisées ; meilleures récoltes en été."},
-  "black-darjeeling": {"origine": "Inde (Darjeeling)", "notes": "Thé des contreforts de l'Himalaya, au nord du Bengale-Occidental. Liqueur claire et parfumée, aux notes fruitées et florales (muscat). Le goût change beaucoup selon la récolte."},
-  "black-darjeeling-autumnal": {"origine": "Inde (Darjeeling)", "notes": "Récolte d'automne, après la mousson. Tasse plus ronde et plus douce que les récoltes de printemps et d'été, liqueur cuivrée, notes boisées et de fruits mûrs."},
-  "black-darjeeling-castleton": {"origine": "Inde (Darjeeling)", "notes": "Jardin de Castleton, près de Kurseong, réputé pour ses récoltes d'été aux notes de muscat. Thé fin et parfumé, à boire nature."},
-  "black-darjeeling-first-flush": {"origine": "Inde (Darjeeling)", "notes": "Première récolte, de mars à avril. Feuilles vertes et argentées, liqueur très claire, vive et florale, proche d'un thé peu oxydé. S'infuse moins chaud que les autres thés noirs."},
-  "black-darjeeling-goomtee": {"origine": "Inde (Darjeeling)", "notes": "Jardin de Goomtee, près de Kurseong. Darjeeling fin et parfumé, aux notes florales et fruitées ; ses récoltes d'été sont recherchées."},
-  "black-darjeeling-makaibari": {"origine": "Inde (Darjeeling)", "notes": "Jardin de Makaibari, près de Kurseong, l'un des plus anciens de Darjeeling et pionnier de la culture biologique. Thé délicat, fruité et floral."},
-  "black-darjeeling-margaret-s-hope": {"origine": "Inde (Darjeeling)", "notes": "Jardin de Margaret's Hope, près de Kurseong. Darjeeling élégant aux notes de muscat et de fruits mûrs, surtout en récolte d'été."},
-  "black-darjeeling-second-flush": {"origine": "Inde (Darjeeling)", "notes": "Récolte d'été, de mai à juin. Feuilles plus sombres, tasse ambrée et ronde aux célèbres notes de muscat ; plus corsée que la première récolte."},
-  "black-dian-hong": {"origine": "Chine (Yunnan)", "notes": "Thé noir du Yunnan, à grandes feuilles et nombreux bourgeons dorés. Liqueur rouge orangé, douce et ronde, aux notes de malt, de miel et de patate douce, très peu amère."},
-  "black-earl-grey": {"origine": null, "notes": "Thé noir parfumé à la bergamote, un agrume proche de la bigarade. Tasse fraîche et parfumée ; la base (Chine, Inde, Ceylan) et l'intensité de l'arôme varient selon les maisons."},
-  "black-earl-grey-creme": {"origine": null, "notes": "Earl Grey auquel on ajoute un arôme de crème ou de vanille. Plus doux et plus rond que l'Earl Grey classique, il se prête bien au lait."},
-  "black-earl-grey-fume": {"origine": null, "notes": "Earl Grey dont la base de thé noir est en partie fumée, souvent avec du Lapsang Souchong. Mêle la fraîcheur de la bergamote à des notes boisées et fumées."},
-  "black-english-afternoon": {"origine": "Assemblage", "notes": "Assemblage de l'après-midi, plus léger que les thés du petit-déjeuner, souvent à base de Ceylan. Tasse claire et vive, à boire nature ou avec un nuage de lait."},
-  "black-english-breakfast": {"origine": "Assemblage", "notes": "Assemblage classique du matin, généralement Assam, Ceylan et Kenya. Tasse foncée, corsée et maltée, pensée pour le lait. Composition variable selon les maisons."},
-  "black-formosa-black": {"origine": "Taïwan", "notes": "Thé noir de Taïwan, souvent produit autour du lac Sun Moon. Tasse douce et sucrée, aux notes de miel, de fruits et parfois de cannelle."},
-  "black-french-earl-grey": {"origine": null, "notes": "Variante de l'Earl Grey enrichie de pétales de fleurs (souvent bleuets ou roses) et parfois d'autres agrumes. Plus fleuri et plus doux que la version classique."},
-  "black-golden-flowery-orange-pekoe": {"origine": null, "notes": "Grade de feuilles entières riches en bourgeons dorés (GFOP). Désigne une qualité de cueillette, pas une origine ; courant pour les thés d'Assam et de Darjeeling."},
-  "black-golden-monkey": {"origine": "Chine (Fujian)", "notes": "Thé noir fait de bourgeons et de jeunes feuilles duveteuses, dorés et noirs, évoquant des pattes de singe. Tasse douce, chocolatée et miellée."},
-  "black-irish-breakfast": {"origine": "Assemblage", "notes": "Assemblage du matin dominé par l'Assam, encore plus corsé et malté que l'English Breakfast. Se boit traditionnellement avec du lait."},
-  "black-java-black": {"origine": "Indonésie (Java)", "notes": "Thé noir des hauts plateaux de l'ouest de Java. Tasse claire et douce, légèrement boisée, souvent utilisée dans les assemblages."},
-  "black-jin-jun-mei": {"origine": "Chine (Fujian, Wuyi)", "notes": "Thé noir d'exception des monts Wuyi, fait uniquement de bourgeons minuscules, dorés et noirs. Tasse douce et sucrée, aux notes de miel, de fruits secs et de patate douce."},
-  "black-keemun": {"origine": "Chine (Anhui, Qimen)", "notes": "Thé noir de Qimen, dans le sud de l'Anhui. Feuilles fines et sombres, tasse rouge aux notes de cacao, de fruits secs et parfois de fumée légère. Base classique des assemblages anglais."},
-  "black-keemun-hao-ya": {"origine": "Chine (Anhui, Qimen)", "notes": "Keemun de haute qualité, riche en bourgeons (hao ya). Plus doux et plus aromatique que le Keemun courant, aux notes de cacao, d'orchidée et de fruits secs."},
-  "black-keemun-mao-feng": {"origine": "Chine (Anhui, Qimen)", "notes": "Keemun fait de bourgeons et de feuilles entières, non roulés en grains. Tasse plus légère et plus florale que les autres Keemun, avec une note sucrée."},
-  "black-kenya-black": {"origine": "Kenya", "notes": "Thé noir du Kenya, cultivé en altitude sur les pentes de la vallée du Rift. Le plus souvent en CTC : tasse très foncée, vive et corsée, base de nombreux assemblages du matin."},
-  "black-lady-grey": {"origine": null, "notes": "Variante plus douce de l'Earl Grey, parfumée à la bergamote avec des écorces d'orange et de citron, et parfois des bleuets."},
-  "black-lapsang-souchong": {"origine": "Chine (Fujian, Wuyi)", "notes": "Thé noir des monts Wuyi séché au-dessus d'un feu de bois de pin, d'où son goût fumé très marqué. Se marie bien avec les plats salés."},
-  "black-lapsang-souchong-non-fume": {"origine": "Chine (Fujian, Wuyi)", "notes": "Lapsang Souchong séché sans fumée de pin. Tasse douce et ronde, aux notes de fruits secs, de longane et de miel. Voir aussi Zheng Shan Xiao Zhong."},
-  "black-london-fog": {"origine": null, "notes": "Boisson plutôt que thé : Earl Grey infusé puis mélangé à du lait chaud mousseux et de la vanille, parfois sucré. La recette indiquée ne concerne que l'infusion du thé."},
-  "black-nepal-black": {"origine": "Népal", "notes": "Thé noir des collines de l'est du Népal, voisines de Darjeeling. Tasse fine et parfumée, aux notes fruitées et florales, souvent plus ronde qu'un Darjeeling."},
-  "black-nepal-jun-chiyabari": {"origine": "Népal (Dhankuta)", "notes": "Jardin de Jun Chiyabari, dans les collines de Hile, à l'est du Népal. Thés noirs artisanaux, parfumés et fruités, aux notes de miel et de fleurs."},
-  "black-nilgiri": {"origine": "Inde (Nilgiri)", "notes": "Thé des « montagnes bleues » du sud de l'Inde, récolté presque toute l'année. Tasse claire, parfumée et douce, peu astringente, qui reste limpide en thé glacé."},
-  "black-nilgiri-frost": {"origine": "Inde (Nilgiri)", "notes": "Récolte d'hiver des Nilgiri, faite après des nuits froides. Thé plus fin et plus aromatique que le Nilgiri courant, aux notes fruitées."},
-  "black-noel-the-noir": {"origine": null, "notes": "Thé noir de saison parfumé aux épices de Noël (cannelle, orange, clou de girofle, vanille…). La composition varie selon les maisons."},
-  "black-orange-pekoe": {"origine": null, "notes": "Grade de feuilles entières (OP), sans rapport avec l'orange. Désigne la taille et l'aspect de la feuille ; le goût dépend de l'origine du thé."},
-  "black-prince-of-wales": {"origine": "Assemblage", "notes": "Assemblage doux, traditionnellement à base de thés noirs chinois. Tasse légère et ronde, à boire nature ou avec un peu de lait."},
-  "black-rize-turkish-black": {"origine": "Turquie (Rize)", "notes": "Thé noir de la région de Rize, sur la côte turque de la mer Noire. Se prépare traditionnellement dans une double théière (çaydanlık) et se boit fort, dans de petits verres."},
-  "black-russian-caravan": {"origine": "Assemblage", "notes": "Assemblage qui évoque les caravanes de thé entre la Chine et la Russie. Souvent Keemun, Lapsang et parfois oolong : tasse ronde aux notes légèrement fumées."},
-  "black-rwanda-black": {"origine": "Rwanda", "notes": "Thé noir des collines du Rwanda, cultivé en altitude. Tasse vive, fruitée et corsée, souvent produite en CTC pour les assemblages."},
-  "black-scottish-breakfast": {"origine": "Assemblage", "notes": "Assemblage du matin très corsé, souvent à base d'Assam et de thés africains, pensé pour l'eau douce d'Écosse. Se boit avec du lait."},
-  "black-sikkim": {"origine": "Inde (Sikkim)", "notes": "Thé de l'État himalayen du Sikkim, voisin de Darjeeling (jardin de Temi). Tasse fine, florale et fruitée, plus ronde qu'un Darjeeling."},
-  "black-sumatra-black": {"origine": "Indonésie (Sumatra)", "notes": "Thé noir des hauts plateaux de Sumatra. Tasse claire et douce, légèrement boisée, souvent utilisée en assemblage."},
-  "black-sun-moon-lake-black": {"origine": "Taïwan (Nantou)", "notes": "Thé noir des environs du lac Sun Moon, au centre de Taïwan. Liqueur rouge vif, douce, aux notes de miel et de fruits ; certains lots ont une note de cannelle."},
-  "black-taiwan-ruby-18": {"origine": "Taïwan (Nantou)", "notes": "Cultivar n° 18 (Hong Yu) de la station de recherche sur le thé de Taïwan, cultivé autour du lac Sun Moon. Notes très typées de cannelle, de menthe et de fruits rouges."},
-  "black-tanyang-gongfu": {"origine": "Chine (Fujian, Fu'an)", "notes": "L'un des trois grands Gongfu du Fujian, de la région de Tanyang. Tasse douce et ronde aux notes de longane, de miel et de caramel."},
-  "black-the-noir-a-l-orange": {"origine": null, "notes": "Thé noir parfumé à l'orange, souvent avec des écorces. Tasse ronde et fruitée, qui se boit chaude ou glacée."},
-  "black-the-noir-a-la-cannelle": {"origine": null, "notes": "Thé noir parfumé à la cannelle, avec des morceaux d'écorce. Tasse chaleureuse et légèrement sucrée, appréciée en hiver."},
-  "black-the-noir-a-la-mangue": {"origine": null, "notes": "Thé noir parfumé à la mangue, parfois avec des morceaux de fruit. Tasse fruitée et douce, bonne aussi glacée."},
-  "black-the-noir-a-la-peche": {"origine": null, "notes": "Thé noir parfumé à la pêche. Tasse douce et fruitée, classique du thé glacé."},
-  "black-the-noir-a-la-rose": {"origine": null, "notes": "Thé noir parfumé à la rose, souvent avec des pétales. Tasse florale et ronde, d'inspiration chinoise ou persane."},
-  "black-the-noir-a-la-vanille": {"origine": null, "notes": "Thé noir parfumé à la vanille. Tasse ronde et gourmande qui se marie bien avec le lait."},
-  "black-the-noir-au-caramel": {"origine": null, "notes": "Thé noir aromatisé au caramel, parfois avec des éclats. Tasse gourmande et douce, à boire nature ou avec du lait."},
-  "black-the-noir-au-chocolat": {"origine": null, "notes": "Thé noir aromatisé au chocolat, souvent avec des éclats de cacao. Tasse gourmande qui se marie bien avec le lait."},
-  "black-the-noir-au-citron": {"origine": null, "notes": "Thé noir parfumé au citron, souvent avec des écorces. Tasse vive et rafraîchissante, bonne chaude comme glacée."},
-  "black-the-noir-aux-epices": {"origine": null, "notes": "Thé noir mélangé à des épices (cannelle, gingembre, cardamome, clou de girofle…). Proche du chai, il peut se boire avec du lait."},
-  "black-the-noir-aux-fruits-rouges": {"origine": null, "notes": "Thé noir parfumé aux fruits rouges (fraise, framboise, cassis…), souvent avec des morceaux de fruits. Tasse fruitée, bonne glacée."},
-  "black-the-noir-chai": {"origine": "Inde", "notes": "Thé noir corsé mélangé à des épices (cardamome, cannelle, gingembre, clou de girofle, poivre). En Inde, le masala chai se fait bouillir avec du lait et du sucre."},
-  "black-the-noir-d-iran": {"origine": "Iran (Gilan)", "notes": "Thé noir de la province du Gilan, au bord de la mer Caspienne. Tasse claire et douce, peu astringente, traditionnellement servie très chaude avec un sucre."},
-  "black-the-noir-d-ouganda": {"origine": "Ouganda", "notes": "Thé noir d'Ouganda, cultivé surtout dans l'ouest du pays. Le plus souvent en CTC : tasse foncée et corsée, utilisée dans les assemblages du matin."},
-  "black-the-noir-de-georgie": {"origine": "Géorgie", "notes": "Thé noir de l'ouest de la Géorgie, autrefois grand fournisseur de l'URSS et relancé par de petits producteurs. Tasse douce et ronde, aux notes de miel et de fruits secs."},
-  "black-the-noir-du-malawi": {"origine": "Malawi", "notes": "Thé noir du sud du Malawi, l'un des plus anciens pays producteurs d'Afrique. Tasse colorée, douce et ronde, souvent utilisée dans les assemblages."},
-  "black-the-noir-du-vietnam": {"origine": "Vietnam", "notes": "Thé noir des provinces montagneuses du nord du Vietnam. Tasse ronde et douce, aux notes maltées et sucrées."},
-  "black-wakoucha": {"origine": "Japon", "notes": "Thé noir japonais (wakoucha), produit notamment dans le Kyushu et à Shizuoka. Tasse douce et légère, peu astringente, aux notes de miel et de fruits."},
-  "black-yingde-hongcha": {"origine": "Chine (Guangdong, Yingde)", "notes": "Thé noir de Yingde, dans le Guangdong, souvent issu du cultivar Yinghong n° 9. Tasse rouge et sucrée, aux notes de cacao, de fruits et de cannelle."},
-  "black-yunnan-gold": {"origine": "Chine (Yunnan)", "notes": "Dian Hong composé presque uniquement de bourgeons dorés. Tasse douce et veloutée, aux notes de miel, de malt et de cacao, sans amertume."},
-  "black-yunnan-gold-tips": {"origine": "Chine (Yunnan)", "notes": "Thé noir du Yunnan riche en bourgeons dorés (tips). Plus doux et plus sucré qu'un Dian Hong courant, aux notes de miel et de patate douce."},
-  "black-yunnan-golden-buds": {"origine": "Chine (Yunnan)", "notes": "Bourgeons dorés du Yunnan, entiers et duveteux. Tasse ronde et très douce, aux notes de miel, de cacao et de pain d'épices."},
-  "black-yunnan-golden-needle": {"origine": "Chine (Yunnan)", "notes": "Bourgeons dorés du Yunnan façonnés en fines aiguilles. Tasse veloutée et sucrée, aux notes de miel et de malt."},
-  "black-zheng-shan-xiao-zhong": {"origine": "Chine (Fujian, Wuyi)", "notes": "Thé noir d'origine des monts Wuyi (village de Tongmu), considéré comme l'ancêtre des thés noirs. Non fumé ou légèrement fumé : notes de longane, de miel et de fruits secs."}
+  "black-assam": {
+    "origine": "Inde (Assam)",
+    "notes": "Thé noir de la vallée du Brahmapoutre, dans le nord-est de l'Inde. Liqueur sombre, corsée et maltée, qui supporte bien le lait. Base de la plupart des thés du petit-déjeuner."
+  },
+  "black-assam-ctc": {
+    "origine": "Inde (Assam)",
+    "notes": "Assam travaillé selon la méthode CTC (écraser, déchirer, rouler) : petites billes qui infusent vite et donnent une tasse très foncée et puissante, idéale avec du lait. Courant en sachets et pour le chai."
+  },
+  "black-assam-golden-tips": {
+    "origine": "Inde (Assam)",
+    "notes": "Assam riche en bourgeons dorés (tips). Plus doux et plus rond que l'Assam classique, avec des notes de malt, de miel et de cacao."
+  },
+  "black-assam-halmari": {
+    "origine": "Inde (Assam)",
+    "notes": "Jardin de Halmari, en Haute-Assam. Thé noir rond et malté aux notes de miel et de cacao, apprécié pour ses lots riches en bourgeons dorés."
+  },
+  "black-assam-mangalam": {
+    "origine": "Inde (Assam)",
+    "notes": "Jardin de Mangalam, en Assam. Liqueur cuivrée, corsée et maltée, aux notes de pain grillé ; se boit nature ou avec un nuage de lait."
+  },
+  "black-assam-second-flush": {
+    "origine": "Inde (Assam)",
+    "notes": "Récolte d'été (mai-juin), la plus recherchée en Assam. Feuilles riches en bourgeons dorés, tasse pleine, maltée et légèrement épicée."
+  },
+  "black-assam-tgfop": {
+    "origine": "Inde (Assam)",
+    "notes": "Grade de feuilles entières avec de nombreux bourgeons dorés (Tippy Golden Flowery Orange Pekoe). Assam malté et rond, plus fin que les grades brisés."
+  },
+  "black-bailin-gongfu": {
+    "origine": "Chine (Fujian, Fuding)",
+    "notes": "L'un des trois grands Gongfu du Fujian, produit autour de Fuding. Feuilles fines et duveteuses, tasse douce aux notes de miel, de caramel et de fruits secs, très peu astringente."
+  },
+  "black-breakfast-blend": {
+    "origine": "Assemblage",
+    "notes": "Assemblage de thés noirs corsés (souvent Assam, Ceylan, Kenya) pensé pour le matin. Tasse foncée et tonique qui accepte le lait. La composition varie d'une maison à l'autre."
+  },
+  "black-broken-orange-pekoe": {
+    "origine": null,
+    "notes": "Grade de feuilles brisées (BOP). Les feuilles cassées infusent plus vite et donnent une tasse plus foncée et plus forte qu'une feuille entière. Courant pour les thés de Ceylan et d'Inde."
+  },
+  "black-ceylan": {
+    "origine": "Sri Lanka",
+    "notes": "Thé noir du Sri Lanka, cultivé de la plaine à plus de 2 000 m. Tasse vive et brillante, aux notes d'agrumes et de bois, plus ou moins corsée selon l'altitude."
+  },
+  "black-ceylan-dimbula": {
+    "origine": "Sri Lanka (Dimbula)",
+    "notes": "Région de moyenne et haute altitude, à l'ouest des hauts plateaux. Thé frais et équilibré, liqueur dorée, notes d'agrumes ; récoltes les plus fines en début d'année."
+  },
+  "black-ceylan-kandy": {
+    "origine": "Sri Lanka (Kandy)",
+    "notes": "Région de moyenne altitude autour de Kandy, berceau du thé à Ceylan. Tasse cuivrée, ronde et assez corsée, qui supporte le lait."
+  },
+  "black-ceylan-nuwara-eliya": {
+    "origine": "Sri Lanka (Nuwara Eliya)",
+    "notes": "Thé de la région la plus haute du Sri Lanka. Liqueur claire, fine et florale, avec une vivacité qui rappelle un Darjeeling. Se boit plutôt nature."
+  },
+  "black-ceylan-ruhuna": {
+    "origine": "Sri Lanka (Ruhuna)",
+    "notes": "Thé de basse altitude du sud de l'île. Feuilles noires et tasse sombre, sucrée et corsée, aux notes de mélasse ; supporte bien le lait."
+  },
+  "black-ceylan-sabaragamuwa": {
+    "origine": "Sri Lanka (Sabaragamuwa)",
+    "notes": "Thé de basse altitude du sud-ouest du Sri Lanka. Liqueur rouge-brun, douce et ronde, aux notes de caramel et de fruits secs."
+  },
+  "black-ceylan-uva": {
+    "origine": "Sri Lanka (Uva)",
+    "notes": "Région de haute altitude à l'est des plateaux, balayée par des vents secs. Thé vif et tonique, aux notes mentholées et boisées ; meilleures récoltes en été."
+  },
+  "black-darjeeling": {
+    "origine": "Inde (Darjeeling)",
+    "notes": "Thé des contreforts de l'Himalaya, au nord du Bengale-Occidental. Liqueur claire et parfumée, aux notes fruitées et florales (muscat). Le goût change beaucoup selon la récolte."
+  },
+  "black-darjeeling-autumnal": {
+    "origine": "Inde (Darjeeling)",
+    "notes": "Récolte d'automne, après la mousson. Tasse plus ronde et plus douce que les récoltes de printemps et d'été, liqueur cuivrée, notes boisées et de fruits mûrs."
+  },
+  "black-darjeeling-castleton": {
+    "origine": "Inde (Darjeeling)",
+    "notes": "Jardin de Castleton, près de Kurseong, réputé pour ses récoltes d'été aux notes de muscat. Thé fin et parfumé, à boire nature."
+  },
+  "black-darjeeling-first-flush": {
+    "origine": "Inde (Darjeeling)",
+    "notes": "Première récolte, de mars à avril. Feuilles vertes et argentées, liqueur très claire, vive et florale, proche d'un thé peu oxydé. S'infuse moins chaud que les autres thés noirs."
+  },
+  "black-darjeeling-goomtee": {
+    "origine": "Inde (Darjeeling)",
+    "notes": "Jardin de Goomtee, près de Kurseong. Darjeeling fin et parfumé, aux notes florales et fruitées ; ses récoltes d'été sont recherchées."
+  },
+  "black-darjeeling-makaibari": {
+    "origine": "Inde (Darjeeling)",
+    "notes": "Jardin de Makaibari, près de Kurseong, l'un des plus anciens de Darjeeling et pionnier de la culture biologique. Thé délicat, fruité et floral."
+  },
+  "black-darjeeling-margaret-s-hope": {
+    "origine": "Inde (Darjeeling)",
+    "notes": "Jardin de Margaret's Hope, près de Kurseong. Darjeeling élégant aux notes de muscat et de fruits mûrs, surtout en récolte d'été."
+  },
+  "black-darjeeling-second-flush": {
+    "origine": "Inde (Darjeeling)",
+    "notes": "Récolte d'été, de mai à juin. Feuilles plus sombres, tasse ambrée et ronde aux célèbres notes de muscat ; plus corsée que la première récolte."
+  },
+  "black-dian-hong": {
+    "origine": "Chine (Yunnan)",
+    "notes": "Thé noir du Yunnan, à grandes feuilles et nombreux bourgeons dorés. Liqueur rouge orangé, douce et ronde, aux notes de malt, de miel et de patate douce, très peu amère."
+  },
+  "black-earl-grey": {
+    "origine": null,
+    "notes": "Thé noir parfumé à la bergamote, un agrume proche de la bigarade. Tasse fraîche et parfumée ; la base (Chine, Inde, Ceylan) et l'intensité de l'arôme varient selon les maisons."
+  },
+  "black-earl-grey-creme": {
+    "origine": null,
+    "notes": "Earl Grey auquel on ajoute un arôme de crème ou de vanille. Plus doux et plus rond que l'Earl Grey classique, il se prête bien au lait."
+  },
+  "black-earl-grey-fume": {
+    "origine": null,
+    "notes": "Earl Grey dont la base de thé noir est en partie fumée, souvent avec du Lapsang Souchong. Mêle la fraîcheur de la bergamote à des notes boisées et fumées."
+  },
+  "black-english-afternoon": {
+    "origine": "Assemblage",
+    "notes": "Assemblage de l'après-midi, plus léger que les thés du petit-déjeuner, souvent à base de Ceylan. Tasse claire et vive, à boire nature ou avec un nuage de lait."
+  },
+  "black-english-breakfast": {
+    "origine": "Assemblage",
+    "notes": "Assemblage classique du matin, généralement Assam, Ceylan et Kenya. Tasse foncée, corsée et maltée, pensée pour le lait. Composition variable selon les maisons."
+  },
+  "black-formosa-black": {
+    "origine": "Taïwan",
+    "notes": "Thé noir de Taïwan, souvent produit autour du lac Sun Moon. Tasse douce et sucrée, aux notes de miel, de fruits et parfois de cannelle."
+  },
+  "black-french-earl-grey": {
+    "origine": null,
+    "notes": "Variante de l'Earl Grey enrichie de pétales de fleurs (souvent bleuets ou roses) et parfois d'autres agrumes. Plus fleuri et plus doux que la version classique."
+  },
+  "black-golden-flowery-orange-pekoe": {
+    "origine": null,
+    "notes": "Grade de feuilles entières riches en bourgeons dorés (GFOP). Désigne une qualité de cueillette, pas une origine ; courant pour les thés d'Assam et de Darjeeling."
+  },
+  "black-golden-monkey": {
+    "origine": "Chine (Fujian)",
+    "notes": "Thé noir fait de bourgeons et de jeunes feuilles duveteuses, dorés et noirs, évoquant des pattes de singe. Tasse douce, chocolatée et miellée."
+  },
+  "black-irish-breakfast": {
+    "origine": "Assemblage",
+    "notes": "Assemblage du matin dominé par l'Assam, encore plus corsé et malté que l'English Breakfast. Se boit traditionnellement avec du lait."
+  },
+  "black-java-black": {
+    "origine": "Indonésie (Java)",
+    "notes": "Thé noir des hauts plateaux de l'ouest de Java. Tasse claire et douce, légèrement boisée, souvent utilisée dans les assemblages."
+  },
+  "black-jin-jun-mei": {
+    "origine": "Chine (Fujian, Wuyi)",
+    "notes": "Thé noir d'exception des monts Wuyi, fait uniquement de bourgeons minuscules, dorés et noirs. Tasse douce et sucrée, aux notes de miel, de fruits secs et de patate douce."
+  },
+  "black-keemun": {
+    "origine": "Chine (Anhui, Qimen)",
+    "notes": "Thé noir de Qimen, dans le sud de l'Anhui. Feuilles fines et sombres, tasse rouge aux notes de cacao, de fruits secs et parfois de fumée légère. Base classique des assemblages anglais."
+  },
+  "black-keemun-hao-ya": {
+    "origine": "Chine (Anhui, Qimen)",
+    "notes": "Keemun de haute qualité, riche en bourgeons (hao ya). Plus doux et plus aromatique que le Keemun courant, aux notes de cacao, d'orchidée et de fruits secs."
+  },
+  "black-keemun-mao-feng": {
+    "origine": "Chine (Anhui, Qimen)",
+    "notes": "Keemun fait de bourgeons et de feuilles entières, non roulés en grains. Tasse plus légère et plus florale que les autres Keemun, avec une note sucrée."
+  },
+  "black-kenya-black": {
+    "origine": "Kenya",
+    "notes": "Thé noir du Kenya, cultivé en altitude sur les pentes de la vallée du Rift. Le plus souvent en CTC : tasse très foncée, vive et corsée, base de nombreux assemblages du matin."
+  },
+  "black-lady-grey": {
+    "origine": null,
+    "notes": "Variante plus douce de l'Earl Grey, parfumée à la bergamote avec des écorces d'orange et de citron, et parfois des bleuets."
+  },
+  "black-lapsang-souchong": {
+    "origine": "Chine (Fujian, Wuyi)",
+    "notes": "Thé noir des monts Wuyi séché au-dessus d'un feu de bois de pin, d'où son goût fumé très marqué. Se marie bien avec les plats salés."
+  },
+  "black-lapsang-souchong-non-fume": {
+    "origine": "Chine (Fujian, Wuyi)",
+    "notes": "Lapsang Souchong séché sans fumée de pin. Tasse douce et ronde, aux notes de fruits secs, de longane et de miel. Voir aussi Zheng Shan Xiao Zhong."
+  },
+  "black-london-fog": {
+    "origine": null,
+    "notes": "Boisson plutôt que thé : Earl Grey infusé puis mélangé à du lait chaud mousseux et de la vanille, parfois sucré. La recette indiquée ne concerne que l'infusion du thé."
+  },
+  "black-nepal-black": {
+    "origine": "Népal",
+    "notes": "Thé noir des collines de l'est du Népal, voisines de Darjeeling. Tasse fine et parfumée, aux notes fruitées et florales, souvent plus ronde qu'un Darjeeling."
+  },
+  "black-nepal-jun-chiyabari": {
+    "origine": "Népal (Dhankuta)",
+    "notes": "Jardin de Jun Chiyabari, dans les collines de Hile, à l'est du Népal. Thés noirs artisanaux, parfumés et fruités, aux notes de miel et de fleurs."
+  },
+  "black-nilgiri": {
+    "origine": "Inde (Nilgiri)",
+    "notes": "Thé des « montagnes bleues » du sud de l'Inde, récolté presque toute l'année. Tasse claire, parfumée et douce, peu astringente, qui reste limpide en thé glacé."
+  },
+  "black-nilgiri-frost": {
+    "origine": "Inde (Nilgiri)",
+    "notes": "Récolte d'hiver des Nilgiri, faite après des nuits froides. Thé plus fin et plus aromatique que le Nilgiri courant, aux notes fruitées."
+  },
+  "black-noel-the-noir": {
+    "origine": null,
+    "notes": "Thé noir de saison parfumé aux épices de Noël (cannelle, orange, clou de girofle, vanille…). La composition varie selon les maisons."
+  },
+  "black-orange-pekoe": {
+    "origine": null,
+    "notes": "Grade de feuilles entières (OP), sans rapport avec l'orange. Désigne la taille et l'aspect de la feuille ; le goût dépend de l'origine du thé."
+  },
+  "black-prince-of-wales": {
+    "origine": "Assemblage",
+    "notes": "Assemblage doux, traditionnellement à base de thés noirs chinois. Tasse légère et ronde, à boire nature ou avec un peu de lait."
+  },
+  "black-rize-turkish-black": {
+    "origine": "Turquie (Rize)",
+    "notes": "Thé noir de la région de Rize, sur la côte turque de la mer Noire. Se prépare traditionnellement dans une double théière (çaydanlık) et se boit fort, dans de petits verres."
+  },
+  "black-russian-caravan": {
+    "origine": "Assemblage",
+    "notes": "Assemblage qui évoque les caravanes de thé entre la Chine et la Russie. Souvent Keemun, Lapsang et parfois oolong : tasse ronde aux notes légèrement fumées."
+  },
+  "black-rwanda-black": {
+    "origine": "Rwanda",
+    "notes": "Thé noir des collines du Rwanda, cultivé en altitude. Tasse vive, fruitée et corsée, souvent produite en CTC pour les assemblages."
+  },
+  "black-scottish-breakfast": {
+    "origine": "Assemblage",
+    "notes": "Assemblage du matin très corsé, souvent à base d'Assam et de thés africains, pensé pour l'eau douce d'Écosse. Se boit avec du lait."
+  },
+  "black-sikkim": {
+    "origine": "Inde (Sikkim)",
+    "notes": "Thé de l'État himalayen du Sikkim, voisin de Darjeeling (jardin de Temi). Tasse fine, florale et fruitée, plus ronde qu'un Darjeeling."
+  },
+  "black-sumatra-black": {
+    "origine": "Indonésie (Sumatra)",
+    "notes": "Thé noir des hauts plateaux de Sumatra. Tasse claire et douce, légèrement boisée, souvent utilisée en assemblage."
+  },
+  "black-sun-moon-lake-black": {
+    "origine": "Taïwan (Nantou)",
+    "notes": "Thé noir des environs du lac Sun Moon, au centre de Taïwan. Liqueur rouge vif, douce, aux notes de miel et de fruits ; certains lots ont une note de cannelle."
+  },
+  "black-taiwan-ruby-18": {
+    "origine": "Taïwan (Nantou)",
+    "notes": "Cultivar n° 18 (Hong Yu) de la station de recherche sur le thé de Taïwan, cultivé autour du lac Sun Moon. Notes très typées de cannelle, de menthe et de fruits rouges."
+  },
+  "black-tanyang-gongfu": {
+    "origine": "Chine (Fujian, Fu'an)",
+    "notes": "L'un des trois grands Gongfu du Fujian, de la région de Tanyang. Tasse douce et ronde aux notes de longane, de miel et de caramel."
+  },
+  "black-the-noir-a-l-orange": {
+    "origine": null,
+    "notes": "Thé noir parfumé à l'orange, souvent avec des écorces. Tasse ronde et fruitée, qui se boit chaude ou glacée."
+  },
+  "black-the-noir-a-la-cannelle": {
+    "origine": null,
+    "notes": "Thé noir parfumé à la cannelle, avec des morceaux d'écorce. Tasse chaleureuse et légèrement sucrée, appréciée en hiver."
+  },
+  "black-the-noir-a-la-mangue": {
+    "origine": null,
+    "notes": "Thé noir parfumé à la mangue, parfois avec des morceaux de fruit. Tasse fruitée et douce, bonne aussi glacée."
+  },
+  "black-the-noir-a-la-peche": {
+    "origine": null,
+    "notes": "Thé noir parfumé à la pêche. Tasse douce et fruitée, classique du thé glacé."
+  },
+  "black-the-noir-a-la-rose": {
+    "origine": null,
+    "notes": "Thé noir parfumé à la rose, souvent avec des pétales. Tasse florale et ronde, d'inspiration chinoise ou persane."
+  },
+  "black-the-noir-a-la-vanille": {
+    "origine": null,
+    "notes": "Thé noir parfumé à la vanille. Tasse ronde et gourmande qui se marie bien avec le lait."
+  },
+  "black-the-noir-au-caramel": {
+    "origine": null,
+    "notes": "Thé noir aromatisé au caramel, parfois avec des éclats. Tasse gourmande et douce, à boire nature ou avec du lait."
+  },
+  "black-the-noir-au-chocolat": {
+    "origine": null,
+    "notes": "Thé noir aromatisé au chocolat, souvent avec des éclats de cacao. Tasse gourmande qui se marie bien avec le lait."
+  },
+  "black-the-noir-au-citron": {
+    "origine": null,
+    "notes": "Thé noir parfumé au citron, souvent avec des écorces. Tasse vive et rafraîchissante, bonne chaude comme glacée."
+  },
+  "black-the-noir-aux-epices": {
+    "origine": null,
+    "notes": "Thé noir mélangé à des épices (cannelle, gingembre, cardamome, clou de girofle…). Proche du chai, il peut se boire avec du lait."
+  },
+  "black-the-noir-aux-fruits-rouges": {
+    "origine": null,
+    "notes": "Thé noir parfumé aux fruits rouges (fraise, framboise, cassis…), souvent avec des morceaux de fruits. Tasse fruitée, bonne glacée."
+  },
+  "black-the-noir-chai": {
+    "origine": "Inde",
+    "notes": "Thé noir corsé mélangé à des épices (cardamome, cannelle, gingembre, clou de girofle, poivre). En Inde, le masala chai se fait bouillir avec du lait et du sucre."
+  },
+  "black-the-noir-chocolat-orange": {
+    "origine": "Inde (Assam, Dooars)",
+    "notes": "Thé noir d'Inde parfumé à l'orange et au chocolat, avec des coques de cacao et des écorces d'orange. Tasse riche et gourmande, qui rappelle l'orangette."
+  },
+  "black-the-noir-d-iran": {
+    "origine": "Iran (Gilan)",
+    "notes": "Thé noir de la province du Gilan, au bord de la mer Caspienne. Tasse claire et douce, peu astringente, traditionnellement servie très chaude avec un sucre."
+  },
+  "black-the-noir-d-ouganda": {
+    "origine": "Ouganda",
+    "notes": "Thé noir d'Ouganda, cultivé surtout dans l'ouest du pays. Le plus souvent en CTC : tasse foncée et corsée, utilisée dans les assemblages du matin."
+  },
+  "black-the-noir-de-georgie": {
+    "origine": "Géorgie",
+    "notes": "Thé noir de l'ouest de la Géorgie, autrefois grand fournisseur de l'URSS et relancé par de petits producteurs. Tasse douce et ronde, aux notes de miel et de fruits secs."
+  },
+  "black-the-noir-du-malawi": {
+    "origine": "Malawi",
+    "notes": "Thé noir du sud du Malawi, l'un des plus anciens pays producteurs d'Afrique. Tasse colorée, douce et ronde, souvent utilisée dans les assemblages."
+  },
+  "black-the-noir-du-vietnam": {
+    "origine": "Vietnam",
+    "notes": "Thé noir des provinces montagneuses du nord du Vietnam. Tasse ronde et douce, aux notes maltées et sucrées."
+  },
+  "black-wakoucha": {
+    "origine": "Japon",
+    "notes": "Thé noir japonais (wakoucha), produit notamment dans le Kyushu et à Shizuoka. Tasse douce et légère, peu astringente, aux notes de miel et de fruits."
+  },
+  "black-yingde-hongcha": {
+    "origine": "Chine (Guangdong, Yingde)",
+    "notes": "Thé noir de Yingde, dans le Guangdong, souvent issu du cultivar Yinghong n° 9. Tasse rouge et sucrée, aux notes de cacao, de fruits et de cannelle."
+  },
+  "black-yunnan-gold": {
+    "origine": "Chine (Yunnan)",
+    "notes": "Dian Hong composé presque uniquement de bourgeons dorés. Tasse douce et veloutée, aux notes de miel, de malt et de cacao, sans amertume."
+  },
+  "black-yunnan-gold-tips": {
+    "origine": "Chine (Yunnan)",
+    "notes": "Thé noir du Yunnan riche en bourgeons dorés (tips). Plus doux et plus sucré qu'un Dian Hong courant, aux notes de miel et de patate douce."
+  },
+  "black-yunnan-golden-buds": {
+    "origine": "Chine (Yunnan)",
+    "notes": "Bourgeons dorés du Yunnan, entiers et duveteux. Tasse ronde et très douce, aux notes de miel, de cacao et de pain d'épices."
+  },
+  "black-yunnan-golden-needle": {
+    "origine": "Chine (Yunnan)",
+    "notes": "Bourgeons dorés du Yunnan façonnés en fines aiguilles. Tasse veloutée et sucrée, aux notes de miel et de malt."
+  },
+  "black-zheng-shan-xiao-zhong": {
+    "origine": "Chine (Fujian, Wuyi)",
+    "notes": "Thé noir d'origine des monts Wuyi (village de Tongmu), considéré comme l'ancêtre des thés noirs. Non fumé ou légèrement fumé : notes de longane, de miel et de fruits secs."
+  }
 }

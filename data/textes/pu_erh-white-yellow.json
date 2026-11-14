@@ -1,86 +1,344 @@
 {
-  "pu_erh-ba-da-sheng": {"origine": "Chine (Yunnan, Menghai)", "notes": "Pu-erh cru du mont Bada, dans le district de Menghai. Tasse vive et corsée, avec une amertume qui se transforme en douceur."},
-  "pu_erh-bamboo-pu-erh": {"origine": "Chine (Yunnan)", "notes": "Pu-erh tassé dans un tube de bambou, qui lui donne des notes boisées et parfois fumées. Peut être cru ou mûr selon le producteur."},
-  "pu_erh-bing-cha": {"origine": "Chine (Yunnan)", "notes": "« Galette » : forme la plus courante du pu-erh, pressé en disque d'environ 357 g. Désigne une forme, pas un goût : la galette peut être crue ou mûre."},
-  "pu_erh-bing-dao": {"origine": "Chine (Yunnan, Lincang)", "notes": "Pu-erh cru du village de Bingdao, dans le Lincang, l'un des plus recherchés. Tasse douce, sucrée et florale, avec peu d'amertume."},
-  "pu_erh-bulang-mountain": {"origine": "Chine (Yunnan, Menghai)", "notes": "Pu-erh cru des monts Bulang, près de la frontière birmane. Tasse puissante et amère, qui laisse une forte sensation sucrée."},
-  "pu_erh-gedeng-sheng": {"origine": "Chine (Yunnan, Mengla)", "notes": "Pu-erh cru de Gedeng, l'un des six anciens monts à thé du Yunnan. Tasse douce et ronde, aux notes florales et de miel."},
-  "pu_erh-golden-bud-pu-erh": {"origine": "Chine (Yunnan)", "notes": "Pu-erh mûr fait de bourgeons dorés. Tasse rouge-brun très douce et onctueuse, aux notes de cacao et de bois, sans amertume."},
-  "pu_erh-huazhu-liangzi": {"origine": "Chine (Yunnan)", "notes": "Pu-erh cru de Huazhu Liangzi, village isolé du Yunnan aux théiers anciens. Tasse dense et sucrée, avec une amertume fine."},
-  "pu_erh-jin-cha": {"origine": "Chine (Yunnan)", "notes": "Pu-erh pressé en forme de champignon avec une petite tige, forme traditionnelle destinée au Tibet. Peut être cru ou mûr."},
-  "pu_erh-jingmai-sheng": {"origine": "Chine (Yunnan, Pu'er)", "notes": "Pu-erh cru du mont Jingmai, aux jardins de théiers anciens en forêt. Tasse florale et sucrée, aux notes d'orchidée, peu amère."},
-  "pu_erh-lao-ban-zhang": {"origine": "Chine (Yunnan, Menghai)", "notes": "Pu-erh cru du village de Lao Ban Zhang, dans les monts Bulang, le plus célèbre et le plus cher. Tasse puissante, amère puis très sucrée, longue en bouche."},
-  "pu_erh-lao-man-e": {"origine": "Chine (Yunnan, Menghai)", "notes": "Pu-erh cru de Lao Man E, dans les monts Bulang, connu pour son amertume prononcée qui laisse une forte douceur."},
-  "pu_erh-lincang-sheng": {"origine": "Chine (Yunnan, Lincang)", "notes": "Pu-erh cru de la région de Lincang, à l'ouest du Yunnan. Tasse ronde et sucrée, aux notes florales et fruitées."},
-  "pu_erh-manzhuan-sheng": {"origine": "Chine (Yunnan, Mengla)", "notes": "Pu-erh cru de Manzhuan, l'un des six anciens monts à thé. Tasse douce et ronde, aux notes de miel et de fleurs."},
-  "pu_erh-menghai-7542": {"origine": "Chine (Yunnan, Menghai)", "notes": "Recette de pu-erh cru de l'usine de Menghai (marque Dayi) : 75 pour 1975, 4 pour le grade de feuille, 2 pour l'usine. Référence classique pour le vieillissement."},
-  "pu_erh-menghai-7572": {"origine": "Chine (Yunnan, Menghai)", "notes": "Recette de pu-erh mûr de l'usine de Menghai (marque Dayi), référence des pu-erh mûrs depuis les années 1970. Tasse brune, douce et ronde, aux notes de bois et de dattes."},
-  "pu_erh-menghai-8582": {"origine": "Chine (Yunnan, Menghai)", "notes": "Recette de pu-erh cru de l'usine de Menghai, à feuilles plus grandes que la 7542. Tasse corsée qui gagne en douceur en vieillissant."},
-  "pu_erh-menghai-8592": {"origine": "Chine (Yunnan, Menghai)", "notes": "Recette de pu-erh mûr de l'usine de Menghai, à feuilles plus grandes que la 7572. Tasse brune, ronde et douce, aux notes boisées."},
-  "pu_erh-mengku-sheng": {"origine": "Chine (Yunnan, Lincang)", "notes": "Pu-erh cru de Mengku, dans le Lincang. Tasse douce et sucrée, peu amère, aux notes florales."},
-  "pu_erh-nannuo-mountain": {"origine": "Chine (Yunnan, Menghai)", "notes": "Pu-erh cru du mont Nannuo, aux nombreux théiers anciens. Tasse équilibrée, douce et fruitée, avec une amertume légère."},
-  "pu_erh-palace-grade-ripe-pu-erh": {"origine": "Chine (Yunnan)", "notes": "Pu-erh mûr de grade « palais », fait de bourgeons et de très jeunes feuilles. Tasse rouge-brun, onctueuse et douce, aux notes de cacao."},
-  "pu_erh-pasha-sheng": {"origine": "Chine (Yunnan, Menghai)", "notes": "Pu-erh cru du village de Pasha, dans le district de Menghai. Tasse vive, aux notes florales et fruitées, avec une amertume modérée."},
-  "pu_erh-pu-erh-generique-methode-palais": {"nom": "Pu-erh (méthode Palais)", "origine": "Chine (Yunnan)", "notes": "Fiche générique pour un pu-erh dont on ne connaît pas le type, avec la méthode d'infusion longue du Palais des Thés. Préférer la fiche Sheng ou Shou si le type est connu."},
-  "pu_erh-pu-erh-mini-tuo-cha": {"origine": "Chine (Yunnan)", "notes": "Petits nids de pu-erh d'environ 5 g, une portion pour une théière. Le plus souvent mûrs, parfois aromatisés (riz gluant, chrysanthème)."},
-  "pu_erh-purple-bud-pu-erh": {"origine": "Chine (Yunnan)", "notes": "Pu-erh fait de bourgeons et de feuilles violacés, issus de théiers à feuilles pourpres. Tasse vive, fruitée et légèrement astringente."},
-  "pu_erh-sheng-pu-erh": {"origine": "Chine (Yunnan)", "notes": "Pu-erh cru : feuilles simplement séchées et pressées, qui fermentent lentement au fil des années. Jeune, il est vif, floral et un peu amer ; vieilli, il devient rond et boisé."},
-  "pu_erh-sheng-pu-erh-vieilli": {"origine": "Chine (Yunnan)", "notes": "Pu-erh cru vieilli pendant de nombreuses années. Tasse ambrée à rouge, douce et ronde, aux notes de bois, de camphre et de fruits secs."},
-  "pu_erh-shou-pu-erh": {"origine": "Chine (Yunnan)", "notes": "Pu-erh mûr : fermenté en tas humide pendant plusieurs semaines, procédé mis au point dans les années 1970. Tasse brun foncé, douce et ronde, aux notes de terre, de bois et de cacao."},
-  "pu_erh-shou-pu-erh-vieilli": {"origine": "Chine (Yunnan)", "notes": "Pu-erh mûr vieilli plusieurs années, qui perd le goût de fermentation des jeunes mûrs. Tasse plus nette, douce et veloutée, aux notes boisées."},
-  "pu_erh-tuo-cha": {"origine": "Chine (Yunnan)", "notes": "Pu-erh pressé en forme de nid ou de bol, cru ou mûr. Forme traditionnelle de Xiaguan, à casser en morceaux avant infusion."},
-  "pu_erh-xiaguan-tuocha": {"origine": "Chine (Yunnan, Dali)", "notes": "Tuocha de l'usine de Xiaguan, à Dali, qui a popularisé cette forme. Les crus de Xiaguan sont réputés corsés et parfois fumés."},
-  "pu_erh-yibang-sheng": {"origine": "Chine (Yunnan, Mengla)", "notes": "Pu-erh cru de Yibang, l'un des six anciens monts à thé, réputé pour ses petites feuilles. Tasse douce et fine, aux notes florales."},
-  "pu_erh-yiwu-gushu": {"origine": "Chine (Yunnan, Mengla)", "notes": "Pu-erh cru de vieux arbres (gushu) de la région de Yiwu. Tasse douce, ample et sucrée, très peu amère, longue en bouche."},
-  "pu_erh-yiwu-sheng": {"origine": "Chine (Yunnan, Mengla)", "notes": "Pu-erh cru de la région de Yiwu, célèbre pour sa douceur. Tasse ronde et sucrée, aux notes de miel et de fleurs, avec peu d'amertume."},
-  "pu_erh-zhuan-cha": {"origine": "Chine (Yunnan)", "notes": "Pu-erh pressé en brique rectangulaire, forme pratique pour le transport et le stockage. Peut être cru ou mûr."},
-
-  "white-aiguilles-d-argent-au-jasmin": {"origine": "Chine (Fujian)", "notes": "Aiguilles d'argent parfumées aux fleurs de jasmin. Tasse très florale et douce, plus délicate qu'un thé vert au jasmin."},
-  "white-bai-hao-yin-zhen": {"origine": "Chine (Fujian, Fuding)", "notes": "« Aiguilles d'argent » : uniquement des bourgeons couverts de duvet blanc. Le plus fin des thés blancs : tasse pâle, douce et miellée."},
-  "white-bai-mudan": {"origine": "Chine (Fujian)", "notes": "« Pivoine blanche » : un bourgeon et deux jeunes feuilles. Plus corsé que les aiguilles d'argent, tasse dorée aux notes de foin, de fleurs et de miel."},
-  "white-bai-mudan-vieilli": {"origine": "Chine (Fujian)", "notes": "Bai Mudan vieilli plusieurs années. Tasse ambrée, douce et ronde, aux notes de dattes, de miel et de foin sec."},
-  "white-bourgeons-de-neige-du-yunnan": {"origine": "Chine (Yunnan)", "notes": "Bourgeons duveteux du Yunnan séchés comme un thé blanc. Tasse claire, douce et fruitée, aux notes de miel."},
-  "white-ceylon-white": {"origine": "Sri Lanka", "notes": "Thé blanc du Sri Lanka, fait de bourgeons cueillis et séchés avec soin, en très petites quantités. Tasse pâle, fine et miellée."},
-  "white-earl-grey-blanc": {"origine": null, "notes": "Thé blanc parfumé à la bergamote. Plus doux et plus léger que l'Earl Grey noir."},
-  "white-fuding-white": {"origine": "Chine (Fujian, Fuding)", "notes": "Thé blanc de Fuding, berceau du thé blanc, issu du cultivar Fuding Da Bai. Tasse douce et miellée, aux notes de foin et de fleurs."},
-  "white-galette-de-the-blanc-vieilli": {"origine": "Chine (Fujian)", "notes": "Thé blanc (souvent Shou Mei ou Bai Mudan) pressé en galette et vieilli. Tasse ambrée et douce, aux notes de dattes et de miel ; se casse en morceaux."},
-  "white-gong-mei": {"origine": "Chine (Fujian)", "notes": "« Sourcil d'hommage » : thé blanc de feuilles un peu plus grandes, entre le Bai Mudan et le Shou Mei. Tasse dorée, douce et fruitée."},
-  "white-moonlight-white": {"origine": "Chine (Yunnan)", "notes": "« Clair de lune » (Yue Guang Bai) : thé blanc du Yunnan aux feuilles noires et blanches, séchées à l'ombre. Tasse douce et fruitée, aux notes de miel."},
-  "white-nepal-white": {"origine": "Népal", "notes": "Thé blanc des jardins de l'est du Népal. Tasse claire, fine et florale, aux notes de miel."},
-  "white-shou-mei": {"origine": "Chine (Fujian)", "notes": "« Sourcil de longévité » : thé blanc de feuilles plus grandes, cueillies après le Bai Mudan. Tasse plus foncée et plus corsée, aux notes de foin et de fruits secs."},
-  "white-shou-mei-vieilli": {"origine": "Chine (Fujian)", "notes": "Shou Mei vieilli plusieurs années, parfois en galette. Tasse ambrée et ronde, aux notes de dattes, de bois et de miel."},
-  "white-silver-needle-yunnan": {"origine": "Chine (Yunnan)", "notes": "Aiguilles d'argent du Yunnan, issues de théiers à grandes feuilles. Bourgeons plus longs que ceux du Fujian, tasse ronde et fruitée."},
-  "white-the-blanc-a-la-peche": {"origine": null, "notes": "Thé blanc aromatisé à la pêche. Tasse douce, fruitée et légère."},
-  "white-the-blanc-a-la-rose": {"origine": null, "notes": "Thé blanc parfumé à la rose. Tasse florale, douce et légère."},
-  "white-the-blanc-au-citron": {"origine": null, "notes": "Thé blanc aromatisé au citron. Tasse légère et vive."},
-  "white-the-blanc-au-jasmin": {"origine": null, "notes": "Thé blanc parfumé aux fleurs de jasmin. Tasse florale et douce."},
-  "white-the-blanc-au-litchi": {"origine": null, "notes": "Thé blanc aromatisé au litchi. Tasse florale, fruitée et douce."},
-  "white-the-blanc-aux-fleurs-de-pecher": {"origine": null, "notes": "Thé blanc parfumé aux fleurs de pêcher. Tasse délicate et florale."},
-  "white-white-darjeeling": {"origine": "Inde (Darjeeling)", "notes": "Thé blanc des jardins de Darjeeling. Tasse pâle, fine et florale, aux notes fruitées."},
-  "white-white-monkey": {"origine": "Chine (Fujian)", "notes": "Bai Mao Hou (« singe blanc ») : bourgeons duveteux du Fujian, vendus selon les maisons comme thé blanc ou comme thé vert (voir la fiche en thé vert)."},
-  "white-white-tea-himalayan": {"origine": "Himalaya (Népal, Inde)", "notes": "Thé blanc de l'Himalaya (Népal, Darjeeling). Tasse claire, florale et miellée."},
-  "white-white-tea-kenya": {"origine": "Kenya", "notes": "Thé blanc du Kenya, cultivé en altitude. Tasse claire, douce et fruitée."},
-  "white-white-tea-malawi": {"origine": "Malawi", "notes": "Thé blanc du Malawi, parfois en longues aiguilles. Tasse douce et fruitée."},
-  "white-white-tea-nepal-jun-chiyabari": {"origine": "Népal (Dhankuta)", "notes": "Thé blanc du jardin de Jun Chiyabari, dans l'est du Népal. Tasse fine et florale, aux notes de miel."},
-  "white-white-tea-purple": {"origine": "Kenya", "notes": "Thé blanc issu d'un cultivar kényan aux feuilles violettes (purple tea). Tasse claire, douce et légèrement boisée."},
-  "white-white-tea-vietnam": {"origine": "Vietnam", "notes": "Thé blanc du nord du Vietnam, souvent fait de bourgeons de théiers sauvages. Tasse douce et fruitée."},
-  "white-ya-bao-bourgeons": {"origine": "Chine (Yunnan)", "notes": "Bourgeons de théiers sauvages du Yunnan, cueillis encore fermés en fin d'hiver. Tasse très claire, fraîche et boisée, aux notes de pin et d'agrumes."},
-  "white-zhenghe-white": {"origine": "Chine (Fujian, Zhenghe)", "notes": "Thé blanc de Zhenghe, dans le Fujian, issu du cultivar Zhenghe Da Bai. Tasse plus ronde et plus corsée que les blancs de Fuding."},
-
-  "yellow-bei-gang-mao-jian": {"origine": "Chine (Hunan, Yueyang)", "notes": "Thé jaune de Beigang, près de Yueyang, au bord du lac Dongting. Feuilles en crochets, tasse jaune, douce et légèrement grillée."},
-  "yellow-da-ye-qing": {"origine": "Chine (Guangdong)", "notes": "Thé jaune du Guangdong à grandes feuilles (« grande feuille verte »). Tasse jaune, ronde et douce."},
-  "yellow-huang-da-cha": {"origine": "Chine (Anhui)", "notes": "« Grand thé jaune » de l'ouest de l'Anhui, fait de grandes feuilles et de tiges longuement torréfiées. Tasse ambrée et ronde, aux notes grillées."},
-  "yellow-huang-xiao-cha": {"origine": "Chine", "notes": "« Petit thé jaune », fait de bourgeons et de jeunes feuilles. Tasse jaune pâle, douce et fraîche."},
-  "yellow-huang-ya": {"origine": "Chine", "notes": "« Bourgeons jaunes » : bourgeons et jeunes feuilles étouffés à l'étape de jaunissement, propre au thé jaune. Tasse jaune, douce et ronde, moins végétale qu'un thé vert."},
-  "yellow-huang-ya-the-ology": {"origine": "Chine (Sichuan)", "notes": "Huang Ya du Sichuan vendu par Thé-ology, avec la consigne d'infusion de ce vendeur. Thé jaune doux et rond."},
-  "yellow-huo-shan-huang-ya": {"origine": "Chine (Anhui, Huoshan)", "notes": "Thé jaune de Huoshan, dans l'Anhui, fait de bourgeons et de jeunes feuilles. Tasse jaune-vert, douce et fraîche, aux notes de châtaigne."},
-  "yellow-huo-shan-huang-ya-palais-des-thes": {"nom": "Huo Shan Huang Ya (Palais)", "origine": "Chine (Anhui, Huoshan)", "notes": "Huo Shan Huang Ya vendu par le Palais des Thés, avec la consigne d'infusion de ce vendeur. Thé jaune doux et frais."},
-  "yellow-jun-shan-yin-zhen": {"origine": "Chine (Hunan, Junshan)", "notes": "« Aiguilles d'argent de Junshan », île du lac Dongting. Thé jaune rare fait de bourgeons, qui se dressent à la verticale dans le verre. Tasse douce et fruitée."},
-  "yellow-mengding-huang-ya": {"origine": "Chine (Sichuan, Mengding)", "notes": "Thé jaune des monts Mengding, dans le Sichuan, fait de bourgeons plats. Tasse jaune, douce et sucrée."},
-  "yellow-mo-gan-huang-ya": {"origine": "Chine (Zhejiang, Moganshan)", "notes": "Thé jaune du mont Mogan, au nord du Zhejiang. Bourgeons et jeunes feuilles, tasse jaune pâle, douce et fraîche."},
-  "yellow-ping-yang-huang-tang": {"origine": "Chine (Zhejiang, Pingyang)", "notes": "« Soupe jaune » de Pingyang, dans le sud du Zhejiang. Tasse jaune clair, douce et ronde."},
-  "yellow-wei-shan-mao-jian": {"origine": "Chine (Hunan, Weishan)", "notes": "Thé jaune du mont Wei, dans le Hunan, parfois légèrement fumé. Tasse jaune orangé, douce et ronde."},
-  "yellow-yellow-tea-hunan": {"origine": "Chine (Hunan)", "notes": "Thé jaune du Hunan, province du Junshan Yin Zhen et du Beigang Mao Jian. Désignation générale : tasse jaune, douce et ronde."},
-  "yellow-yellow-tea-sichuan": {"origine": "Chine (Sichuan)", "notes": "Thé jaune du Sichuan, souvent des monts Mengding. Désignation générale : tasse jaune, douce et sucrée."},
-  "yellow-yuan-an-lu-yuan": {"origine": "Chine (Hubei, Yuan'an)", "notes": "Thé jaune de Yuan'an, dans le Hubei, aux feuilles en crochets. Tasse jaune, douce et ronde."}
+  "pu_erh-ba-da-sheng": {
+    "origine": "Chine (Yunnan, Menghai)",
+    "notes": "Pu-erh cru du mont Bada, dans le district de Menghai. Tasse vive et corsée, avec une amertume qui se transforme en douceur."
+  },
+  "pu_erh-bamboo-pu-erh": {
+    "origine": "Chine (Yunnan)",
+    "notes": "Pu-erh tassé dans un tube de bambou, qui lui donne des notes boisées et parfois fumées. Peut être cru ou mûr selon le producteur."
+  },
+  "pu_erh-bing-cha": {
+    "origine": "Chine (Yunnan)",
+    "notes": "« Galette » : forme la plus courante du pu-erh, pressé en disque d'environ 357 g. Désigne une forme, pas un goût : la galette peut être crue ou mûre."
+  },
+  "pu_erh-bing-dao": {
+    "origine": "Chine (Yunnan, Lincang)",
+    "notes": "Pu-erh cru du village de Bingdao, dans le Lincang, l'un des plus recherchés. Tasse douce, sucrée et florale, avec peu d'amertume."
+  },
+  "pu_erh-bulang-mountain": {
+    "origine": "Chine (Yunnan, Menghai)",
+    "notes": "Pu-erh cru des monts Bulang, près de la frontière birmane. Tasse puissante et amère, qui laisse une forte sensation sucrée."
+  },
+  "pu_erh-gedeng-sheng": {
+    "origine": "Chine (Yunnan, Mengla)",
+    "notes": "Pu-erh cru de Gedeng, l'un des six anciens monts à thé du Yunnan. Tasse douce et ronde, aux notes florales et de miel."
+  },
+  "pu_erh-golden-bud-pu-erh": {
+    "origine": "Chine (Yunnan)",
+    "notes": "Pu-erh mûr fait de bourgeons dorés. Tasse rouge-brun très douce et onctueuse, aux notes de cacao et de bois, sans amertume."
+  },
+  "pu_erh-huazhu-liangzi": {
+    "origine": "Chine (Yunnan)",
+    "notes": "Pu-erh cru de Huazhu Liangzi, village isolé du Yunnan aux théiers anciens. Tasse dense et sucrée, avec une amertume fine."
+  },
+  "pu_erh-jin-cha": {
+    "origine": "Chine (Yunnan)",
+    "notes": "Pu-erh pressé en forme de champignon avec une petite tige, forme traditionnelle destinée au Tibet. Peut être cru ou mûr."
+  },
+  "pu_erh-jingmai-sheng": {
+    "origine": "Chine (Yunnan, Pu'er)",
+    "notes": "Pu-erh cru du mont Jingmai, aux jardins de théiers anciens en forêt. Tasse florale et sucrée, aux notes d'orchidée, peu amère."
+  },
+  "pu_erh-lao-ban-zhang": {
+    "origine": "Chine (Yunnan, Menghai)",
+    "notes": "Pu-erh cru du village de Lao Ban Zhang, dans les monts Bulang, le plus célèbre et le plus cher. Tasse puissante, amère puis très sucrée, longue en bouche."
+  },
+  "pu_erh-lao-man-e": {
+    "origine": "Chine (Yunnan, Menghai)",
+    "notes": "Pu-erh cru de Lao Man E, dans les monts Bulang, connu pour son amertume prononcée qui laisse une forte douceur."
+  },
+  "pu_erh-lincang-sheng": {
+    "origine": "Chine (Yunnan, Lincang)",
+    "notes": "Pu-erh cru de la région de Lincang, à l'ouest du Yunnan. Tasse ronde et sucrée, aux notes florales et fruitées."
+  },
+  "pu_erh-manzhuan-sheng": {
+    "origine": "Chine (Yunnan, Mengla)",
+    "notes": "Pu-erh cru de Manzhuan, l'un des six anciens monts à thé. Tasse douce et ronde, aux notes de miel et de fleurs."
+  },
+  "pu_erh-menghai-7542": {
+    "origine": "Chine (Yunnan, Menghai)",
+    "notes": "Recette de pu-erh cru de l'usine de Menghai (marque Dayi) : 75 pour 1975, 4 pour le grade de feuille, 2 pour l'usine. Référence classique pour le vieillissement."
+  },
+  "pu_erh-menghai-7572": {
+    "origine": "Chine (Yunnan, Menghai)",
+    "notes": "Recette de pu-erh mûr de l'usine de Menghai (marque Dayi), référence des pu-erh mûrs depuis les années 1970. Tasse brune, douce et ronde, aux notes de bois et de dattes."
+  },
+  "pu_erh-menghai-8582": {
+    "origine": "Chine (Yunnan, Menghai)",
+    "notes": "Recette de pu-erh cru de l'usine de Menghai, à feuilles plus grandes que la 7542. Tasse corsée qui gagne en douceur en vieillissant."
+  },
+  "pu_erh-menghai-8592": {
+    "origine": "Chine (Yunnan, Menghai)",
+    "notes": "Recette de pu-erh mûr de l'usine de Menghai, à feuilles plus grandes que la 7572. Tasse brune, ronde et douce, aux notes boisées."
+  },
+  "pu_erh-mengku-sheng": {
+    "origine": "Chine (Yunnan, Lincang)",
+    "notes": "Pu-erh cru de Mengku, dans le Lincang. Tasse douce et sucrée, peu amère, aux notes florales."
+  },
+  "pu_erh-nannuo-mountain": {
+    "origine": "Chine (Yunnan, Menghai)",
+    "notes": "Pu-erh cru du mont Nannuo, aux nombreux théiers anciens. Tasse équilibrée, douce et fruitée, avec une amertume légère."
+  },
+  "pu_erh-palace-grade-ripe-pu-erh": {
+    "origine": "Chine (Yunnan)",
+    "notes": "Pu-erh mûr de grade « palais », fait de bourgeons et de très jeunes feuilles. Tasse rouge-brun, onctueuse et douce, aux notes de cacao."
+  },
+  "pu_erh-pasha-sheng": {
+    "origine": "Chine (Yunnan, Menghai)",
+    "notes": "Pu-erh cru du village de Pasha, dans le district de Menghai. Tasse vive, aux notes florales et fruitées, avec une amertume modérée."
+  },
+  "pu_erh-pu-erh-generique-methode-palais": {
+    "nom": "Pu-erh (méthode Palais)",
+    "origine": "Chine (Yunnan)",
+    "notes": "Fiche générique pour un pu-erh dont on ne connaît pas le type, avec la méthode d'infusion longue du Palais des Thés. Préférer la fiche Sheng ou Shou si le type est connu."
+  },
+  "pu_erh-pu-erh-mini-tuo-cha": {
+    "origine": "Chine (Yunnan)",
+    "notes": "Petits nids de pu-erh d'environ 5 g, une portion pour une théière. Le plus souvent mûrs, parfois aromatisés (riz gluant, chrysanthème)."
+  },
+  "pu_erh-purple-bud-pu-erh": {
+    "origine": "Chine (Yunnan)",
+    "notes": "Pu-erh fait de bourgeons et de feuilles violacés, issus de théiers à feuilles pourpres. Tasse vive, fruitée et légèrement astringente."
+  },
+  "pu_erh-sheng-pu-erh": {
+    "origine": "Chine (Yunnan)",
+    "notes": "Pu-erh cru : feuilles simplement séchées et pressées, qui fermentent lentement au fil des années. Jeune, il est vif, floral et un peu amer ; vieilli, il devient rond et boisé."
+  },
+  "pu_erh-sheng-pu-erh-vieilli": {
+    "origine": "Chine (Yunnan)",
+    "notes": "Pu-erh cru vieilli pendant de nombreuses années. Tasse ambrée à rouge, douce et ronde, aux notes de bois, de camphre et de fruits secs."
+  },
+  "pu_erh-shou-pu-erh": {
+    "origine": "Chine (Yunnan)",
+    "notes": "Pu-erh mûr : fermenté en tas humide pendant plusieurs semaines, procédé mis au point dans les années 1970. Tasse brun foncé, douce et ronde, aux notes de terre, de bois et de cacao."
+  },
+  "pu_erh-shou-pu-erh-vieilli": {
+    "origine": "Chine (Yunnan)",
+    "notes": "Pu-erh mûr vieilli plusieurs années, qui perd le goût de fermentation des jeunes mûrs. Tasse plus nette, douce et veloutée, aux notes boisées."
+  },
+  "pu_erh-tuo-cha": {
+    "origine": "Chine (Yunnan)",
+    "notes": "Pu-erh pressé en forme de nid ou de bol, cru ou mûr. Forme traditionnelle de Xiaguan, à casser en morceaux avant infusion."
+  },
+  "pu_erh-xiaguan-tuocha": {
+    "origine": "Chine (Yunnan, Dali)",
+    "notes": "Tuocha de l'usine de Xiaguan, à Dali, qui a popularisé cette forme. Les crus de Xiaguan sont réputés corsés et parfois fumés."
+  },
+  "pu_erh-yibang-sheng": {
+    "origine": "Chine (Yunnan, Mengla)",
+    "notes": "Pu-erh cru de Yibang, l'un des six anciens monts à thé, réputé pour ses petites feuilles. Tasse douce et fine, aux notes florales."
+  },
+  "pu_erh-yiwu-gushu": {
+    "origine": "Chine (Yunnan, Mengla)",
+    "notes": "Pu-erh cru de vieux arbres (gushu) de la région de Yiwu. Tasse douce, ample et sucrée, très peu amère, longue en bouche."
+  },
+  "pu_erh-yiwu-sheng": {
+    "origine": "Chine (Yunnan, Mengla)",
+    "notes": "Pu-erh cru de la région de Yiwu, célèbre pour sa douceur. Tasse ronde et sucrée, aux notes de miel et de fleurs, avec peu d'amertume."
+  },
+  "pu_erh-zhuan-cha": {
+    "origine": "Chine (Yunnan)",
+    "notes": "Pu-erh pressé en brique rectangulaire, forme pratique pour le transport et le stockage. Peut être cru ou mûr."
+  },
+  "white-aiguilles-d-argent-au-jasmin": {
+    "origine": "Chine (Fujian)",
+    "notes": "Aiguilles d'argent parfumées aux fleurs de jasmin. Tasse très florale et douce, plus délicate qu'un thé vert au jasmin."
+  },
+  "white-bai-hao-yin-zhen": {
+    "origine": "Chine (Fujian, Fuding)",
+    "notes": "« Aiguilles d'argent » : uniquement des bourgeons couverts de duvet blanc. Le plus fin des thés blancs : tasse pâle, douce et miellée."
+  },
+  "white-bai-mudan": {
+    "origine": "Chine (Fujian)",
+    "notes": "« Pivoine blanche » : un bourgeon et deux jeunes feuilles. Plus corsé que les aiguilles d'argent, tasse dorée aux notes de foin, de fleurs et de miel."
+  },
+  "white-bai-mudan-vieilli": {
+    "origine": "Chine (Fujian)",
+    "notes": "Bai Mudan vieilli plusieurs années. Tasse ambrée, douce et ronde, aux notes de dattes, de miel et de foin sec."
+  },
+  "white-bourgeons-de-neige-du-yunnan": {
+    "origine": "Chine (Yunnan)",
+    "notes": "Bourgeons duveteux du Yunnan séchés comme un thé blanc. Tasse claire, douce et fruitée, aux notes de miel."
+  },
+  "white-ceylon-white": {
+    "origine": "Sri Lanka",
+    "notes": "Thé blanc du Sri Lanka, fait de bourgeons cueillis et séchés avec soin, en très petites quantités. Tasse pâle, fine et miellée."
+  },
+  "white-earl-grey-blanc": {
+    "origine": null,
+    "notes": "Thé blanc parfumé à la bergamote. Plus doux et plus léger que l'Earl Grey noir."
+  },
+  "white-fuding-white": {
+    "origine": "Chine (Fujian, Fuding)",
+    "notes": "Thé blanc de Fuding, berceau du thé blanc, issu du cultivar Fuding Da Bai. Tasse douce et miellée, aux notes de foin et de fleurs."
+  },
+  "white-galette-de-the-blanc-vieilli": {
+    "origine": "Chine (Fujian)",
+    "notes": "Thé blanc (souvent Shou Mei ou Bai Mudan) pressé en galette et vieilli. Tasse ambrée et douce, aux notes de dattes et de miel ; se casse en morceaux."
+  },
+  "white-gong-mei": {
+    "origine": "Chine (Fujian)",
+    "notes": "« Sourcil d'hommage » : thé blanc de feuilles un peu plus grandes, entre le Bai Mudan et le Shou Mei. Tasse dorée, douce et fruitée."
+  },
+  "white-moonlight-white": {
+    "origine": "Chine (Yunnan)",
+    "notes": "« Clair de lune » (Yue Guang Bai) : thé blanc du Yunnan aux feuilles noires et blanches, séchées à l'ombre. Tasse douce et fruitée, aux notes de miel."
+  },
+  "white-nepal-white": {
+    "origine": "Népal",
+    "notes": "Thé blanc des jardins de l'est du Népal. Tasse claire, fine et florale, aux notes de miel."
+  },
+  "white-shou-mei": {
+    "origine": "Chine (Fujian)",
+    "notes": "« Sourcil de longévité » : thé blanc de feuilles plus grandes, cueillies après le Bai Mudan. Tasse plus foncée et plus corsée, aux notes de foin et de fruits secs."
+  },
+  "white-shou-mei-vieilli": {
+    "origine": "Chine (Fujian)",
+    "notes": "Shou Mei vieilli plusieurs années, parfois en galette. Tasse ambrée et ronde, aux notes de dattes, de bois et de miel."
+  },
+  "white-silver-needle-yunnan": {
+    "origine": "Chine (Yunnan)",
+    "notes": "Aiguilles d'argent du Yunnan, issues de théiers à grandes feuilles. Bourgeons plus longs que ceux du Fujian, tasse ronde et fruitée."
+  },
+  "white-the-blanc-a-la-peche": {
+    "origine": null,
+    "notes": "Thé blanc aromatisé à la pêche. Tasse douce, fruitée et légère."
+  },
+  "white-the-blanc-a-la-rose": {
+    "origine": null,
+    "notes": "Thé blanc parfumé à la rose. Tasse florale, douce et légère."
+  },
+  "white-the-blanc-au-citron": {
+    "origine": null,
+    "notes": "Thé blanc aromatisé au citron. Tasse légère et vive."
+  },
+  "white-the-blanc-au-jasmin": {
+    "origine": null,
+    "notes": "Thé blanc parfumé aux fleurs de jasmin. Tasse florale et douce."
+  },
+  "white-the-blanc-au-litchi": {
+    "origine": null,
+    "notes": "Thé blanc aromatisé au litchi. Tasse florale, fruitée et douce."
+  },
+  "white-the-blanc-au-yuzu": {
+    "origine": "Chine (Zhejiang)",
+    "notes": "Bai Mu Dan parfumé au yuzu et à l'écorce d'orange. Tasse légère aux notes citronnées délicates, qui respecte la finesse du thé blanc."
+  },
+  "white-the-blanc-aux-fleurs-de-pecher": {
+    "origine": null,
+    "notes": "Thé blanc parfumé aux fleurs de pêcher. Tasse délicate et florale."
+  },
+  "white-the-blanc-fleur-d-oranger": {
+    "origine": "Chine (Fujian)",
+    "notes": "Bai Mu Dan du Fujian parfumé à la fleur d'oranger, avec des pétales de souci. Tasse florale, douce et apaisante, idéale pour une pause calme."
+  },
+  "white-the-blanc-fruits-exotiques": {
+    "origine": "Chine (Fujian)",
+    "notes": "Bai Mu Dan du Fujian parfumé à la mangue, à l'ananas et au fruit de la passion. Tasse douce et florale, dont la finesse du thé blanc adoucit les notes exotiques."
+  },
+  "white-white-darjeeling": {
+    "origine": "Inde (Darjeeling)",
+    "notes": "Thé blanc des jardins de Darjeeling. Tasse pâle, fine et florale, aux notes fruitées."
+  },
+  "white-white-monkey": {
+    "origine": "Chine (Fujian)",
+    "notes": "Bai Mao Hou (« singe blanc ») : bourgeons duveteux du Fujian, vendus selon les maisons comme thé blanc ou comme thé vert (voir la fiche en thé vert)."
+  },
+  "white-white-tea-himalayan": {
+    "origine": "Himalaya (Népal, Inde)",
+    "notes": "Thé blanc de l'Himalaya (Népal, Darjeeling). Tasse claire, florale et miellée."
+  },
+  "white-white-tea-kenya": {
+    "origine": "Kenya",
+    "notes": "Thé blanc du Kenya, cultivé en altitude. Tasse claire, douce et fruitée."
+  },
+  "white-white-tea-malawi": {
+    "origine": "Malawi",
+    "notes": "Thé blanc du Malawi, parfois en longues aiguilles. Tasse douce et fruitée."
+  },
+  "white-white-tea-nepal-jun-chiyabari": {
+    "origine": "Népal (Dhankuta)",
+    "notes": "Thé blanc du jardin de Jun Chiyabari, dans l'est du Népal. Tasse fine et florale, aux notes de miel."
+  },
+  "white-white-tea-purple": {
+    "origine": "Kenya",
+    "notes": "Thé blanc issu d'un cultivar kényan aux feuilles violettes (purple tea). Tasse claire, douce et légèrement boisée."
+  },
+  "white-white-tea-vietnam": {
+    "origine": "Vietnam",
+    "notes": "Thé blanc du nord du Vietnam, souvent fait de bourgeons de théiers sauvages. Tasse douce et fruitée."
+  },
+  "white-ya-bao-bourgeons": {
+    "origine": "Chine (Yunnan)",
+    "notes": "Bourgeons de théiers sauvages du Yunnan, cueillis encore fermés en fin d'hiver. Tasse très claire, fraîche et boisée, aux notes de pin et d'agrumes."
+  },
+  "white-zhenghe-white": {
+    "origine": "Chine (Fujian, Zhenghe)",
+    "notes": "Thé blanc de Zhenghe, dans le Fujian, issu du cultivar Zhenghe Da Bai. Tasse plus ronde et plus corsée que les blancs de Fuding."
+  },
+  "yellow-bei-gang-mao-jian": {
+    "origine": "Chine (Hunan, Yueyang)",
+    "notes": "Thé jaune de Beigang, près de Yueyang, au bord du lac Dongting. Feuilles en crochets, tasse jaune, douce et légèrement grillée."
+  },
+  "yellow-da-ye-qing": {
+    "origine": "Chine (Guangdong)",
+    "notes": "Thé jaune du Guangdong à grandes feuilles (« grande feuille verte »). Tasse jaune, ronde et douce."
+  },
+  "yellow-huang-da-cha": {
+    "origine": "Chine (Anhui)",
+    "notes": "« Grand thé jaune » de l'ouest de l'Anhui, fait de grandes feuilles et de tiges longuement torréfiées. Tasse ambrée et ronde, aux notes grillées."
+  },
+  "yellow-huang-xiao-cha": {
+    "origine": "Chine",
+    "notes": "« Petit thé jaune », fait de bourgeons et de jeunes feuilles. Tasse jaune pâle, douce et fraîche."
+  },
+  "yellow-huang-ya": {
+    "origine": "Chine",
+    "notes": "« Bourgeons jaunes » : bourgeons et jeunes feuilles étouffés à l'étape de jaunissement, propre au thé jaune. Tasse jaune, douce et ronde, moins végétale qu'un thé vert."
+  },
+  "yellow-huang-ya-the-ology": {
+    "origine": "Chine (Sichuan)",
+    "notes": "Huang Ya du Sichuan vendu par Thé-ology, avec la consigne d'infusion de ce vendeur. Thé jaune doux et rond."
+  },
+  "yellow-huo-shan-huang-ya": {
+    "origine": "Chine (Anhui, Huoshan)",
+    "notes": "Thé jaune de Huoshan, dans l'Anhui, fait de bourgeons et de jeunes feuilles. Tasse jaune-vert, douce et fraîche, aux notes de châtaigne."
+  },
+  "yellow-huo-shan-huang-ya-palais-des-thes": {
+    "nom": "Huo Shan Huang Ya (Palais)",
+    "origine": "Chine (Anhui, Huoshan)",
+    "notes": "Huo Shan Huang Ya vendu par le Palais des Thés, avec la consigne d'infusion de ce vendeur. Thé jaune doux et frais."
+  },
+  "yellow-jun-shan-yin-zhen": {
+    "origine": "Chine (Hunan, Junshan)",
+    "notes": "« Aiguilles d'argent de Junshan », île du lac Dongting. Thé jaune rare fait de bourgeons, qui se dressent à la verticale dans le verre. Tasse douce et fruitée."
+  },
+  "yellow-mengding-huang-ya": {
+    "origine": "Chine (Sichuan, Mengding)",
+    "notes": "Thé jaune des monts Mengding, dans le Sichuan, fait de bourgeons plats. Tasse jaune, douce et sucrée."
+  },
+  "yellow-mo-gan-huang-ya": {
+    "origine": "Chine (Zhejiang, Moganshan)",
+    "notes": "Thé jaune du mont Mogan, au nord du Zhejiang. Bourgeons et jeunes feuilles, tasse jaune pâle, douce et fraîche."
+  },
+  "yellow-ping-yang-huang-tang": {
+    "origine": "Chine (Zhejiang, Pingyang)",
+    "notes": "« Soupe jaune » de Pingyang, dans le sud du Zhejiang. Tasse jaune clair, douce et ronde."
+  },
+  "yellow-wei-shan-mao-jian": {
+    "origine": "Chine (Hunan, Weishan)",
+    "notes": "Thé jaune du mont Wei, dans le Hunan, parfois légèrement fumé. Tasse jaune orangé, douce et ronde."
+  },
+  "yellow-yellow-tea-hunan": {
+    "origine": "Chine (Hunan)",
+    "notes": "Thé jaune du Hunan, province du Junshan Yin Zhen et du Beigang Mao Jian. Désignation générale : tasse jaune, douce et ronde."
+  },
+  "yellow-yellow-tea-sichuan": {
+    "origine": "Chine (Sichuan)",
+    "notes": "Thé jaune du Sichuan, souvent des monts Mengding. Désignation générale : tasse jaune, douce et sucrée."
+  },
+  "yellow-yuan-an-lu-yuan": {
+    "origine": "Chine (Hubei, Yuan'an)",
+    "notes": "Thé jaune de Yuan'an, dans le Hubei, aux feuilles en crochets. Tasse jaune, douce et ronde."
+  }
 }

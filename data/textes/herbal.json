@@ -1,111 +1,446 @@
 {
-  "herbal-achillee-blanche": {"origine": "Europe", "notes": "Fleurs blanches d'achillée, très proche de l'achillée millefeuille. Infusion amère et aromatique, aux notes camphrées."},
-  "herbal-achillee-millefeuille": {"origine": "Europe", "notes": "Sommités fleuries d'Achillea millefolium, plante des prés aux feuilles très découpées. Infusion amère et aromatique, aux notes camphrées."},
-  "herbal-ananas-seche": {"origine": null, "notes": "Morceaux d'ananas séchés, surtout utilisés dans les mélanges de fruits. Infusion sucrée et acidulée, bonne glacée."},
-  "herbal-anis-etoile": {"origine": "Chine, Vietnam", "notes": "Fruit en étoile de la badiane de Chine (Illicium verum), au goût puissant d'anis. Ne pas confondre avec la badiane du Japon, toxique : acheter chez un vendeur sûr."},
-  "herbal-anis-vert": {"origine": "Méditerranée", "notes": "Graines d'anis vert (Pimpinella anisum), au goût doux et sucré proche de la réglisse. Se boit seul ou dans les tisanes d'après-repas."},
-  "herbal-aubepine": {"origine": "Europe", "notes": "Fleurs et feuilles d'aubépine, arbuste des haies. Infusion douce et légèrement amère, aux notes florales."},
-  "herbal-baies-d-aubepine": {"origine": "Europe", "notes": "Petits fruits rouges de l'aubépine, séchés. Infusion acidulée et fruitée, légèrement sucrée."},
-  "herbal-baies-de-goji": {"origine": "Chine", "notes": "Baies rouges séchées du lyciet (goji). Infusion douce et légèrement sucrée ; les baies peuvent se manger après infusion."},
-  "herbal-baies-de-sureau": {"origine": "Europe", "notes": "Baies noires séchées du sureau noir. Infusion fruitée et très colorée. Ne jamais consommer les baies crues : toujours séchées ou cuites."},
-  "herbal-barbe-de-mais": {"origine": "Amérique", "notes": "Stigmates (soies) des épis de maïs, séchés. Infusion douce et légère, au goût légèrement sucré."},
-  "herbal-basilic": {"origine": "Asie tropicale", "notes": "Feuilles séchées de basilic. Infusion aromatique et légèrement poivrée ; voir aussi le tulsi, basilic sacré d'Inde."},
-  "herbal-cafe-de-cereales": {"origine": null, "notes": "Boisson à base de céréales et de racines torréfiées (orge, seigle, chicorée…), sans café. Souvent soluble : suivre les indications du paquet."},
-  "herbal-calendula": {"origine": "Europe du Sud", "notes": "Pétales orange du souci des jardins (Calendula officinalis). Infusion douce et légère ; donne de la couleur aux mélanges."},
-  "herbal-camomille": {"origine": "Europe", "notes": "Petites fleurs de camomille matricaire (allemande), la plus courante en tisane. Infusion douce, ronde et légèrement fruitée, aux notes de pomme."},
-  "herbal-camomille-romaine": {"origine": "Europe de l'Ouest", "notes": "Fleurs de camomille romaine (Chamaemelum nobile), différente de la matricaire. Infusion plus amère et plus aromatique."},
-  "herbal-cannelle": {"origine": "Sri Lanka, Chine", "notes": "Écorce de cannelier, en bâtons ou en morceaux. Infusion chaude et sucrée ; la cannelle de Ceylan est plus douce et plus fine que la casse."},
-  "herbal-cardamome": {"origine": "Inde", "notes": "Gousses vertes de cardamome, à écraser légèrement avant infusion. Goût frais, citronné et camphré ; épice phare du chai."},
-  "herbal-chardon-marie": {"origine": "Méditerranée", "notes": "Graines de chardon-Marie, à écraser avant infusion. Infusion au goût amer et peu aromatique."},
-  "herbal-chrysantheme": {"origine": "Chine", "notes": "Fleurs séchées de chrysanthème, très bues en Chine, seules ou avec du thé. Infusion jaune pâle, douce et florale, légèrement miellée."},
-  "herbal-citronnelle": {"origine": "Asie du Sud-Est", "notes": "Tiges de citronnelle (Cymbopogon), herbe tropicale au parfum de citron. Infusion fraîche et parfumée, bonne glacée."},
-  "herbal-clou-de-girofle": {"origine": "Indonésie (Moluques)", "notes": "Boutons floraux séchés du giroflier. Goût puissant, chaud et piquant ; surtout utilisé en petite quantité dans les mélanges épicés."},
-  "herbal-coques-de-cacao": {"origine": "Afrique, Amérique latine", "notes": "Enveloppes des fèves de cacao, récupérées après torréfaction. Infusion au parfum de chocolat, légère et peu sucrée."},
-  "herbal-curcuma": {"origine": "Inde", "notes": "Racine de curcuma séchée, en morceaux ou en poudre. Infusion jaune et terreuse, souvent associée au gingembre et au poivre."},
-  "herbal-cynorrhodon": {"origine": "Europe", "notes": "Fruit de l'églantier (rosier sauvage), séché et concassé. Infusion rouge, acidulée et fruitée."},
-  "herbal-echinacee": {"origine": "Amérique du Nord", "notes": "Racines ou parties aériennes d'échinacée, plante d'Amérique du Nord aux fleurs pourpres. Infusion au goût terreux et légèrement piquant."},
-  "herbal-ecorce-d-orange": {"origine": null, "notes": "Écorces d'orange séchées, douces ou amères. Infusion parfumée et légèrement amère ; souvent ajoutée aux mélanges."},
-  "herbal-fenouil": {"origine": "Méditerranée", "notes": "Graines de fenouil, à écraser légèrement avant infusion. Goût doux et anisé, proche de l'anis vert."},
-  "herbal-feuille-d-olivier": {"origine": "Méditerranée", "notes": "Feuilles séchées d'olivier. Infusion verte, légère et un peu amère."},
-  "herbal-feuille-de-bouleau": {"origine": "Europe", "notes": "Jeunes feuilles de bouleau séchées. Infusion légère, verte et légèrement amère."},
-  "herbal-feuille-de-cassis": {"origine": "Europe", "notes": "Feuilles séchées de cassissier. Infusion parfumée, fruitée et légèrement boisée, au goût de cassis."},
-  "herbal-feuille-de-fraisier": {"origine": "Europe", "notes": "Feuilles séchées de fraisier. Infusion douce et légère, proche d'un thé vert léger, souvent utilisée en mélange."},
-  "herbal-feuille-de-framboisier": {"origine": "Europe", "notes": "Feuilles séchées de framboisier. Infusion douce et ronde, au goût proche d'un thé noir léger."},
-  "herbal-feuille-de-guimauve": {"origine": "Europe", "notes": "Feuilles séchées de guimauve officinale. Infusion douce et légèrement mucilagineuse, peu aromatique."},
-  "herbal-feuille-de-murier": {"origine": "Chine", "notes": "Feuilles séchées de mûrier blanc, bues en Asie de l'Est. Infusion verte et douce, proche d'un thé vert léger."},
-  "herbal-fleur-d-acacia": {"origine": null, "notes": "Fleurs blanches du robinier faux-acacia. Infusion douce et miellée, très parfumée."},
-  "herbal-fleur-d-oranger": {"origine": "Méditerranée", "notes": "Boutons et fleurs séchés du bigaradier. Infusion très parfumée et florale, à doser légèrement."},
-  "herbal-fleur-de-bleuet": {"origine": "Europe", "notes": "Pétales bleus du bleuet des champs. Peu de goût ; surtout utilisés pour colorer les mélanges et l'Earl Grey."},
-  "herbal-fleur-de-bruyere": {"origine": "Europe", "notes": "Sommités fleuries de bruyère (callune). Infusion légère, douce et miellée."},
-  "herbal-fleur-de-coquelicot": {"origine": "Europe", "notes": "Pétales séchés de coquelicot. Infusion rouge, douce et légèrement fruitée ; surtout utilisée en mélange."},
-  "herbal-fleur-de-pois-bleu": {"origine": "Asie du Sud-Est", "notes": "Fleurs de Clitoria ternatea, bues en Thaïlande et en Malaisie. Infusion bleu vif au goût léger, qui vire au violet avec un filet de citron."},
-  "herbal-fleur-de-sureau": {"origine": "Europe", "notes": "Fleurs blanches du sureau noir. Infusion parfumée, florale et légèrement musquée, bonne glacée."},
-  "herbal-fraise-sechee": {"origine": null, "notes": "Morceaux de fraises séchées, surtout utilisés en mélange. Infusion fruitée et légèrement acidulée."},
-  "herbal-fruits-rouges-seches": {"origine": null, "notes": "Mélange de fruits rouges séchés (fraise, framboise, cassis, sureau…), souvent avec de l'hibiscus. Infusion rouge, fruitée et acidulée."},
-  "herbal-gingembre": {"origine": "Asie tropicale", "notes": "Rhizome de gingembre séché, en morceaux ou en tranches. Infusion chaude et piquante, souvent associée au citron."},
-  "herbal-ginseng": {"origine": "Corée, Chine", "notes": "Racine de ginseng (Panax), séchée en tranches. Infusion au goût terreux, légèrement amer puis sucré."},
-  "herbal-guayusa": {"origine": "Équateur (Amazonie)", "notes": "Feuilles d'un houx d'Amazonie (Ilex guayusa), parent du maté. Infusion douce et peu amère, qui contient de la théine."},
-  "herbal-hibiscus": {"origine": "Afrique", "notes": "Calices séchés d'Hibiscus sabdariffa, appelés bissap en Afrique de l'Ouest. Infusion rouge rubis, très acidulée et fruitée, délicieuse glacée."},
-  "herbal-honeybush": {"origine": "Afrique du Sud", "notes": "Feuilles et fleurs d'arbustes du genre Cyclopia, cousin du rooibos. Infusion douce et miellée, aux notes fruitées."},
-  "herbal-honeybush-vanille": {"origine": "Afrique du Sud", "notes": "Honeybush aromatisé à la vanille. Infusion douce, miellée et gourmande."},
-  "herbal-infusion-de-cacao": {"origine": "Afrique, Amérique latine", "notes": "Infusion à base de coques ou d'éclats de fèves de cacao. Parfum de chocolat, sans le gras du chocolat chaud."},
-  "herbal-jiaogulan": {"origine": "Chine", "notes": "Feuilles de Gynostemma pentaphyllum, plante grimpante bue en Chine. Infusion verte, d'abord légèrement amère puis sucrée."},
-  "herbal-kuding": {"origine": "Chine", "notes": "« Thé amer » chinois fait de grandes feuilles roulées (houx ou troène selon les variétés). Infusion très amère qui laisse une note sucrée ; doser léger."},
-  "herbal-lavande": {"origine": "Méditerranée", "notes": "Fleurs de lavande séchées. Infusion très parfumée et florale : doser léger, sinon le goût devient savonneux."},
-  "herbal-mais-grille": {"origine": "Corée", "notes": "Grains de maïs torréfiés, bus en Corée (oksusu-cha). Infusion dorée, douce et grillée, aux notes de pop-corn."},
-  "herbal-mangue-sechee": {"origine": null, "notes": "Morceaux de mangue séchés, surtout utilisés en mélange. Infusion sucrée et fruitée."},
-  "herbal-mate-citron": {"origine": "Amérique du Sud", "notes": "Maté aromatisé au citron. Infusion végétale et vive, qui contient de la théine."},
-  "herbal-mate-torrefie": {"origine": "Amérique du Sud", "notes": "Maté dont les feuilles ont été torréfiées. Infusion ambrée, plus douce et plus ronde que le maté vert, aux notes grillées. Contient de la théine."},
-  "herbal-mate-vert": {"origine": "Amérique du Sud", "notes": "Feuilles de yerba maté (Ilex paraguariensis), bues en Argentine, au Paraguay, en Uruguay et au Brésil. Goût végétal et amer ; contient de la théine."},
-  "herbal-melisse": {"origine": "Méditerranée", "notes": "Feuilles de mélisse, plante de la famille de la menthe au parfum de citron. Infusion douce et fraîche."},
-  "herbal-menthe-marocaine": {"origine": "Maroc", "notes": "Menthe verte (nanah) utilisée au Maroc pour le thé à la menthe. Goût frais et doux, moins mentholé que la menthe poivrée."},
-  "herbal-menthe-poivree": {"origine": "Europe", "notes": "Feuilles de menthe poivrée, riche en menthol. Infusion très fraîche et intense, chaude ou glacée."},
-  "herbal-menthe-verte": {"origine": "Europe", "notes": "Feuilles de menthe verte (Mentha spicata). Infusion fraîche et douce, moins mentholée que la menthe poivrée."},
-  "herbal-moringa": {"origine": "Inde", "notes": "Feuilles séchées de moringa, arbre originaire d'Inde. Infusion verte au goût végétal, proche d'un épinard ou d'un thé vert léger."},
-  "herbal-mugicha-orge-grillee": {"origine": "Japon", "notes": "Orge torréfiée, bue fraîche tout l'été au Japon et en Corée (boricha). Infusion dorée et douce, aux notes de céréales grillées et de café léger."},
-  "herbal-ortie": {"origine": "Europe", "notes": "Feuilles séchées d'ortie. Infusion verte, douce et végétale, proche d'un bouillon d'herbes."},
-  "herbal-osmanthus-osmanthe": {"origine": "Chine", "notes": "Petites fleurs jaunes d'osmanthus odorant. Infusion très parfumée aux notes d'abricot et de miel ; se mêle souvent au thé vert ou à l'oolong."},
-  "herbal-passiflore": {"origine": "Amérique du Nord", "notes": "Parties aériennes séchées de passiflore. Infusion verte, légère et peu aromatique, souvent mélangée à d'autres plantes."},
-  "herbal-petales-de-rose": {"origine": null, "notes": "Pétales et boutons de rose séchés. Infusion florale et douce, à doser légèrement."},
-  "herbal-pissenlit": {"origine": "Europe", "notes": "Racines et feuilles de pissenlit séchées, la racine étant souvent torréfiée. Infusion amère et terreuse, proche de la chicorée."},
-  "herbal-poivre-rose": {"origine": "Amérique du Sud", "notes": "Baies séchées du faux-poivrier. Goût fruité et légèrement piquant ; surtout utilisé en mélange."},
-  "herbal-pomme-sechee": {"origine": null, "notes": "Morceaux de pommes séchés, base de nombreux mélanges de fruits. Infusion douce et sucrée."},
-  "herbal-racine-de-chicoree": {"origine": "Europe", "notes": "Racine de chicorée torréfiée et concassée. Infusion brune et amère, au goût proche du café."},
-  "herbal-racine-de-guimauve": {"origine": "Europe", "notes": "Racine de guimauve officinale, coupée. Infusion douce, légèrement sucrée et épaisse ; traditionnellement préparée à froid."},
-  "herbal-racine-de-reglisse": {"origine": "Méditerranée, Asie", "notes": "Racine de réglisse coupée. Infusion très sucrée et anisée, souvent mélangée à la menthe. À consommer avec modération."},
-  "herbal-reine-des-pres": {"origine": "Europe", "notes": "Sommités fleuries de reine-des-prés, plante des lieux humides. Infusion douce et parfumée, aux notes d'amande et de miel."},
-  "herbal-romarin": {"origine": "Méditerranée", "notes": "Feuilles séchées de romarin. Infusion aromatique, résineuse et légèrement amère."},
-  "herbal-rooibos": {"origine": "Afrique du Sud", "notes": "Feuilles fermentées d'Aspalathus linearis, arbuste de la région du Cederberg. Infusion rouge, douce et ronde, aux notes de miel et de vanille, sans amertume même longuement infusée."},
-  "herbal-rooibos-a-la-menthe": {"origine": "Afrique du Sud", "notes": "Rooibos mélangé à de la menthe. Infusion douce et fraîche, chaude ou glacée."},
-  "herbal-rooibos-caramel": {"origine": "Afrique du Sud", "notes": "Rooibos aromatisé au caramel. Infusion douce et gourmande, qui se prête au lait."},
-  "herbal-rooibos-chai": {"origine": "Afrique du Sud", "notes": "Rooibos mélangé aux épices du chai (cannelle, gingembre, cardamome…). Infusion épicée et douce, bonne avec du lait."},
-  "herbal-rooibos-citron": {"origine": "Afrique du Sud", "notes": "Rooibos aromatisé au citron. Infusion douce et vive, bonne glacée."},
-  "herbal-rooibos-epices": {"origine": "Afrique du Sud", "notes": "Rooibos mélangé à des épices. Infusion chaleureuse et douce, appréciée en hiver."},
-  "herbal-rooibos-fruits-rouges": {"origine": "Afrique du Sud", "notes": "Rooibos aromatisé aux fruits rouges. Infusion fruitée et douce, bonne glacée."},
-  "herbal-rooibos-orange": {"origine": "Afrique du Sud", "notes": "Rooibos aromatisé à l'orange. Infusion douce et fruitée."},
-  "herbal-rooibos-vanille": {"origine": "Afrique du Sud", "notes": "Rooibos aromatisé à la vanille. Infusion ronde et gourmande, qui se prête au lait."},
-  "herbal-rooibos-vert": {"origine": "Afrique du Sud", "notes": "Rooibos non fermenté, séché aussitôt après la récolte. Infusion dorée, plus légère et plus végétale que le rooibos rouge."},
-  "herbal-sauge": {"origine": "Méditerranée", "notes": "Feuilles de sauge officinale. Infusion aromatique, camphrée et légèrement amère. À consommer avec modération."},
-  "herbal-sobacha-sarrasin-torrefie": {"origine": "Japon", "notes": "Graines de sarrasin torréfiées, bues au Japon. Infusion dorée aux notes de noisette et de céréales grillées ; les grains se mangent après infusion."},
-  "herbal-thym": {"origine": "Méditerranée", "notes": "Brins de thym séchés. Infusion aromatique et chaude, légèrement poivrée."},
-  "herbal-tilleul": {"origine": "Europe", "notes": "Fleurs et bractées de tilleul séchées. Infusion douce, florale et miellée, traditionnelle le soir en France."},
-  "herbal-tisane-au-citron": {"origine": null, "notes": "Mélange de plantes au goût de citron (verveine, mélisse, citronnelle, écorces…). Infusion fraîche et douce. Composition variable."},
-  "herbal-tisane-de-fleurs": {"origine": null, "notes": "Mélange de fleurs séchées (tilleul, camomille, rose, bleuet…). Infusion douce et florale. Composition variable."},
-  "herbal-tisane-de-noel": {"origine": null, "notes": "Mélange de saison aux fruits et épices (pomme, orange, cannelle, clou de girofle…). Infusion chaude et gourmande. Composition variable."},
-  "herbal-tisane-digestive": {"origine": null, "notes": "Mélange de plantes traditionnellement bues après le repas (menthe, fenouil, anis, verveine…). Infusion fraîche et anisée. Composition variable."},
-  "herbal-tisane-du-soir": {"origine": null, "notes": "Mélange de plantes traditionnellement bues le soir (tilleul, verveine, camomille, mélisse…). Infusion douce et florale. Composition variable."},
-  "herbal-tisane-fruits-des-bois": {"origine": null, "notes": "Mélange de fruits des bois séchés (mûre, myrtille, framboise…), souvent avec de l'hibiscus. Infusion fruitée et acidulée. Composition variable."},
-  "herbal-tisane-fruits-rouges": {"origine": null, "notes": "Mélange de fruits rouges séchés, souvent avec hibiscus et pomme. Infusion rouge, fruitée et acidulée, bonne glacée. Composition variable."},
-  "herbal-tisane-gingembre-citron": {"origine": null, "notes": "Mélange de gingembre et de citron (écorces, citronnelle…). Infusion chaude, vive et piquante."},
-  "herbal-tisane-menthe-citron": {"origine": null, "notes": "Mélange de menthe et de plantes citronnées. Infusion fraîche et vive, chaude ou glacée."},
-  "herbal-tisane-pomme-cannelle": {"origine": null, "notes": "Mélange de morceaux de pomme et de cannelle. Infusion douce, sucrée et épicée."},
-  "herbal-tisane-reglisse-menthe": {"origine": null, "notes": "Mélange de réglisse et de menthe. Infusion sucrée et fraîche. À consommer avec modération en raison de la réglisse."},
-  "herbal-tulsi": {"origine": "Inde", "notes": "Basilic sacré d'Inde (Ocimum tenuiflorum). Infusion aromatique et poivrée, aux notes de clou de girofle."},
-  "herbal-tulsi-krishna": {"origine": "Inde", "notes": "Variété de tulsi aux feuilles violacées. Infusion plus poivrée et plus intense que le tulsi vert."},
-  "herbal-tulsi-rama": {"origine": "Inde", "notes": "Variété de tulsi aux feuilles vertes. Infusion douce, fraîche et légèrement mentholée."},
-  "herbal-tulsi-vana": {"origine": "Inde", "notes": "Tulsi sauvage (Ocimum gratissimum). Infusion très aromatique, aux notes citronnées et herbacées."},
-  "herbal-valeriane": {"origine": "Europe, Asie", "notes": "Racine de valériane séchée. Odeur forte et terreuse peu appréciée ; souvent mélangée à d'autres plantes pour l'adoucir."},
-  "herbal-verveine-citronnelle": {"origine": "Amérique du Sud", "notes": "Feuilles de verveine odorante (Aloysia citrodora). Infusion très parfumée au citron, fraîche et douce ; très bue en France."},
-  "herbal-yaupon": {"origine": "Sud-est des États-Unis", "notes": "Feuilles d'un houx d'Amérique du Nord (Ilex vomitoria), parent du maté. Infusion douce et peu amère, proche d'un thé vert léger ; contient de la théine."},
-  "herbal-zeste-de-citron": {"origine": null, "notes": "Écorces de citron séchées. Infusion vive et parfumée ; surtout utilisées en mélange."}
+  "herbal-achillee-blanche": {
+    "origine": "Europe",
+    "notes": "Fleurs blanches d'achillée, très proche de l'achillée millefeuille. Infusion amère et aromatique, aux notes camphrées."
+  },
+  "herbal-achillee-millefeuille": {
+    "origine": "Europe",
+    "notes": "Sommités fleuries d'Achillea millefolium, plante des prés aux feuilles très découpées. Infusion amère et aromatique, aux notes camphrées."
+  },
+  "herbal-ananas-seche": {
+    "origine": null,
+    "notes": "Morceaux d'ananas séchés, surtout utilisés dans les mélanges de fruits. Infusion sucrée et acidulée, bonne glacée."
+  },
+  "herbal-anis-etoile": {
+    "origine": "Chine, Vietnam",
+    "notes": "Fruit en étoile de la badiane de Chine (Illicium verum), au goût puissant d'anis. Ne pas confondre avec la badiane du Japon, toxique : acheter chez un vendeur sûr."
+  },
+  "herbal-anis-vert": {
+    "origine": "Méditerranée",
+    "notes": "Graines d'anis vert (Pimpinella anisum), au goût doux et sucré proche de la réglisse. Se boit seul ou dans les tisanes d'après-repas."
+  },
+  "herbal-aubepine": {
+    "origine": "Europe",
+    "notes": "Fleurs et feuilles d'aubépine, arbuste des haies. Infusion douce et légèrement amère, aux notes florales."
+  },
+  "herbal-baies-d-aubepine": {
+    "origine": "Europe",
+    "notes": "Petits fruits rouges de l'aubépine, séchés. Infusion acidulée et fruitée, légèrement sucrée."
+  },
+  "herbal-baies-de-goji": {
+    "origine": "Chine",
+    "notes": "Baies rouges séchées du lyciet (goji). Infusion douce et légèrement sucrée ; les baies peuvent se manger après infusion."
+  },
+  "herbal-baies-de-sureau": {
+    "origine": "Europe",
+    "notes": "Baies noires séchées du sureau noir. Infusion fruitée et très colorée. Ne jamais consommer les baies crues : toujours séchées ou cuites."
+  },
+  "herbal-barbe-de-mais": {
+    "origine": "Amérique",
+    "notes": "Stigmates (soies) des épis de maïs, séchés. Infusion douce et légère, au goût légèrement sucré."
+  },
+  "herbal-basilic": {
+    "origine": "Asie tropicale",
+    "notes": "Feuilles séchées de basilic. Infusion aromatique et légèrement poivrée ; voir aussi le tulsi, basilic sacré d'Inde."
+  },
+  "herbal-cafe-de-cereales": {
+    "origine": null,
+    "notes": "Boisson à base de céréales et de racines torréfiées (orge, seigle, chicorée…), sans café. Souvent soluble : suivre les indications du paquet."
+  },
+  "herbal-calendula": {
+    "origine": "Europe du Sud",
+    "notes": "Pétales orange du souci des jardins (Calendula officinalis). Infusion douce et légère ; donne de la couleur aux mélanges."
+  },
+  "herbal-camomille": {
+    "origine": "Europe",
+    "notes": "Petites fleurs de camomille matricaire (allemande), la plus courante en tisane. Infusion douce, ronde et légèrement fruitée, aux notes de pomme."
+  },
+  "herbal-camomille-romaine": {
+    "origine": "Europe de l'Ouest",
+    "notes": "Fleurs de camomille romaine (Chamaemelum nobile), différente de la matricaire. Infusion plus amère et plus aromatique."
+  },
+  "herbal-cannelle": {
+    "origine": "Sri Lanka, Chine",
+    "notes": "Écorce de cannelier, en bâtons ou en morceaux. Infusion chaude et sucrée ; la cannelle de Ceylan est plus douce et plus fine que la casse."
+  },
+  "herbal-cardamome": {
+    "origine": "Inde",
+    "notes": "Gousses vertes de cardamome, à écraser légèrement avant infusion. Goût frais, citronné et camphré ; épice phare du chai."
+  },
+  "herbal-chardon-marie": {
+    "origine": "Méditerranée",
+    "notes": "Graines de chardon-Marie, à écraser avant infusion. Infusion au goût amer et peu aromatique."
+  },
+  "herbal-chrysantheme": {
+    "origine": "Chine",
+    "notes": "Fleurs séchées de chrysanthème, très bues en Chine, seules ou avec du thé. Infusion jaune pâle, douce et florale, légèrement miellée."
+  },
+  "herbal-citronnelle": {
+    "origine": "Asie du Sud-Est",
+    "notes": "Tiges de citronnelle (Cymbopogon), herbe tropicale au parfum de citron. Infusion fraîche et parfumée, bonne glacée."
+  },
+  "herbal-clou-de-girofle": {
+    "origine": "Indonésie (Moluques)",
+    "notes": "Boutons floraux séchés du giroflier. Goût puissant, chaud et piquant ; surtout utilisé en petite quantité dans les mélanges épicés."
+  },
+  "herbal-coques-de-cacao": {
+    "origine": "Afrique, Amérique latine",
+    "notes": "Enveloppes des fèves de cacao, récupérées après torréfaction. Infusion au parfum de chocolat, légère et peu sucrée."
+  },
+  "herbal-curcuma": {
+    "origine": "Inde",
+    "notes": "Racine de curcuma séchée, en morceaux ou en poudre. Infusion jaune et terreuse, souvent associée au gingembre et au poivre."
+  },
+  "herbal-cynorrhodon": {
+    "origine": "Europe",
+    "notes": "Fruit de l'églantier (rosier sauvage), séché et concassé. Infusion rouge, acidulée et fruitée."
+  },
+  "herbal-echinacee": {
+    "origine": "Amérique du Nord",
+    "notes": "Racines ou parties aériennes d'échinacée, plante d'Amérique du Nord aux fleurs pourpres. Infusion au goût terreux et légèrement piquant."
+  },
+  "herbal-ecorce-d-orange": {
+    "origine": null,
+    "notes": "Écorces d'orange séchées, douces ou amères. Infusion parfumée et légèrement amère ; souvent ajoutée aux mélanges."
+  },
+  "herbal-fenouil": {
+    "origine": "Méditerranée",
+    "notes": "Graines de fenouil, à écraser légèrement avant infusion. Goût doux et anisé, proche de l'anis vert."
+  },
+  "herbal-feuille-d-olivier": {
+    "origine": "Méditerranée",
+    "notes": "Feuilles séchées d'olivier. Infusion verte, légère et un peu amère."
+  },
+  "herbal-feuille-de-bouleau": {
+    "origine": "Europe",
+    "notes": "Jeunes feuilles de bouleau séchées. Infusion légère, verte et légèrement amère."
+  },
+  "herbal-feuille-de-cassis": {
+    "origine": "Europe",
+    "notes": "Feuilles séchées de cassissier. Infusion parfumée, fruitée et légèrement boisée, au goût de cassis."
+  },
+  "herbal-feuille-de-fraisier": {
+    "origine": "Europe",
+    "notes": "Feuilles séchées de fraisier. Infusion douce et légère, proche d'un thé vert léger, souvent utilisée en mélange."
+  },
+  "herbal-feuille-de-framboisier": {
+    "origine": "Europe",
+    "notes": "Feuilles séchées de framboisier. Infusion douce et ronde, au goût proche d'un thé noir léger."
+  },
+  "herbal-feuille-de-guimauve": {
+    "origine": "Europe",
+    "notes": "Feuilles séchées de guimauve officinale. Infusion douce et légèrement mucilagineuse, peu aromatique."
+  },
+  "herbal-feuille-de-murier": {
+    "origine": "Chine",
+    "notes": "Feuilles séchées de mûrier blanc, bues en Asie de l'Est. Infusion verte et douce, proche d'un thé vert léger."
+  },
+  "herbal-fleur-d-acacia": {
+    "origine": null,
+    "notes": "Fleurs blanches du robinier faux-acacia. Infusion douce et miellée, très parfumée."
+  },
+  "herbal-fleur-d-oranger": {
+    "origine": "Méditerranée",
+    "notes": "Boutons et fleurs séchés du bigaradier. Infusion très parfumée et florale, à doser légèrement."
+  },
+  "herbal-fleur-de-bleuet": {
+    "origine": "Europe",
+    "notes": "Pétales bleus du bleuet des champs. Peu de goût ; surtout utilisés pour colorer les mélanges et l'Earl Grey."
+  },
+  "herbal-fleur-de-bruyere": {
+    "origine": "Europe",
+    "notes": "Sommités fleuries de bruyère (callune). Infusion légère, douce et miellée."
+  },
+  "herbal-fleur-de-coquelicot": {
+    "origine": "Europe",
+    "notes": "Pétales séchés de coquelicot. Infusion rouge, douce et légèrement fruitée ; surtout utilisée en mélange."
+  },
+  "herbal-fleur-de-pois-bleu": {
+    "origine": "Asie du Sud-Est",
+    "notes": "Fleurs de Clitoria ternatea, bues en Thaïlande et en Malaisie. Infusion bleu vif au goût léger, qui vire au violet avec un filet de citron."
+  },
+  "herbal-fleur-de-sureau": {
+    "origine": "Europe",
+    "notes": "Fleurs blanches du sureau noir. Infusion parfumée, florale et légèrement musquée, bonne glacée."
+  },
+  "herbal-fraise-sechee": {
+    "origine": null,
+    "notes": "Morceaux de fraises séchées, surtout utilisés en mélange. Infusion fruitée et légèrement acidulée."
+  },
+  "herbal-fruits-rouges-seches": {
+    "origine": null,
+    "notes": "Mélange de fruits rouges séchés (fraise, framboise, cassis, sureau…), souvent avec de l'hibiscus. Infusion rouge, fruitée et acidulée."
+  },
+  "herbal-gingembre": {
+    "origine": "Asie tropicale",
+    "notes": "Rhizome de gingembre séché, en morceaux ou en tranches. Infusion chaude et piquante, souvent associée au citron."
+  },
+  "herbal-ginseng": {
+    "origine": "Corée, Chine",
+    "notes": "Racine de ginseng (Panax), séchée en tranches. Infusion au goût terreux, légèrement amer puis sucré."
+  },
+  "herbal-guayusa": {
+    "origine": "Équateur (Amazonie)",
+    "notes": "Feuilles d'un houx d'Amazonie (Ilex guayusa), parent du maté. Infusion douce et peu amère, qui contient de la théine."
+  },
+  "herbal-hibiscus": {
+    "origine": "Afrique",
+    "notes": "Calices séchés d'Hibiscus sabdariffa, appelés bissap en Afrique de l'Ouest. Infusion rouge rubis, très acidulée et fruitée, délicieuse glacée."
+  },
+  "herbal-honeybush": {
+    "origine": "Afrique du Sud",
+    "notes": "Feuilles et fleurs d'arbustes du genre Cyclopia, cousin du rooibos. Infusion douce et miellée, aux notes fruitées."
+  },
+  "herbal-honeybush-vanille": {
+    "origine": "Afrique du Sud",
+    "notes": "Honeybush aromatisé à la vanille. Infusion douce, miellée et gourmande."
+  },
+  "herbal-infusion-de-cacao": {
+    "origine": "Afrique, Amérique latine",
+    "notes": "Infusion à base de coques ou d'éclats de fèves de cacao. Parfum de chocolat, sans le gras du chocolat chaud."
+  },
+  "herbal-jiaogulan": {
+    "origine": "Chine",
+    "notes": "Feuilles de Gynostemma pentaphyllum, plante grimpante bue en Chine. Infusion verte, d'abord légèrement amère puis sucrée."
+  },
+  "herbal-kuding": {
+    "origine": "Chine",
+    "notes": "« Thé amer » chinois fait de grandes feuilles roulées (houx ou troène selon les variétés). Infusion très amère qui laisse une note sucrée ; doser léger."
+  },
+  "herbal-lavande": {
+    "origine": "Méditerranée",
+    "notes": "Fleurs de lavande séchées. Infusion très parfumée et florale : doser léger, sinon le goût devient savonneux."
+  },
+  "herbal-mais-grille": {
+    "origine": "Corée",
+    "notes": "Grains de maïs torréfiés, bus en Corée (oksusu-cha). Infusion dorée, douce et grillée, aux notes de pop-corn."
+  },
+  "herbal-mangue-sechee": {
+    "origine": null,
+    "notes": "Morceaux de mangue séchés, surtout utilisés en mélange. Infusion sucrée et fruitée."
+  },
+  "herbal-mate-citron": {
+    "origine": "Amérique du Sud",
+    "notes": "Maté aromatisé au citron. Infusion végétale et vive, qui contient de la théine."
+  },
+  "herbal-mate-torrefie": {
+    "origine": "Amérique du Sud",
+    "notes": "Maté dont les feuilles ont été torréfiées. Infusion ambrée, plus douce et plus ronde que le maté vert, aux notes grillées. Contient de la théine."
+  },
+  "herbal-mate-vert": {
+    "origine": "Amérique du Sud",
+    "notes": "Feuilles de yerba maté (Ilex paraguariensis), bues en Argentine, au Paraguay, en Uruguay et au Brésil. Goût végétal et amer ; contient de la théine."
+  },
+  "herbal-melisse": {
+    "origine": "Méditerranée",
+    "notes": "Feuilles de mélisse, plante de la famille de la menthe au parfum de citron. Infusion douce et fraîche."
+  },
+  "herbal-menthe-marocaine": {
+    "origine": "Maroc",
+    "notes": "Menthe verte (nanah) utilisée au Maroc pour le thé à la menthe. Goût frais et doux, moins mentholé que la menthe poivrée."
+  },
+  "herbal-menthe-poivree": {
+    "origine": "Europe",
+    "notes": "Feuilles de menthe poivrée, riche en menthol. Infusion très fraîche et intense, chaude ou glacée."
+  },
+  "herbal-menthe-verte": {
+    "origine": "Europe",
+    "notes": "Feuilles de menthe verte (Mentha spicata). Infusion fraîche et douce, moins mentholée que la menthe poivrée."
+  },
+  "herbal-moringa": {
+    "origine": "Inde",
+    "notes": "Feuilles séchées de moringa, arbre originaire d'Inde. Infusion verte au goût végétal, proche d'un épinard ou d'un thé vert léger."
+  },
+  "herbal-mugicha-orge-grillee": {
+    "origine": "Japon",
+    "notes": "Orge torréfiée, bue fraîche tout l'été au Japon et en Corée (boricha). Infusion dorée et douce, aux notes de céréales grillées et de café léger."
+  },
+  "herbal-ortie": {
+    "origine": "Europe",
+    "notes": "Feuilles séchées d'ortie. Infusion verte, douce et végétale, proche d'un bouillon d'herbes."
+  },
+  "herbal-osmanthus-osmanthe": {
+    "origine": "Chine",
+    "notes": "Petites fleurs jaunes d'osmanthus odorant. Infusion très parfumée aux notes d'abricot et de miel ; se mêle souvent au thé vert ou à l'oolong."
+  },
+  "herbal-passiflore": {
+    "origine": "Amérique du Nord",
+    "notes": "Parties aériennes séchées de passiflore. Infusion verte, légère et peu aromatique, souvent mélangée à d'autres plantes."
+  },
+  "herbal-petales-de-rose": {
+    "origine": null,
+    "notes": "Pétales et boutons de rose séchés. Infusion florale et douce, à doser légèrement."
+  },
+  "herbal-pissenlit": {
+    "origine": "Europe",
+    "notes": "Racines et feuilles de pissenlit séchées, la racine étant souvent torréfiée. Infusion amère et terreuse, proche de la chicorée."
+  },
+  "herbal-poivre-rose": {
+    "origine": "Amérique du Sud",
+    "notes": "Baies séchées du faux-poivrier. Goût fruité et légèrement piquant ; surtout utilisé en mélange."
+  },
+  "herbal-pomme-sechee": {
+    "origine": null,
+    "notes": "Morceaux de pommes séchés, base de nombreux mélanges de fruits. Infusion douce et sucrée."
+  },
+  "herbal-racine-de-chicoree": {
+    "origine": "Europe",
+    "notes": "Racine de chicorée torréfiée et concassée. Infusion brune et amère, au goût proche du café."
+  },
+  "herbal-racine-de-guimauve": {
+    "origine": "Europe",
+    "notes": "Racine de guimauve officinale, coupée. Infusion douce, légèrement sucrée et épaisse ; traditionnellement préparée à froid."
+  },
+  "herbal-racine-de-reglisse": {
+    "origine": "Méditerranée, Asie",
+    "notes": "Racine de réglisse coupée. Infusion très sucrée et anisée, souvent mélangée à la menthe. À consommer avec modération."
+  },
+  "herbal-reine-des-pres": {
+    "origine": "Europe",
+    "notes": "Sommités fleuries de reine-des-prés, plante des lieux humides. Infusion douce et parfumée, aux notes d'amande et de miel."
+  },
+  "herbal-romarin": {
+    "origine": "Méditerranée",
+    "notes": "Feuilles séchées de romarin. Infusion aromatique, résineuse et légèrement amère."
+  },
+  "herbal-rooibos": {
+    "origine": "Afrique du Sud",
+    "notes": "Feuilles fermentées d'Aspalathus linearis, arbuste de la région du Cederberg. Infusion rouge, douce et ronde, aux notes de miel et de vanille, sans amertume même longuement infusée."
+  },
+  "herbal-rooibos-a-la-menthe": {
+    "origine": "Afrique du Sud",
+    "notes": "Rooibos mélangé à de la menthe. Infusion douce et fraîche, chaude ou glacée."
+  },
+  "herbal-rooibos-caramel": {
+    "origine": "Afrique du Sud",
+    "notes": "Rooibos aromatisé au caramel. Infusion douce et gourmande, qui se prête au lait."
+  },
+  "herbal-rooibos-chai": {
+    "origine": "Afrique du Sud",
+    "notes": "Rooibos mélangé aux épices du chai (cannelle, gingembre, cardamome…). Infusion épicée et douce, bonne avec du lait."
+  },
+  "herbal-rooibos-citron": {
+    "origine": "Afrique du Sud",
+    "notes": "Rooibos aromatisé au citron. Infusion douce et vive, bonne glacée."
+  },
+  "herbal-rooibos-citron-gingembre": {
+    "origine": "Afrique du Sud (Cederberg)",
+    "notes": "Rooibos du Cederberg avec citronnelle, gingembre et arômes de citron. Tasse cuivrée, fraîche et légèrement piquante, bonne chaude comme glacée."
+  },
+  "herbal-rooibos-epices": {
+    "origine": "Afrique du Sud",
+    "notes": "Rooibos mélangé à des épices. Infusion chaleureuse et douce, appréciée en hiver."
+  },
+  "herbal-rooibos-fruits-rouges": {
+    "origine": "Afrique du Sud",
+    "notes": "Rooibos aromatisé aux fruits rouges. Infusion fruitée et douce, bonne glacée."
+  },
+  "herbal-rooibos-orange": {
+    "origine": "Afrique du Sud",
+    "notes": "Rooibos aromatisé à l'orange. Infusion douce et fruitée."
+  },
+  "herbal-rooibos-vanille": {
+    "origine": "Afrique du Sud",
+    "notes": "Rooibos aromatisé à la vanille. Infusion ronde et gourmande, qui se prête au lait."
+  },
+  "herbal-rooibos-vanille-amande": {
+    "origine": "Afrique du Sud (Cederberg)",
+    "notes": "Rooibos du Cederberg parfumé à la vanille et à l'amande. Tasse ambrée, douce et sucrée, sans théine, qui se boit à toute heure ou en dessert."
+  },
+  "herbal-rooibos-vert": {
+    "origine": "Afrique du Sud",
+    "notes": "Rooibos non fermenté, séché aussitôt après la récolte. Infusion dorée, plus légère et plus végétale que le rooibos rouge."
+  },
+  "herbal-sauge": {
+    "origine": "Méditerranée",
+    "notes": "Feuilles de sauge officinale. Infusion aromatique, camphrée et légèrement amère. À consommer avec modération."
+  },
+  "herbal-sobacha-sarrasin-torrefie": {
+    "origine": "Japon",
+    "notes": "Graines de sarrasin torréfiées, bues au Japon. Infusion dorée aux notes de noisette et de céréales grillées ; les grains se mangent après infusion."
+  },
+  "herbal-thym": {
+    "origine": "Méditerranée",
+    "notes": "Brins de thym séchés. Infusion aromatique et chaude, légèrement poivrée."
+  },
+  "herbal-tilleul": {
+    "origine": "Europe",
+    "notes": "Fleurs et bractées de tilleul séchées. Infusion douce, florale et miellée, traditionnelle le soir en France."
+  },
+  "herbal-tisane-au-citron": {
+    "origine": null,
+    "notes": "Mélange de plantes au goût de citron (verveine, mélisse, citronnelle, écorces…). Infusion fraîche et douce. Composition variable."
+  },
+  "herbal-tisane-de-fleurs": {
+    "origine": null,
+    "notes": "Mélange de fleurs séchées (tilleul, camomille, rose, bleuet…). Infusion douce et florale. Composition variable."
+  },
+  "herbal-tisane-de-noel": {
+    "origine": null,
+    "notes": "Mélange de saison aux fruits et épices (pomme, orange, cannelle, clou de girofle…). Infusion chaude et gourmande. Composition variable."
+  },
+  "herbal-tisane-digestive": {
+    "origine": null,
+    "notes": "Mélange de plantes traditionnellement bues après le repas (menthe, fenouil, anis, verveine…). Infusion fraîche et anisée. Composition variable."
+  },
+  "herbal-tisane-du-soir": {
+    "origine": null,
+    "notes": "Mélange de plantes traditionnellement bues le soir (tilleul, verveine, camomille, mélisse…). Infusion douce et florale. Composition variable."
+  },
+  "herbal-tisane-fruits-des-bois": {
+    "origine": null,
+    "notes": "Mélange de fruits des bois séchés (mûre, myrtille, framboise…), souvent avec de l'hibiscus. Infusion fruitée et acidulée. Composition variable."
+  },
+  "herbal-tisane-fruits-rouges": {
+    "origine": null,
+    "notes": "Mélange de fruits rouges séchés, souvent avec hibiscus et pomme. Infusion rouge, fruitée et acidulée, bonne glacée. Composition variable."
+  },
+  "herbal-tisane-gingembre-citron": {
+    "origine": null,
+    "notes": "Mélange de gingembre et de citron (écorces, citronnelle…). Infusion chaude, vive et piquante."
+  },
+  "herbal-tisane-menthe-citron": {
+    "origine": null,
+    "notes": "Mélange de menthe et de plantes citronnées. Infusion fraîche et vive, chaude ou glacée."
+  },
+  "herbal-tisane-pomme-cannelle": {
+    "origine": null,
+    "notes": "Mélange de morceaux de pomme et de cannelle. Infusion douce, sucrée et épicée."
+  },
+  "herbal-tisane-reglisse-menthe": {
+    "origine": null,
+    "notes": "Mélange de réglisse et de menthe. Infusion sucrée et fraîche. À consommer avec modération en raison de la réglisse."
+  },
+  "herbal-tulsi": {
+    "origine": "Inde",
+    "notes": "Basilic sacré d'Inde (Ocimum tenuiflorum). Infusion aromatique et poivrée, aux notes de clou de girofle."
+  },
+  "herbal-tulsi-krishna": {
+    "origine": "Inde",
+    "notes": "Variété de tulsi aux feuilles violacées. Infusion plus poivrée et plus intense que le tulsi vert."
+  },
+  "herbal-tulsi-rama": {
+    "origine": "Inde",
+    "notes": "Variété de tulsi aux feuilles vertes. Infusion douce, fraîche et légèrement mentholée."
+  },
+  "herbal-tulsi-vana": {
+    "origine": "Inde",
+    "notes": "Tulsi sauvage (Ocimum gratissimum). Infusion très aromatique, aux notes citronnées et herbacées."
+  },
+  "herbal-valeriane": {
+    "origine": "Europe, Asie",
+    "notes": "Racine de valériane séchée. Odeur forte et terreuse peu appréciée ; souvent mélangée à d'autres plantes pour l'adoucir."
+  },
+  "herbal-verveine-citronnelle": {
+    "origine": "Amérique du Sud",
+    "notes": "Feuilles de verveine odorante (Aloysia citrodora). Infusion très parfumée au citron, fraîche et douce ; très bue en France."
+  },
+  "herbal-yaupon": {
+    "origine": "Sud-est des États-Unis",
+    "notes": "Feuilles d'un houx d'Amérique du Nord (Ilex vomitoria), parent du maté. Infusion douce et peu amère, proche d'un thé vert léger ; contient de la théine."
+  },
+  "herbal-zeste-de-citron": {
+    "origine": null,
+    "notes": "Écorces de citron séchées. Infusion vive et parfumée ; surtout utilisées en mélange."
+  }
 }

@@ -1031,7 +1031,8 @@
         "black-the-noir-au-caramel",
         "black-the-noir-au-citron",
         "black-the-noir-aux-epices",
-        "black-the-noir-aux-fruits-rouges"
+        "black-the-noir-aux-fruits-rouges",
+        "black-the-noir-chocolat-orange"
       ],
       "sources": [
         {
@@ -2001,7 +2002,16 @@
         "green-the-vert-a-la-mangue",
         "green-the-vert-a-la-noix-de-coco",
         "green-the-vert-a-la-rose",
-        "green-the-vert-au-litchi"
+        "green-the-vert-au-litchi",
+        "green-the-vert-au-yuzu",
+        "green-the-vert-amande-coco",
+        "green-the-vert-vanille-cerisier",
+        "green-the-vert-a-la-cerise",
+        "green-the-vert-mangue-ananas",
+        "green-the-vert-aux-fruits-rouges",
+        "green-the-vert-aux-agrumes",
+        "green-the-vert-fruit-du-dragon",
+        "green-the-vert-fruits-du-soleil"
       ],
       "sources": [
         {
@@ -3260,7 +3270,10 @@
         "white-the-blanc-au-citron",
         "white-the-blanc-au-jasmin",
         "white-the-blanc-au-litchi",
-        "white-the-blanc-aux-fleurs-de-pecher"
+        "white-the-blanc-aux-fleurs-de-pecher",
+        "white-the-blanc-fruits-exotiques",
+        "white-the-blanc-fleur-d-oranger",
+        "white-the-blanc-au-yuzu"
       ],
       "sources": [
         {
@@ -4822,7 +4835,9 @@
         "herbal-rooibos-vanille",
         "herbal-rooibos-vert",
         "herbal-honeybush",
-        "herbal-honeybush-vanille"
+        "herbal-honeybush-vanille",
+        "herbal-rooibos-vanille-amande",
+        "herbal-rooibos-citron-gingembre"
       ],
       "sources": [
         {
