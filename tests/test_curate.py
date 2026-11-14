@@ -50,7 +50,8 @@ class CurateTests(unittest.TestCase):
         cls.app = json.loads(cls.app_text)
         cls.app_by_id = {t["id"]: t for t in cls.app}
         cls.redirections = json.loads((ROOT / "docs" / "redirections.json").read_text(encoding="utf-8"))
-        cls.test_id = next(e["id"] for e in cls.catalog["entries"] if e["status"] == "active")
+        cls.test_id = next(e["id"] for e in cls.catalog["entries"]
+                          if e["status"] == "active" and e["id"] not in cls.cur["photos"]["photos"])
         cls.photos_without = {k: v for k, v in cls.photos.items() if k != cls.test_id}
 
     def curate(self, cur=None, photos=None, catalog=None):

@@ -23,7 +23,7 @@ Catalogue de thés et de tisanes en français : pour chaque fiche, la dose, la t
 
 Une recette d'infusion vient d'une page publiée par un producteur ou un marchand de thé, indiquée dans le champ `source` de chaque fiche. Les thés d'un même style (par exemple les tisanes de fleurs) partagent une recette calculée à partir de plusieurs maisons : la médiane des valeurs, une voix par maison. Une fiche sans recette sourcée est marquée `family_default` et doit être présentée comme une estimation.
 
-Une fiche sans image a `photo` à `null` : l'appli affiche alors sa propre vignette. Les illustrations générées par IA ne sont pas des photos du produit : `photo_exacte` vaut `false`. Les vraies photos (`photo_exacte` à `true`) viennent de Wikimedia Commons ; leur auteur, leur licence et leur page d'origine sont dans `data/photos.json`.
+Une fiche sans image a `photo` à `null` : l'appli affiche alors sa propre vignette. Toutes les images sont de vraies photos sous licence libre, venues de Wikimedia Commons ; leur auteur, leur licence et leur page d'origine sont dans `data/photos.json`. `photo_exacte` vaut `true` quand la photo montre bien ce thé, et `false` quand elle montre un thé proche ou qu'elle a été retouchée.
 
 Les tisanes à usage médicinal portent un champ `precaution`. Le catalogue ne donne aucun avis médical. Les tisanes se préparent à l'eau bouillante (recommandation du BfR) ; les thés ont en plus une recette d'infusion à froid (champ `froid`), calculée de la même façon à partir de plusieurs maisons.
 
@@ -74,6 +74,6 @@ Le dossier `travail/` est ignoré par git.
 
 ## Licences
 
-Le code (`scripts/`, `tests/`) est sous licence MIT, voir [LICENSE](LICENSE). Le catalogue, les textes et les illustrations générées sont sous licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.fr), avec le crédit « Théothèque ». Les vraies photos gardent la licence de leur auteur (CC BY-SA 3.0 ou 4.0), indiquée dans le champ `photo_credit` et dans `data/photos.json`.
+Le code (`scripts/`, `tests/`) est sous licence MIT, voir [LICENSE](LICENSE). Le catalogue et les textes sont sous licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.fr), avec le crédit « Théothèque ». Les photos gardent la licence de leur auteur (CC0, domaine public, CC BY ou CC BY-SA), indiquée dans le champ `photo_credit` et dans `data/photos.json`.
 
 Les recettes viennent de pages publiées par des marchands et des sites de thé, citées dans le champ `source` de chaque fiche. Ces sources, leurs marques, leurs noms de produits et leurs textes restent la propriété de leurs auteurs et ne sont pas couverts par cette licence.

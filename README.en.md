@@ -23,7 +23,7 @@ A catalogue of teas and herbal infusions in French. Each entry gives the dose, w
 
 A brewing recipe comes from a page published by a tea producer or merchant, given in each entry's `source` field. Teas of the same style (for example flower infusions) share a recipe computed from several houses: the median of the values, one vote per house. An entry without a sourced recipe is marked `family_default` and should be presented as an estimate.
 
-An entry without an image has `photo` set to `null`: the app then shows its own placeholder. AI-generated illustrations are not photos of the actual product, so `photo_exacte` is `false`. Real photos (`photo_exacte` set to `true`) come from Wikimedia Commons; their author, licence and source page are listed in `data/photos.json`.
+An entry without an image has `photo` set to `null`: the app then shows its own placeholder. All images are real, freely licensed photos from Wikimedia Commons; their author, licence and source page are listed in `data/photos.json`. `photo_exacte` is `true` when the photo shows that very tea, and `false` when it shows a similar tea or has been retouched.
 
 Herbal infusions with a medicinal use carry a `precaution` field. The catalogue gives no medical advice. Herbal infusions are brewed with boiling water (German Federal Institute for Risk Assessment, BfR); teas also carry a cold brew recipe (`froid` field), computed the same way from several houses.
 
@@ -74,6 +74,6 @@ The `travail/` folder is ignored by git.
 
 ## Licences
 
-The code (`scripts/`, `tests/`) is under the MIT licence, see [LICENSE](LICENSE). The catalogue, the texts and the generated illustrations are under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), with the credit "Théothèque". Real photos keep their author's licence (CC BY-SA 3.0 or 4.0), given in the `photo_credit` field and in `data/photos.json`.
+The code (`scripts/`, `tests/`) is under the MIT licence, see [LICENSE](LICENSE). The catalogue and the texts are under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), with the credit "Théothèque". Photos keep their author's licence (CC0, public domain, CC BY or CC BY-SA), given in the `photo_credit` field and in `data/photos.json`.
 
 Recipes come from pages published by tea merchants and websites, cited in each entry's `source` field. Those sources, their brands, product names and texts remain the property of their authors and are not covered by this licence.
