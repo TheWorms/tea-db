@@ -22,7 +22,7 @@ Une recette d'infusion vient d'une page publiée par un producteur ou un marchan
 
 Une fiche sans image a `photo` à `null` : l'appli affiche alors sa propre vignette. Les illustrations générées par IA ne sont pas des photos du produit : `photo_exacte` vaut `false`. Les vraies photos (`photo_exacte` à `true`) viennent de Wikimedia Commons ; leur auteur, leur licence et leur page d'origine sont dans `data/photos.json`.
 
-Les tisanes à usage médicinal portent un champ `precaution`. Le catalogue ne donne aucun avis médical.
+Les tisanes à usage médicinal portent un champ `precaution`. Le catalogue ne donne aucun avis médical. Les tisanes se préparent à l'eau bouillante (recommandation du BfR) ; les thés ont en plus une recette d'infusion à froid (champ `froid`), calculée de la même façon à partir de plusieurs maisons.
 
 ## Utilisation
 

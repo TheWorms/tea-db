@@ -1,5 +1,5 @@
 {
-  "_doc_fr": "Recettes par style de thé, établies à partir de sources publiées d'au moins deux maisons, chaque maison comptant pour une voix (la médiane de ses propres valeurs). scripts/curate.py calcule la recette : température = médiane des maisons, arrondie à 5 °C ; durées minimale et maximale = médianes, arrondies à 30 s ; dose = médiane des doses ramenées à 250 ml, arrondie au demi-gramme ; à égalité d'arrondi, la valeur la plus basse. Chaque paramètre doit être donné par au moins deux maisons ; une valeur absente (null) est ignorée. La recette s'applique à tous les membres. Un membre qui avait une recette sourcée propre la garde dans le maître (legacy_recipe) et sa source doit figurer parmi celles du style. methode : western (défaut), whisk ou room_temperature (temp_c null). eau_ml_base : volume de la recette calculée (250 ml par défaut, 70 ml pour le matcha) ; en méthode western, une dose donnée pour moins de 150 ml est refusée.",
+  "_doc_fr": "Recettes par style de thé, établies à partir de sources publiées d'au moins deux maisons, chaque maison comptant pour une voix (la médiane de ses propres valeurs). scripts/curate.py calcule la recette : température = médiane des maisons, arrondie à 5 °C ; durées minimale et maximale = médianes, arrondies à 30 s ; dose = médiane des doses ramenées à 250 ml, arrondie au demi-gramme ; à égalité d'arrondi, la valeur la plus basse. Chaque paramètre doit être donné par au moins deux maisons ; une valeur absente (null) est ignorée. La recette s'applique à tous les membres. Un membre qui avait une recette sourcée propre la garde dans le maître (legacy_recipe) et sa source doit figurer parmi celles du style. methode : western (défaut), whisk ou room_temperature (temp_c null). eau_ml_base : volume de la recette calculée (250 ml par défaut, 70 ml pour le matcha) ; en méthode western, une dose donnée pour moins de 150 ml est refusée. temperature_min_c (facultatif) : plancher appliqué à la température calculée, pour une raison de sécurité sanitaire (tisanes : eau bouillante, recommandation du BfR). froid : infusion à froid au réfrigérateur, par groupe de styles (thés seulement ; les tisanes se préparent à l'eau bouillante puis se refroidissent). Mêmes règles de médiane par maison ; dose ramenée à 250 ml, durées arrondies à 30 min.",
   "styles": [
     {
       "key": "noir-assam",
@@ -329,22 +329,6 @@
           "duree_s": [
             240,
             300
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Darjeeling",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 3,
-          "eau_ml": 250,
-          "temp_c": [
-            90,
-            90
-          ],
-          "duree_s": [
-            150,
-            150
           ]
         }
       ]
@@ -692,6 +676,54 @@
             240,
             240
           ]
+        },
+        {
+          "maison": "Thés & Traditions",
+          "the": "Keemun bio",
+          "url": "https://www.thes-traditions.com/en/organic-black-tea/organic-keemun-black-tea",
+          "lu_le": "2026-11-14",
+          "dose_g": 12,
+          "eau_ml": 1000,
+          "temp_c": [
+            100,
+            100
+          ],
+          "duree_s": [
+            120,
+            240
+          ]
+        },
+        {
+          "maison": "TeaSource",
+          "the": "Kings Keemun",
+          "url": "https://www.teasource.com/products/kings-keemun-black-tea",
+          "lu_le": "2026-11-14",
+          "dose_g": 3,
+          "eau_ml": 325,
+          "temp_c": [
+            100,
+            100
+          ],
+          "duree_s": [
+            240,
+            240
+          ]
+        },
+        {
+          "maison": "Brew Tea Co",
+          "the": "Keemun",
+          "url": "https://www.brewteacompany.co.uk/products/keemun-tea",
+          "lu_le": "2026-11-14",
+          "dose_g": 5,
+          "eau_ml": 400,
+          "temp_c": [
+            100,
+            100
+          ],
+          "duree_s": [
+            180,
+            300
+          ]
         }
       ]
     },
@@ -769,6 +801,22 @@
           "duree_s": [
             120,
             120
+          ]
+        },
+        {
+          "maison": "Royal New York",
+          "the": "Yunnan Gold Buds",
+          "url": "https://www.royalny.com/offering/yunnan-gold-buds",
+          "lu_le": "2026-11-14",
+          "dose_g": 2.5,
+          "eau_ml": 355,
+          "temp_c": [
+            90,
+            90
+          ],
+          "duree_s": [
+            240,
+            360
           ]
         }
       ]
@@ -974,38 +1022,6 @@
             180,
             180
           ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "English Breakfast",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 3,
-          "eau_ml": 250,
-          "temp_c": [
-            100,
-            100
-          ],
-          "duree_s": [
-            240,
-            240
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Irish Breakfast",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 4,
-          "eau_ml": 250,
-          "temp_c": [
-            100,
-            100
-          ],
-          "duree_s": [
-            240,
-            240
-          ]
         }
       ]
     },
@@ -1112,38 +1128,6 @@
           ],
           "duree_s": [
             180,
-            300
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Earl Grey et thés noirs aromatisés",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 3,
-          "eau_ml": 250,
-          "temp_c": [
-            98,
-            98
-          ],
-          "duree_s": [
-            180,
-            180
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Thé noir chai",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 4,
-          "eau_ml": 250,
-          "temp_c": [
-            100,
-            100
-          ],
-          "duree_s": [
-            300,
             300
           ]
         }
@@ -1266,35 +1250,32 @@
           ]
         },
         {
-          "maison": "Teafinity",
-          "the": "Sencha",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 3,
-          "eau_ml": 250,
+          "maison": "Sugimoto",
+          "the": "Sencha fukamushi, chumushi, asamushi",
+          "url": "https://www.sugimotousa.com/how-to-brew",
+          "lu_le": "2026-11-14",
+          "dose_g": 5,
+          "eau_ml": 350,
           "temp_c": [
             80,
             80
           ],
           "duree_s": [
-            90,
+            30,
             90
           ]
         },
         {
-          "maison": "Teafinity",
-          "the": "Kabusecha",
-          "url": "https://teafinity.app/fr/thes/kabusecha/",
-          "lu_le": "2026-11-13",
-          "dose_g": 3,
-          "eau_ml": 250,
-          "temp_c": [
-            70,
-            70
-          ],
+          "maison": "Valley of Tea",
+          "the": "Sencha",
+          "url": "https://www.valleyoftea.com/blogs/tea/how-to-make-sencha-tea",
+          "lu_le": "2026-11-14",
+          "dose_g": 4.5,
+          "eau_ml": 175,
+          "temp_c": null,
           "duree_s": [
-            90,
-            90
+            60,
+            60
           ]
         }
       ]
@@ -1308,22 +1289,6 @@
         "green-tencha"
       ],
       "sources": [
-        {
-          "maison": "Teafinity",
-          "the": "Gyokuro",
-          "url": "https://teafinity.app/fr/thes/gyokuro/",
-          "lu_le": "2026-11-13",
-          "dose_g": 6,
-          "eau_ml": 250,
-          "temp_c": [
-            60,
-            60
-          ],
-          "duree_s": [
-            120,
-            120
-          ]
-        },
         {
           "maison": "The Steeping Room",
           "the": "Gyokuro, méthode occidentale",
@@ -1384,6 +1349,38 @@
             70
           ],
           "duree_s": null
+        },
+        {
+          "maison": "Sugimoto",
+          "the": "Gyokuro",
+          "url": "https://www.sugimotousa.com/how-to-brew",
+          "lu_le": "2026-11-14",
+          "dose_g": 5,
+          "eau_ml": 180,
+          "temp_c": [
+            50,
+            60
+          ],
+          "duree_s": [
+            180,
+            240
+          ]
+        },
+        {
+          "maison": "Yunomi",
+          "the": "Gyokuro (grades courants), kabusecha",
+          "url": "https://yunomi.life/steep",
+          "lu_le": "2026-11-14",
+          "dose_g": 5,
+          "eau_ml": 200,
+          "temp_c": [
+            60,
+            70
+          ],
+          "duree_s": [
+            60,
+            60
+          ]
         }
       ]
     },
@@ -1396,22 +1393,6 @@
         "green-kyobancha"
       ],
       "sources": [
-        {
-          "maison": "Teafinity",
-          "the": "Hojicha",
-          "url": "https://teafinity.app/fr/thes/hojicha/",
-          "lu_le": "2026-11-13",
-          "dose_g": 3,
-          "eau_ml": 250,
-          "temp_c": [
-            90,
-            90
-          ],
-          "duree_s": [
-            60,
-            60
-          ]
-        },
         {
           "maison": "JETRO",
           "the": "Hojicha",
@@ -1475,6 +1456,38 @@
             15,
             30
           ]
+        },
+        {
+          "maison": "Sugimoto",
+          "the": "Hojicha",
+          "url": "https://www.sugimotousa.com/how-to-brew",
+          "lu_le": "2026-11-14",
+          "dose_g": 3,
+          "eau_ml": 350,
+          "temp_c": [
+            95,
+            95
+          ],
+          "duree_s": [
+            60,
+            120
+          ]
+        },
+        {
+          "maison": "Ippodo",
+          "the": "Bancha, hojicha, genmaicha",
+          "url": "https://global.ippodo-tea.co.jp/blogs/tea-recipe/basic-bancha-hojicha-genmaicha",
+          "lu_le": "2026-11-14",
+          "dose_g": 10,
+          "eau_ml": 240,
+          "temp_c": [
+            100,
+            100
+          ],
+          "duree_s": [
+            30,
+            30
+          ]
         }
       ]
     },
@@ -1486,22 +1499,6 @@
         "green-genmaicha-matcha"
       ],
       "sources": [
-        {
-          "maison": "Teafinity",
-          "the": "Genmaicha",
-          "url": "https://teafinity.app/fr/thes/genmaicha/",
-          "lu_le": "2026-11-13",
-          "dose_g": 4,
-          "eau_ml": 250,
-          "temp_c": [
-            82,
-            82
-          ],
-          "duree_s": [
-            120,
-            120
-          ]
-        },
         {
           "maison": "JETRO",
           "the": "Genmaicha",
@@ -1543,6 +1540,54 @@
             80
           ],
           "duree_s": null
+        },
+        {
+          "maison": "Sugimoto",
+          "the": "Genmaicha",
+          "url": "https://www.sugimotousa.com/how-to-brew",
+          "lu_le": "2026-11-14",
+          "dose_g": 5,
+          "eau_ml": 350,
+          "temp_c": [
+            80,
+            80
+          ],
+          "duree_s": [
+            30,
+            60
+          ]
+        },
+        {
+          "maison": "Ippodo",
+          "the": "Bancha, hojicha, genmaicha",
+          "url": "https://global.ippodo-tea.co.jp/blogs/tea-recipe/basic-bancha-hojicha-genmaicha",
+          "lu_le": "2026-11-14",
+          "dose_g": 10,
+          "eau_ml": 240,
+          "temp_c": [
+            100,
+            100
+          ],
+          "duree_s": [
+            30,
+            30
+          ]
+        },
+        {
+          "maison": "Nio Teas",
+          "the": "Genmaicha",
+          "url": "https://nioteas.com/blogs/japanese-teas/brewing-genmaicha",
+          "lu_le": "2026-11-14",
+          "dose_g": 5,
+          "eau_ml": 150,
+          "temp_c": [
+            80,
+            80
+          ],
+          "duree_s": [
+            60,
+            60
+          ]
         }
       ]
     },
@@ -1554,38 +1599,6 @@
         "green-kukicha"
       ],
       "sources": [
-        {
-          "maison": "Teafinity",
-          "the": "Bancha",
-          "url": "https://teafinity.app/fr/thes/bancha/",
-          "lu_le": "2026-11-13",
-          "dose_g": 3,
-          "eau_ml": 250,
-          "temp_c": [
-            82,
-            82
-          ],
-          "duree_s": [
-            120,
-            120
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Kukicha",
-          "url": "https://teafinity.app/fr/thes/kukicha/",
-          "lu_le": "2026-11-13",
-          "dose_g": 3,
-          "eau_ml": 250,
-          "temp_c": [
-            80,
-            80
-          ],
-          "duree_s": [
-            90,
-            90
-          ]
-        },
         {
           "maison": "The Steeping Room",
           "the": "Kukicha",
@@ -1633,6 +1646,54 @@
             30,
             30
           ]
+        },
+        {
+          "maison": "Sugimoto",
+          "the": "Bancha, kukicha",
+          "url": "https://www.sugimotousa.com/how-to-brew",
+          "lu_le": "2026-11-14",
+          "dose_g": 5,
+          "eau_ml": 350,
+          "temp_c": [
+            80,
+            80
+          ],
+          "duree_s": [
+            60,
+            120
+          ]
+        },
+        {
+          "maison": "Ippodo",
+          "the": "Bancha, hojicha, genmaicha",
+          "url": "https://global.ippodo-tea.co.jp/blogs/tea-recipe/basic-bancha-hojicha-genmaicha",
+          "lu_le": "2026-11-14",
+          "dose_g": 10,
+          "eau_ml": 240,
+          "temp_c": [
+            100,
+            100
+          ],
+          "duree_s": [
+            30,
+            30
+          ]
+        },
+        {
+          "maison": "Ocha & Co",
+          "the": "Kukicha bio",
+          "url": "https://www.ochaandco.com/en-gb/pages/how-to-make-green-tea",
+          "lu_le": "2026-11-14",
+          "dose_g": 4,
+          "eau_ml": 200,
+          "temp_c": [
+            75,
+            85
+          ],
+          "duree_s": [
+            20,
+            40
+          ]
         }
       ]
     },
@@ -1671,38 +1732,6 @@
         "green-gaba-green"
       ],
       "sources": [
-        {
-          "maison": "Teafinity",
-          "the": "Dragon Well (Longjing)",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 3,
-          "eau_ml": 250,
-          "temp_c": [
-            80,
-            80
-          ],
-          "duree_s": [
-            120,
-            120
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Enshi Yulu, Liu An Gua Pian, Mao Feng",
-          "url": "https://teafinity.app/fr/charts/temperature-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 3,
-          "eau_ml": 250,
-          "temp_c": [
-            80,
-            82
-          ],
-          "duree_s": [
-            90,
-            120
-          ]
-        },
         {
           "maison": "Seven Cups",
           "the": "Thés verts, jaunes et parfumés",
@@ -1778,38 +1807,6 @@
         "green-chun-mee"
       ],
       "sources": [
-        {
-          "maison": "Teafinity",
-          "the": "Gunpowder",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 3,
-          "eau_ml": 250,
-          "temp_c": [
-            82,
-            82
-          ],
-          "duree_s": [
-            150,
-            150
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Thé vert à la menthe",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 3,
-          "eau_ml": 250,
-          "temp_c": [
-            100,
-            100
-          ],
-          "duree_s": [
-            180,
-            180
-          ]
-        },
         {
           "maison": "L'Île aux épices",
           "the": "Thé vert gunpowder",
@@ -1889,6 +1886,32 @@
             120,
             180
           ]
+        },
+        {
+          "maison": "L'Île aux épices",
+          "the": "Thé vert gunpowder",
+          "url": "https://ileauxepices.com/thes-verts/153-the-vert-gunpowder.html",
+          "lu_le": "2026-11-14",
+          "dose_g": 11.5,
+          "eau_ml": 1000,
+          "temp_c": [
+            80,
+            80
+          ],
+          "duree_s": [
+            180,
+            240
+          ]
+        },
+        {
+          "maison": "J'adore le thé",
+          "the": "Thé vert Gunpowder",
+          "url": "https://www.greenweez.com/produit/the-vert-du-yunnan-200g/1ADOR0251",
+          "lu_le": "2026-11-14",
+          "dose_g": 13.5,
+          "eau_ml": 1000,
+          "temp_c": null,
+          "duree_s": null
         }
       ]
     },
@@ -2015,54 +2038,6 @@
       ],
       "sources": [
         {
-          "maison": "Teafinity",
-          "the": "Earl Grey vert",
-          "url": "https://teafinity.app/fr/charts/temperature-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 3,
-          "eau_ml": 250,
-          "temp_c": [
-            80,
-            80
-          ],
-          "duree_s": [
-            120,
-            120
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Thés verts aromatisés (pêche, vanille, citron, jasmin)",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 3,
-          "eau_ml": 250,
-          "temp_c": [
-            80,
-            80
-          ],
-          "duree_s": [
-            120,
-            120
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Thé vert au gingembre",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 3,
-          "eau_ml": 250,
-          "temp_c": [
-            82,
-            82
-          ],
-          "duree_s": [
-            120,
-            120
-          ]
-        },
-        {
           "maison": "Dammann Frères",
           "the": "Jasmin Chung Hao",
           "url": "https://maisondubiscuit.fr/en/tea-coffee/tea/loose-tea/112-green-tea-jasmin-chung-hao-3259920067588.html",
@@ -2188,86 +2163,6 @@
         "oolong-wenshan-baozhong"
       ],
       "sources": [
-        {
-          "maison": "Teafinity",
-          "the": "Ali Shan",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 3,
-          "eau_ml": 250,
-          "temp_c": [
-            88,
-            88
-          ],
-          "duree_s": [
-            120,
-            120
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Li Shan",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 3,
-          "eau_ml": 250,
-          "temp_c": [
-            88,
-            88
-          ],
-          "duree_s": [
-            120,
-            120
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Jin Xuan",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 3,
-          "eau_ml": 250,
-          "temp_c": [
-            90,
-            90
-          ],
-          "duree_s": [
-            120,
-            120
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Tie Guan Yin",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 4,
-          "eau_ml": 250,
-          "temp_c": [
-            90,
-            90
-          ],
-          "duree_s": [
-            120,
-            120
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Dong Ding",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 4,
-          "eau_ml": 250,
-          "temp_c": [
-            90,
-            90
-          ],
-          "duree_s": [
-            120,
-            120
-          ]
-        },
         {
           "maison": "Mariage Frères",
           "the": "Thaï Beauty (oxydé à 30 %)",
@@ -2466,54 +2361,6 @@
       ],
       "sources": [
         {
-          "maison": "Teafinity",
-          "the": "Oolong dragon noir",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 5,
-          "eau_ml": 250,
-          "temp_c": [
-            93,
-            93
-          ],
-          "duree_s": [
-            120,
-            120
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Formosa Oolong",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 4,
-          "eau_ml": 250,
-          "temp_c": [
-            90,
-            90
-          ],
-          "duree_s": [
-            150,
-            150
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Oriental Beauty",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 3,
-          "eau_ml": 250,
-          "temp_c": [
-            85,
-            85
-          ],
-          "duree_s": [
-            150,
-            150
-          ]
-        },
-        {
           "maison": "Mariage Frères",
           "the": "Oriental Beauty",
           "url": "https://www.mariagefreres.com/en/oriental-beauty-t2700-tea-by-the-weight.html",
@@ -2658,22 +2505,6 @@
         "oolong-wu-yi-yan-cha"
       ],
       "sources": [
-        {
-          "maison": "Teafinity",
-          "the": "Da Hong Pao",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 5,
-          "eau_ml": 250,
-          "temp_c": [
-            93,
-            93
-          ],
-          "duree_s": [
-            90,
-            90
-          ]
-        },
         {
           "maison": "Simple Loose Leaf",
           "the": "Oolongs de Wuyi (Da Hong Pao, Qi Lan)",
@@ -2833,22 +2664,6 @@
       ],
       "sources": [
         {
-          "maison": "Teafinity",
-          "the": "Oolong à la noix de coco",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 4,
-          "eau_ml": 250,
-          "temp_c": [
-            90,
-            90
-          ],
-          "duree_s": [
-            150,
-            150
-          ]
-        },
-        {
           "maison": "Simple Loose Leaf",
           "the": "Oolongs aromatisés",
           "url": "https://simplelooseleaf.com/?p=1240",
@@ -2876,6 +2691,38 @@
             300,
             300
           ]
+        },
+        {
+          "maison": "Thés & Traditions",
+          "the": "Oolong pêche vanille",
+          "url": "https://www.thes-traditions.com/en/oolong-tea/peach-vanilla",
+          "lu_le": "2026-11-14",
+          "dose_g": 13.5,
+          "eau_ml": 1000,
+          "temp_c": [
+            80,
+            80
+          ],
+          "duree_s": [
+            120,
+            240
+          ]
+        },
+        {
+          "maison": "Thés & Traditions",
+          "the": "Oolong orange",
+          "url": "https://www.thes-traditions.com/en/organic-oolong-tea/orange-oolong",
+          "lu_le": "2026-11-14",
+          "dose_g": 13.5,
+          "eau_ml": 1000,
+          "temp_c": [
+            80,
+            80
+          ],
+          "duree_s": [
+            120,
+            240
+          ]
         }
       ]
     },
@@ -2889,38 +2736,6 @@
         "white-ya-bao-bourgeons"
       ],
       "sources": [
-        {
-          "maison": "Teafinity",
-          "the": "Bai Hao Yin Zhen",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 3,
-          "eau_ml": 250,
-          "temp_c": [
-            85,
-            85
-          ],
-          "duree_s": [
-            300,
-            300
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Bourgeons de neige du Yunnan",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 3,
-          "eau_ml": 250,
-          "temp_c": [
-            82,
-            82
-          ],
-          "duree_s": [
-            300,
-            300
-          ]
-        },
         {
           "maison": "Mariage Frères",
           "the": "Yin Zhen",
@@ -3025,86 +2840,6 @@
       ],
       "sources": [
         {
-          "maison": "Teafinity",
-          "the": "Bai Mudan",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 3,
-          "eau_ml": 250,
-          "temp_c": [
-            85,
-            85
-          ],
-          "duree_s": [
-            240,
-            240
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Fuding White",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 3.5,
-          "eau_ml": 250,
-          "temp_c": [
-            88,
-            88
-          ],
-          "duree_s": [
-            240,
-            240
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Gong Mei",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 3.5,
-          "eau_ml": 250,
-          "temp_c": [
-            88,
-            88
-          ],
-          "duree_s": [
-            240,
-            240
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Moonlight White",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 4,
-          "eau_ml": 250,
-          "temp_c": [
-            88,
-            88
-          ],
-          "duree_s": [
-            180,
-            180
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "White Darjeeling",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 3,
-          "eau_ml": 250,
-          "temp_c": [
-            85,
-            85
-          ],
-          "duree_s": [
-            240,
-            240
-          ]
-        },
-        {
           "maison": "Mariage Frères",
           "the": "Pai Mu Tan Impérial",
           "url": "https://www.mariagefreres.com/en/pai-mu-tan-imperial-t2302-tea-by-the-weight.html",
@@ -3194,22 +2929,6 @@
       ],
       "sources": [
         {
-          "maison": "Teafinity",
-          "the": "Shou Mei",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 4,
-          "eau_ml": 250,
-          "temp_c": [
-            90,
-            90
-          ],
-          "duree_s": [
-            240,
-            240
-          ]
-        },
-        {
           "maison": "Mariage Frères",
           "the": "Thé de la Longévité suprême",
           "url": "https://www.mariagefreres.com/en/the-de-la-longevite-supreme-t2208-tea-by-the-weight.html",
@@ -3256,6 +2975,35 @@
             120,
             180
           ]
+        },
+        {
+          "maison": "Nio Teas",
+          "the": "Shou Mei",
+          "url": "https://nioteas.com/blogs/ricette/come-preparare-te-bianco",
+          "lu_le": "2026-11-14",
+          "dose_g": 5,
+          "eau_ml": 400,
+          "temp_c": [
+            95,
+            100
+          ],
+          "duree_s": [
+            240,
+            300
+          ]
+        },
+        {
+          "maison": "Orientaleaf",
+          "the": "Shou Mei",
+          "url": "https://orientaleaf.com/blogs/tea-101/how-to-brew-white-tea-guide",
+          "lu_le": "2026-11-14",
+          "dose_g": 5,
+          "eau_ml": 250,
+          "temp_c": [
+            90,
+            100
+          ],
+          "duree_s": null
         }
       ]
     },
@@ -3276,38 +3024,6 @@
         "white-the-blanc-au-yuzu"
       ],
       "sources": [
-        {
-          "maison": "Teafinity",
-          "the": "Aiguilles d'argent au jasmin",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 3,
-          "eau_ml": 250,
-          "temp_c": [
-            85,
-            85
-          ],
-          "duree_s": [
-            180,
-            180
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Earl Grey blanc",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 3.5,
-          "eau_ml": 250,
-          "temp_c": [
-            80,
-            80
-          ],
-          "duree_s": [
-            180,
-            180
-          ]
-        },
         {
           "maison": "Mariage Frères",
           "the": "Thé blanc Oriental",
@@ -3335,6 +3051,67 @@
           "duree_s": [
             420,
             420
+          ]
+        },
+        {
+          "maison": "Teasenz",
+          "the": "Aiguilles d'argent au jasmin",
+          "url": "https://teasenz.eu/products/white-jasmine-tea-silver-needle",
+          "lu_le": "2026-11-14",
+          "dose_g": 5,
+          "eau_ml": 500,
+          "temp_c": [
+            85,
+            85
+          ],
+          "duree_s": [
+            180,
+            180
+          ]
+        },
+        {
+          "maison": "Biodyssée",
+          "the": "Thé blanc fleur d'oranger",
+          "url": "https://www.greenweez.com/produit/the-blanc-fleur-doranger-bio-40g/2BIOD0158",
+          "lu_le": "2026-11-14",
+          "dose_g": null,
+          "eau_ml": null,
+          "temp_c": [
+            80,
+            80
+          ],
+          "duree_s": [
+            240,
+            300
+          ]
+        },
+        {
+          "maison": "L'Île aux épices",
+          "the": "Thé blanc à la cannelle",
+          "url": "https://ileauxepices.com/thes-blancs/661-the-blanc-cannelle-bio.html",
+          "lu_le": "2026-11-14",
+          "dose_g": null,
+          "eau_ml": null,
+          "temp_c": [
+            70,
+            80
+          ],
+          "duree_s": null
+        },
+        {
+          "maison": "J'adore le thé",
+          "the": "Sencha Pai Mu Tan agrumes mangue",
+          "url": "https://www.greenweez.com/produit/sencha-pai-mu-tan-agrumes-mangue-90g/1ADOR0406",
+          "lu_le": "2026-11-14",
+          "dose_g": 13.5,
+          "eau_ml": 1000,
+          "temp_c": [
+            80,
+            80
+          ],
+          "duree_s": [
+            120,
+            180
           ]
         }
       ]
@@ -3481,6 +3258,63 @@
             120,
             180
           ]
+        },
+        {
+          "maison": "Imperial Tea",
+          "the": "Thé jaune du Hunan",
+          "url": "https://imperialtea.com/products/hunan-yellow-tea",
+          "lu_le": "2026-11-14",
+          "dose_g": 4,
+          "eau_ml": 210,
+          "temp_c": [
+            85,
+            85
+          ],
+          "duree_s": [
+            60,
+            180
+          ]
+        }
+      ]
+    },
+    {
+      "key": "jaune-grandes-feuilles",
+      "label_fr": "Thés jaunes à grandes feuilles torréfiées",
+      "members": [
+        "yellow-huang-da-cha"
+      ],
+      "sources": [
+        {
+          "maison": "Comins Tea",
+          "the": "Huang Da Cha (Ms Chen)",
+          "url": "https://cominstea.com/products/ms-chens-huang-da-cha-big-yellow",
+          "lu_le": "2026-11-14",
+          "dose_g": 2.5,
+          "eau_ml": 150,
+          "temp_c": [
+            100,
+            100
+          ],
+          "duree_s": [
+            120,
+            120
+          ]
+        },
+        {
+          "maison": "Tea Soul",
+          "the": "Huang Da Cha Big Leaf",
+          "url": "https://teasoul.store/en/prodotto/te-giallo-huang-da-cha-big-leaf/",
+          "lu_le": "2026-11-14",
+          "dose_g": 3,
+          "eau_ml": 200,
+          "temp_c": [
+            80,
+            80
+          ],
+          "duree_s": [
+            120,
+            180
+          ]
         }
       ]
     },
@@ -3516,86 +3350,6 @@
         "pu_erh-xiaguan-tuocha"
       ],
       "sources": [
-        {
-          "maison": "Teafinity",
-          "the": "Sheng pu-erh",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 2.5,
-          "eau_ml": 250,
-          "temp_c": [
-            90,
-            90
-          ],
-          "duree_s": [
-            45,
-            45
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Bing Dao",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 2.5,
-          "eau_ml": 250,
-          "temp_c": [
-            90,
-            90
-          ],
-          "duree_s": [
-            35,
-            35
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Lao Ban Zhang",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 4,
-          "eau_ml": 250,
-          "temp_c": [
-            90,
-            90
-          ],
-          "duree_s": [
-            30,
-            30
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Menghai 7542",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 3,
-          "eau_ml": 250,
-          "temp_c": [
-            90,
-            90
-          ],
-          "duree_s": [
-            40,
-            40
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Sheng pu-erh vieilli",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 2.5,
-          "eau_ml": 250,
-          "temp_c": [
-            90,
-            90
-          ],
-          "duree_s": [
-            30,
-            30
-          ]
-        },
         {
           "maison": "Seven Cups",
           "the": "Sheng puer",
@@ -3700,86 +3454,6 @@
         "pu_erh-pu-erh-mini-tuo-cha"
       ],
       "sources": [
-        {
-          "maison": "Teafinity",
-          "the": "Shou pu-erh",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 3,
-          "eau_ml": 250,
-          "temp_c": [
-            100,
-            100
-          ],
-          "duree_s": [
-            60,
-            60
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Golden Bud pu-erh",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 2.5,
-          "eau_ml": 250,
-          "temp_c": [
-            100,
-            100
-          ],
-          "duree_s": [
-            40,
-            40
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Menghai 7572",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 3,
-          "eau_ml": 250,
-          "temp_c": [
-            100,
-            100
-          ],
-          "duree_s": [
-            50,
-            50
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Palace Grade",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 2,
-          "eau_ml": 250,
-          "temp_c": [
-            100,
-            100
-          ],
-          "duree_s": [
-            35,
-            35
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Tuo Cha",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-13",
-          "dose_g": 3.5,
-          "eau_ml": 250,
-          "temp_c": [
-            100,
-            100
-          ],
-          "duree_s": [
-            45,
-            45
-          ]
-        },
         {
           "maison": "Palais des Thés",
           "the": "Pu-erh",
@@ -4066,6 +3740,58 @@
             0,
             0
           ]
+        },
+        {
+          "maison": "Ippodo",
+          "the": "Usucha (matcha léger)",
+          "url": "https://global.ippodo-tea.co.jp/blogs/tea-recipe/basic-usucha-matcha",
+          "lu_le": "2026-11-14",
+          "dose_g": 2,
+          "eau_ml": 60,
+          "temp_c": [
+            80,
+            80
+          ],
+          "duree_s": null
+        },
+        {
+          "maison": "Kusmi Tea",
+          "the": "Matcha (usucha)",
+          "url": "https://www.kusmitea.com/en/blogs/tea/how-to-properly-prepare-your-matcha-tea",
+          "lu_le": "2026-11-14",
+          "dose_g": 2,
+          "eau_ml": 75,
+          "temp_c": [
+            70,
+            80
+          ],
+          "duree_s": null
+        },
+        {
+          "maison": "Thés & Traditions",
+          "the": "Matcha",
+          "url": "https://www.thes-traditions.com/en/content/how-to-prepare-matcha",
+          "lu_le": "2026-11-14",
+          "dose_g": 2,
+          "eau_ml": 60,
+          "temp_c": [
+            70,
+            80
+          ],
+          "duree_s": null
+        },
+        {
+          "maison": "Valley of Tea",
+          "the": "Matcha (usucha)",
+          "url": "https://de.valleyoftea.com/blogs/tea/how-to-prepare-matcha",
+          "lu_le": "2026-11-14",
+          "dose_g": 2,
+          "eau_ml": 75,
+          "temp_c": [
+            70,
+            80
+          ],
+          "duree_s": null
         }
       ]
     },
@@ -4096,86 +3822,6 @@
         "herbal-tisane-du-soir"
       ],
       "sources": [
-        {
-          "maison": "Teafinity",
-          "the": "Camomille",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-14",
-          "dose_g": 3,
-          "eau_ml": 250,
-          "temp_c": [
-            95,
-            95
-          ],
-          "duree_s": [
-            360,
-            360
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Fleur de tilleul",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-14",
-          "dose_g": 2,
-          "eau_ml": 250,
-          "temp_c": [
-            90,
-            90
-          ],
-          "duree_s": [
-            420,
-            420
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Fleur de sureau",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-14",
-          "dose_g": 3,
-          "eau_ml": 250,
-          "temp_c": [
-            82,
-            82
-          ],
-          "duree_s": [
-            420,
-            420
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Lavande",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-14",
-          "dose_g": 1,
-          "eau_ml": 250,
-          "temp_c": [
-            85,
-            85
-          ],
-          "duree_s": [
-            210,
-            210
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Osmanthe",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-14",
-          "dose_g": 2,
-          "eau_ml": 250,
-          "temp_c": [
-            85,
-            85
-          ],
-          "duree_s": [
-            210,
-            210
-          ]
-        },
         {
           "maison": "Thés & Traditions",
           "the": "Camomille",
@@ -4285,7 +3931,8 @@
             600
           ]
         }
-      ]
+      ],
+      "temperature_min_c": 100
     },
     {
       "key": "tisane-feuilles",
@@ -4323,70 +3970,6 @@
         "herbal-tisane-digestive"
       ],
       "sources": [
-        {
-          "maison": "Teafinity",
-          "the": "Verveine citronnelle",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-14",
-          "dose_g": 1,
-          "eau_ml": 250,
-          "temp_c": [
-            85,
-            85
-          ],
-          "duree_s": [
-            240,
-            240
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Mélisse",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-14",
-          "dose_g": 3,
-          "eau_ml": 250,
-          "temp_c": [
-            85,
-            85
-          ],
-          "duree_s": [
-            480,
-            480
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Menthe poivrée",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-14",
-          "dose_g": 2,
-          "eau_ml": 250,
-          "temp_c": [
-            100,
-            100
-          ],
-          "duree_s": [
-            360,
-            360
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Citronnelle",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-14",
-          "dose_g": 3,
-          "eau_ml": 250,
-          "temp_c": [
-            100,
-            100
-          ],
-          "duree_s": [
-            420,
-            420
-          ]
-        },
         {
           "maison": "Thés & Traditions",
           "the": "Verveine (feuilles)",
@@ -4499,7 +4082,8 @@
             300
           ]
         }
-      ]
+      ],
+      "temperature_min_c": 100
     },
     {
       "key": "tisane-racines-epices",
@@ -4685,7 +4269,8 @@
             1800
           ]
         }
-      ]
+      ],
+      "temperature_min_c": 100
     },
     {
       "key": "tisane-fruits",
@@ -4709,22 +4294,6 @@
         "herbal-tisane-de-noel"
       ],
       "sources": [
-        {
-          "maison": "Teafinity",
-          "the": "Hibiscus",
-          "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-          "lu_le": "2026-11-14",
-          "dose_g": 4,
-          "eau_ml": 250,
-          "temp_c": [
-            100,
-            100
-          ],
-          "duree_s": [
-            360,
-            360
-          ]
-        },
         {
           "maison": "Thés & Traditions",
           "the": "Fraise framboise",
@@ -4818,7 +4387,8 @@
             420
           ]
         }
-      ]
+      ],
+      "temperature_min_c": 100
     },
     {
       "key": "tisane-rooibos",
@@ -4840,38 +4410,6 @@
         "herbal-rooibos-citron-gingembre"
       ],
       "sources": [
-        {
-          "maison": "Teafinity",
-          "the": "Rooibos",
-          "url": "https://teafinity.app/fr/thes/rooibos/",
-          "lu_le": "2026-11-14",
-          "dose_g": 3,
-          "eau_ml": 250,
-          "temp_c": [
-            100,
-            100
-          ],
-          "duree_s": [
-            360,
-            360
-          ]
-        },
-        {
-          "maison": "Teafinity",
-          "the": "Honeybush",
-          "url": "https://teafinity.app/fr/thes/honeybush/",
-          "lu_le": "2026-11-14",
-          "dose_g": 3,
-          "eau_ml": 250,
-          "temp_c": [
-            100,
-            100
-          ],
-          "duree_s": [
-            420,
-            420
-          ]
-        },
         {
           "maison": "Palais des Thés",
           "the": "Rooibos (repère général)",
@@ -5000,7 +4538,8 @@
             420
           ]
         }
-      ]
+      ],
+      "temperature_min_c": 100
     },
     {
       "key": "tisane-mate",
@@ -5226,7 +4765,8 @@
             300
           ]
         }
-      ]
+      ],
+      "temperature_min_c": 100
     },
     {
       "key": "tisane-cereales",
@@ -5379,6 +4919,390 @@
           "duree_s": [
             120,
             120
+          ]
+        }
+      ],
+      "temperature_min_c": 100
+    }
+  ],
+  "froid": [
+    {
+      "key": "froid-vert-japon",
+      "label_fr": "Thés verts japonais infusés à froid",
+      "styles": [
+        "vert-japon-sencha",
+        "vert-japon-gyokuro",
+        "vert-japon-genmaicha",
+        "vert-japon-bancha-kukicha",
+        "vert-japon-torrefie"
+      ],
+      "sources": [
+        {
+          "maison": "Valley of Tea",
+          "the": "Thés verts japonais",
+          "url": "https://www.valleyoftea.com/blogs/tea/cold-brew-tea-101-how-to-brew-the-perfect-refreshing-cup",
+          "lu_le": "2026-11-14",
+          "dose_g": 9,
+          "eau_ml": 1000,
+          "duree_s": [
+            14400,
+            21600
+          ]
+        },
+        {
+          "maison": "Nio Teas",
+          "the": "Sencha",
+          "url": "https://nioteas.com/blogs/tes-japoneses/te-sencha-frio",
+          "lu_le": "2026-11-14",
+          "dose_g": 10,
+          "eau_ml": 500,
+          "duree_s": [
+            3600,
+            28800
+          ]
+        },
+        {
+          "maison": "Japanese Tea SG",
+          "the": "Sencha",
+          "url": "https://japanesetea.sg/japanese-tea-pedia/behind-the-leaves/how-to-make-cold-brew-sencha-unlock-a-different-side/",
+          "lu_le": "2026-11-14",
+          "dose_g": 8,
+          "eau_ml": 1000,
+          "duree_s": [
+            10800,
+            10800
+          ]
+        },
+        {
+          "maison": "Sugimoto",
+          "the": "Thés verts japonais (bouteille)",
+          "url": "https://www.sugimotousa.com/how-to-brew",
+          "lu_le": "2026-11-14",
+          "dose_g": 6.5,
+          "eau_ml": 350,
+          "duree_s": null
+        }
+      ]
+    },
+    {
+      "key": "froid-vert",
+      "label_fr": "Thés verts infusés à froid",
+      "styles": [
+        "vert-chine",
+        "vert-coree",
+        "vert-gunpowder",
+        "vert-aromatise"
+      ],
+      "sources": [
+        {
+          "maison": "Valley of Tea",
+          "the": "Thés verts chinois",
+          "url": "https://www.valleyoftea.com/blogs/tea/cold-brew-tea-101-how-to-brew-the-perfect-refreshing-cup",
+          "lu_le": "2026-11-14",
+          "dose_g": 8,
+          "eau_ml": 1000,
+          "duree_s": [
+            21600,
+            28800
+          ]
+        },
+        {
+          "maison": "Avantcha",
+          "the": "Dragon Well (Long Jing)",
+          "url": "https://avantcha.com/blogs/guides/top-10-cold-brew-teas",
+          "lu_le": "2026-11-14",
+          "dose_g": 10,
+          "eau_ml": 1000,
+          "duree_s": [
+            7200,
+            7200
+          ]
+        },
+        {
+          "maison": "Snarky Tea",
+          "the": "Thés verts",
+          "url": "https://snarkytea.com/blogs/the-snarky-blog/ultimate-tea-brewing-guide",
+          "lu_le": "2026-11-14",
+          "dose_g": 24,
+          "eau_ml": 1900,
+          "duree_s": [
+            14400,
+            28800
+          ]
+        },
+        {
+          "maison": "Orion Coffee & Tea",
+          "the": "Thés verts et blancs",
+          "url": "https://cdn.shopify.com/s/files/1/0075/8749/6036/files/cold_brew_tea_guide.pdf",
+          "lu_le": "2026-11-14",
+          "dose_g": null,
+          "eau_ml": null,
+          "duree_s": [
+            21600,
+            28800
+          ]
+        },
+        {
+          "maison": "Mariage Frères",
+          "the": "Thé sur le Nil (thé vert glacé)",
+          "url": "https://www.mariagefreres.com/UK/1-the_sur_le_nil_french_tea.html",
+          "lu_le": "2026-11-14",
+          "dose_g": 10,
+          "eau_ml": 1250,
+          "duree_s": null
+        }
+      ]
+    },
+    {
+      "key": "froid-blanc",
+      "label_fr": "Thés blancs infusés à froid",
+      "styles": [
+        "blanc-bourgeons",
+        "blanc-feuilles",
+        "blanc-shou-mei-vieilli",
+        "blanc-aromatise"
+      ],
+      "sources": [
+        {
+          "maison": "Valley of Tea",
+          "the": "Thés blancs",
+          "url": "https://www.valleyoftea.com/blogs/tea/cold-brew-tea-101-how-to-brew-the-perfect-refreshing-cup",
+          "lu_le": "2026-11-14",
+          "dose_g": 11,
+          "eau_ml": 1000,
+          "duree_s": [
+            21600,
+            28800
+          ]
+        },
+        {
+          "maison": "Avantcha",
+          "the": "Bai Mu Dan",
+          "url": "https://avantcha.com/blogs/guides/top-10-cold-brew-teas",
+          "lu_le": "2026-11-14",
+          "dose_g": 10,
+          "eau_ml": 1000,
+          "duree_s": [
+            7200,
+            10800
+          ]
+        },
+        {
+          "maison": "Teasenz",
+          "the": "Aiguilles d'argent au jasmin",
+          "url": "https://teasenz.eu/products/white-jasmine-tea-silver-needle",
+          "lu_le": "2026-11-14",
+          "dose_g": 8,
+          "eau_ml": 1000,
+          "duree_s": [
+            36000,
+            36000
+          ]
+        },
+        {
+          "maison": "Snarky Tea",
+          "the": "Thés blancs",
+          "url": "https://snarkytea.com/blogs/the-snarky-blog/ultimate-tea-brewing-guide",
+          "lu_le": "2026-11-14",
+          "dose_g": 24,
+          "eau_ml": 1900,
+          "duree_s": [
+            14400,
+            28800
+          ]
+        },
+        {
+          "maison": "Orion Coffee & Tea",
+          "the": "Thés verts et blancs",
+          "url": "https://cdn.shopify.com/s/files/1/0075/8749/6036/files/cold_brew_tea_guide.pdf",
+          "lu_le": "2026-11-14",
+          "dose_g": null,
+          "eau_ml": null,
+          "duree_s": [
+            21600,
+            28800
+          ]
+        }
+      ]
+    },
+    {
+      "key": "froid-oolong",
+      "label_fr": "Oolongs infusés à froid",
+      "styles": [
+        "oolong-peu-oxyde",
+        "oolong-oxyde-torrefie",
+        "oolong-wuyi",
+        "oolong-dancong",
+        "oolong-aromatise"
+      ],
+      "sources": [
+        {
+          "maison": "Valley of Tea",
+          "the": "Oolongs légers",
+          "url": "https://www.valleyoftea.com/blogs/tea/cold-brew-tea-101-how-to-brew-the-perfect-refreshing-cup",
+          "lu_le": "2026-11-14",
+          "dose_g": 9,
+          "eau_ml": 1000,
+          "duree_s": [
+            21600,
+            28800
+          ]
+        },
+        {
+          "maison": "Valley of Tea",
+          "the": "Oolongs sombres",
+          "url": "https://www.valleyoftea.com/blogs/tea/cold-brew-tea-101-how-to-brew-the-perfect-refreshing-cup",
+          "lu_le": "2026-11-14",
+          "dose_g": 9,
+          "eau_ml": 1000,
+          "duree_s": [
+            28800,
+            36000
+          ]
+        },
+        {
+          "maison": "Avantcha",
+          "the": "Milk Oolong",
+          "url": "https://avantcha.com/blogs/guides/top-10-cold-brew-teas",
+          "lu_le": "2026-11-14",
+          "dose_g": 10,
+          "eau_ml": 1000,
+          "duree_s": [
+            7200,
+            10800
+          ]
+        },
+        {
+          "maison": "Avantcha",
+          "the": "Oolong de Wuyi",
+          "url": "https://avantcha.com/blogs/guides/top-10-cold-brew-teas",
+          "lu_le": "2026-11-14",
+          "dose_g": 10,
+          "eau_ml": 1000,
+          "duree_s": [
+            7200,
+            10800
+          ]
+        },
+        {
+          "maison": "Rare Tea Company",
+          "the": "Oolongs roulés",
+          "url": "https://rareteacompany.com/pages/how-to-make-the-perfect-cold-infusion",
+          "lu_le": "2026-11-14",
+          "dose_g": 8,
+          "eau_ml": 1000,
+          "duree_s": null
+        },
+        {
+          "maison": "Orion Coffee & Tea",
+          "the": "Oolongs",
+          "url": "https://cdn.shopify.com/s/files/1/0075/8749/6036/files/cold_brew_tea_guide.pdf",
+          "lu_le": "2026-11-14",
+          "dose_g": null,
+          "eau_ml": null,
+          "duree_s": [
+            28800,
+            36000
+          ]
+        }
+      ]
+    },
+    {
+      "key": "froid-noir",
+      "label_fr": "Thés noirs infusés à froid",
+      "styles": [
+        "noir-assam",
+        "noir-ceylan",
+        "noir-darjeeling-ete",
+        "noir-darjeeling-printemps",
+        "noir-nilgiri-himalaya",
+        "noir-afrique-autres-origines",
+        "noir-chine",
+        "noir-chine-bourgeons-dores",
+        "noir-taiwan-japon",
+        "noir-melanges-brises",
+        "noir-aromatise"
+      ],
+      "sources": [
+        {
+          "maison": "Valley of Tea",
+          "the": "Thés noirs",
+          "url": "https://www.valleyoftea.com/blogs/tea/cold-brew-tea-101-how-to-brew-the-perfect-refreshing-cup",
+          "lu_le": "2026-11-14",
+          "dose_g": 10,
+          "eau_ml": 1000,
+          "duree_s": [
+            28800,
+            43200
+          ]
+        },
+        {
+          "maison": "Avantcha",
+          "the": "Jin Jun Mei",
+          "url": "https://avantcha.com/blogs/guides/top-10-cold-brew-teas",
+          "lu_le": "2026-11-14",
+          "dose_g": 10,
+          "eau_ml": 1000,
+          "duree_s": [
+            10800,
+            10800
+          ]
+        },
+        {
+          "maison": "Avantcha",
+          "the": "Lapsang Souchong",
+          "url": "https://avantcha.com/blogs/guides/top-10-cold-brew-teas",
+          "lu_le": "2026-11-14",
+          "dose_g": 10,
+          "eau_ml": 1000,
+          "duree_s": [
+            7200,
+            10800
+          ]
+        },
+        {
+          "maison": "Rare Tea Company",
+          "the": "Thés noirs brisés",
+          "url": "https://rareteacompany.com/pages/how-to-make-the-perfect-cold-infusion",
+          "lu_le": "2026-11-14",
+          "dose_g": 12.5,
+          "eau_ml": 1000,
+          "duree_s": null
+        },
+        {
+          "maison": "Snarky Tea",
+          "the": "Thés noirs",
+          "url": "https://snarkytea.com/blogs/the-snarky-blog/ultimate-tea-brewing-guide",
+          "lu_le": "2026-11-14",
+          "dose_g": 24,
+          "eau_ml": 1900,
+          "duree_s": [
+            28800,
+            43200
+          ]
+        },
+        {
+          "maison": "Orion Coffee & Tea",
+          "the": "Thés noirs",
+          "url": "https://cdn.shopify.com/s/files/1/0075/8749/6036/files/cold_brew_tea_guide.pdf",
+          "lu_le": "2026-11-14",
+          "dose_g": null,
+          "eau_ml": null,
+          "duree_s": [
+            28800,
+            43200
+          ]
+        },
+        {
+          "maison": "L'Île aux épices",
+          "the": "Thé noir",
+          "url": "https://ileauxepices.com/blog/2026/07/17/infusion-glacee-recette-canicule/wpid56319/",
+          "lu_le": "2026-11-14",
+          "dose_g": null,
+          "eau_ml": null,
+          "duree_s": [
+            28800,
+            43200
           ]
         }
       ]

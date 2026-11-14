@@ -22,7 +22,7 @@ A brewing recipe comes from a page published by a tea producer or merchant, give
 
 An entry without an image has `photo` set to `null`: the app then shows its own placeholder. AI-generated illustrations are not photos of the actual product, so `photo_exacte` is `false`. Real photos (`photo_exacte` set to `true`) come from Wikimedia Commons; their author, licence and source page are listed in `data/photos.json`.
 
-Herbal infusions with a medicinal use carry a `precaution` field. The catalogue gives no medical advice.
+Herbal infusions with a medicinal use carry a `precaution` field. The catalogue gives no medical advice. Herbal infusions are brewed with boiling water (German Federal Institute for Risk Assessment, BfR); teas also carry a cold brew recipe (`froid` field), computed the same way from several houses.
 
 ## Usage
 

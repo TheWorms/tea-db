@@ -249,6 +249,27 @@ class CurateTests(unittest.TestCase):
                 self.assertEqual(tea["fiabilite"], "legacy_referenced", member_id)
                 self.assertEqual(tea["source"], style["sources"][0]["url"], member_id)
 
+    def test_cold_brew(self):
+        cold_styles = {k for g in self.cur["froid"] for k in g["styles"]}
+        for tea in self.app:
+            style = (self.by_id[tea["id"]]["style"] or {}).get("key")
+            if style in cold_styles:
+                f = tea["froid"]
+                self.assertEqual(f["eau_ml"], 250, tea["id"])
+                self.assertGreater(f["the_g"], 0, tea["id"])
+                self.assertEqual(f["duree_s"] % 1800, 0, tea["id"])
+                self.assertLessEqual(f["duree_s"], f["duree_max_s"], tea["id"])
+            else:
+                self.assertNotIn("froid", tea, tea["id"])
+            if tea["famille"] == "herbal":
+                self.assertNotIn("froid", tea, tea["id"])
+
+    def test_herbal_temperature_floor(self):
+        for style in self.cur["styles"]:
+            if style.get("temperature_min_c"):
+                computed, _ = curate_mod.style_recipe(style)
+                self.assertGreaterEqual(computed["temperature_c"], style["temperature_min_c"], style["key"])
+
     def test_style_rounding_and_rules(self):
         src = lambda house, g, ml, t, d: {"maison": house, "the": "x", "url": "https://x", "dose_g": g,  # noqa: E731
                                           "eau_ml": ml, "temp_c": t, "duree_s": d}
