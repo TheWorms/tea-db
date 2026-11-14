@@ -8,7 +8,7 @@ Catalogue de thés et de tisanes en français : pour chaque fiche, la dose, la t
 |---|---|
 | `docs/thes.json` | Catalogue lu par l'appli : une liste de fiches triée par identifiant |
 | `docs/redirections.json` | Anciens identifiants vers l'identifiant conservé (doublons retirés) |
-| `docs/assets/photos/catalogue/` | Illustrations au format WebP, 1200 × 800 px |
+| `docs/assets/photos/catalogue/` | Illustrations au format WebP, 1200 × 800 px, ajoutées au fur et à mesure (dossier absent tant qu'il n'y en a pas) |
 | `data/` | Données sources : fichier maître, textes, recettes par style, vérifications |
 | `scripts/` | `curate.py` génère les fichiers publiés ; `add_photo.py` convertit les images |
 | `tests/` | Tests de cohérence du catalogue |
@@ -18,7 +18,7 @@ Catalogue de thés et de tisanes en français : pour chaque fiche, la dose, la t
 
 Une recette d'infusion vient d'une page publiée par un producteur ou un marchand de thé, indiquée dans le champ `source` de chaque fiche. Les thés d'un même style (par exemple les tisanes de fleurs) partagent une recette calculée à partir de plusieurs maisons : la médiane des valeurs, une voix par maison. Une fiche sans recette sourcée est marquée `family_default` et doit être présentée comme une estimation.
 
-Les illustrations sont générées par IA. Elles ne sont pas des photos du produit : le champ `photo_exacte` vaut `false`.
+Une fiche sans image a `photo` à `null` : l'appli affiche alors sa propre vignette. Les illustrations ajoutées sont générées par IA et ne sont pas des photos du produit : le champ `photo_exacte` vaut `false`.
 
 Les tisanes à usage médicinal portent un champ `precaution`. Le catalogue ne donne aucun avis médical.
 
