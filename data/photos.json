@@ -7,6 +7,11 @@
       "exacte": false,
       "source": "https://commons.wikimedia.org/wiki/File:Nepal-dhankuta.jpg"
     },
+    "black-assam": {
+      "credit": "USAGI-WRP, CC BY 3.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Assam_CTC_Hanamizuki_2009.JPG"
+    },
     "black-assam-ctc": {
       "credit": "shankar s. from Dubai, unite…, CC BY 2.0 (Wikimedia Commons)",
       "exacte": true,
@@ -16,6 +21,26 @@
       "credit": "soultea.de /André Helbig, CC BY-SA 3.0 (Wikimedia Commons)",
       "exacte": true,
       "source": "https://commons.wikimedia.org/wiki/File:Assam-Tee_SFTGFOP1.jpg"
+    },
+    "black-assam-halmari": {
+      "credit": "Gogerr, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Assam_tea_(1).jpg"
+    },
+    "black-assam-mangalam": {
+      "credit": "Gogerr, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Assam_tea_(4).jpg"
+    },
+    "black-assam-second-flush": {
+      "credit": "Gogerr, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Assam_tea_(2).jpg"
+    },
+    "black-assam-tgfop": {
+      "credit": "Patrick Kolencherry, CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Ceylon_black_tea_leaves.jpg"
     },
     "black-broken-orange-pekoe": {
       "credit": "Ji-Elle, CC BY-SA 3.0 (Wikimedia Commons)",
@@ -32,15 +57,50 @@
       "exacte": false,
       "source": "https://commons.wikimedia.org/wiki/File:Darjeeling-tea-first-flush-leaf-dry.jpg"
     },
+    "black-dian-hong": {
+      "credit": "Shwabb1, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Dianhong_Jinluo.jpg"
+    },
     "black-earl-grey": {
       "credit": "soultea.de/André Helbig, CC BY-SA 3.0 (Wikimedia Commons)",
       "exacte": false,
       "source": "https://commons.wikimedia.org/wiki/File:EarlGrey_mit_Bergamotte_aromatisierter_Schwarzer_Tee.jpg"
     },
+    "black-earl-grey-creme": {
+      "credit": "Sjhan81, CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:TwiningsLadyGrey_low.jpg"
+    },
+    "black-earl-grey-fume": {
+      "credit": "WJ Houtman, CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Earl_Grey_FBOP-Wilson_Ceylon_Teas.jpg"
+    },
+    "black-english-afternoon": {
+      "credit": "HarshLight, CC BY 2.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Classic_Tea_at_the_Disneyland_Hotel_-_28239299271.jpg"
+    },
+    "black-english-breakfast": {
+      "credit": "ashishlohorung, CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:English_breakfast_tea,_Marrickville,_Sydney.jpg"
+    },
+    "black-french-earl-grey": {
+      "credit": "Selena N. B. H., CC BY 2.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Earl_Greys_Lady_Violet_Tea.jpg"
+    },
     "black-golden-flowery-orange-pekoe": {
       "credit": "Oraola, CC BY-SA 4.0 (Wikimedia Commons)",
       "exacte": false,
       "source": "https://commons.wikimedia.org/wiki/File:Assam-mangalam.jpg"
+    },
+    "black-irish-breakfast": {
+      "credit": "Lexane Sirac, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Milk_in_Irish_Breakfast_tea.jpg"
     },
     "black-jin-jun-mei": {
       "credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
@@ -52,10 +112,100 @@
       "exacte": false,
       "source": "https://commons.wikimedia.org/wiki/File:Assam_tea_(3).jpg"
     },
+    "black-keemun": {
+      "credit": "Whiteness, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Keemun_FOP_(1).JPG"
+    },
+    "black-keemun-hao-ya": {
+      "credit": "Whiteness, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Keemun_FOP_(3).JPG"
+    },
+    "black-keemun-mao-feng": {
+      "credit": "Whiteness, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Keemun_FTGFOP_(2).JPG"
+    },
+    "black-lady-grey": {
+      "credit": "Jan Dvorak, CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:TwiningsLadyGrey.jpg"
+    },
+    "black-lapsang-souchong": {
+      "credit": "JacksonsLapsangSouchong low.jpg, CC BY-SA 3.0 (Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:JacksonsLapsangSouchong_low.jpg"
+    },
+    "black-lapsang-souchong-non-fume": {
+      "credit": "Maša Sinreih et al., CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Theae_folium_%22lapsang_souchong%221.JPG"
+    },
+    "black-london-fog": {
+      "credit": "Andy Li, CC0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:London_fog_latte_-_Jolliffes_Coffee_Shop_2024-01-07.jpg"
+    },
+    "black-nepal-black": {
+      "credit": "Oraola, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Nepal-kanchanjangha.jpg"
+    },
+    "black-noel-the-noir": {
+      "credit": "Daniel Lepoittevin, CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:A_Kind_Of_Tea_Spoon_(255052213).jpeg"
+    },
     "black-orange-pekoe": {
       "credit": "Oraola, CC BY-SA 4.0 (Wikimedia Commons)",
       "exacte": true,
       "source": "https://commons.wikimedia.org/wiki/File:Ceylon-lumbini.jpg"
+    },
+    "black-prince-of-wales": {
+      "credit": "Whiteness, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Keemun_FOP_(2).JPG"
+    },
+    "black-russian-caravan": {
+      "credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Lapsang_Souchong.jpg"
+    },
+    "black-the-noir-a-l-orange": {
+      "credit": "Selena N. B. H., CC BY 2.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Blood_Orange_tea.jpg"
+    },
+    "black-the-noir-a-la-cannelle": {
+      "credit": "Selena N. B. H., CC BY 2.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Mr._Ollivanders_Magic_Potion_fruit_tisane.jpg"
+    },
+    "black-the-noir-a-la-mangue": {
+      "credit": "Selena N. B. H., CC BY 2.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Pineapple_Mango_tea.jpg"
+    },
+    "black-the-noir-au-citron": {
+      "credit": "Peachyeung316, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:A_Hong_Kong_style_Lemon_Black_Tea_at_Spot_Cafe.jpg"
+    },
+    "black-the-noir-aux-epices": {
+      "credit": "A Girl With Tea from USA, CC BY 2.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Pumpkin_Spice_Tea_-_Adagio.jpg"
+    },
+    "black-the-noir-aux-fruits-rouges": {
+      "credit": "Kay Yuen from Hong Kong, CC BY 2.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Very_Berry_Tea.jpg"
+    },
+    "black-the-noir-chai": {
+      "credit": "Miansari66, Public domain (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Masala_Chai.JPG"
     },
     "black-yunnan-gold": {
       "credit": "Whiteness, CC BY-SA 4.0 (Wikimedia Commons)",
@@ -77,10 +227,25 @@
       "exacte": true,
       "source": "https://commons.wikimedia.org/wiki/File:GoldenDianHong.jpg"
     },
+    "black-zheng-shan-xiao-zhong": {
+      "credit": "Ash Crow, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Tekoe_-_Lapsang_Souchong_tea_-_WikiTea.jpg"
+    },
     "cold-the-noir-glace": {
       "credit": "Editor at Large, CC BY-SA 2.5 (Wikimedia Commons)",
       "exacte": true,
       "source": "https://commons.wikimedia.org/wiki/File:Iced_tea_with_ice_cubes.jpg"
+    },
+    "cold-the-vert-glace-a-temperatu-99871427": {
+      "credit": "Missvain, CC BY 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Pearl_Petaluma_-_Sarah_Stierch_-_Jan_2019_02.jpg"
+    },
+    "cold-tisane-glacee-a-temperatur-d9505d99": {
+      "credit": "Andy Li, CC0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Hibiscus_and_berry_iced_tea_-_Lost_in_the_Lanes_2025-07-08.jpg"
     },
     "dark-fu-zhuan": {
       "credit": "Kasuga, CC BY-SA 4.0 (Wikimedia Commons)",
@@ -92,15 +257,40 @@
       "exacte": true,
       "source": "https://commons.wikimedia.org/wiki/File:JinHua_%22golden_flower%22_from_Liu_Bao_-_28198313680.jpg"
     },
+    "green-anji-bai-cha": {
+      "credit": "Walter Grassroot, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:%E5%AE%89%E5%90%89%E7%99%BD%E8%8C%B6_2020.jpg"
+    },
     "green-bancha": {
       "credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
       "exacte": false,
       "source": "https://commons.wikimedia.org/wiki/File:Shizuoka_bancha.jpg"
     },
+    "green-bi-luo-chun-dongting": {
+      "credit": "USAGI-WRP, CC BY 3.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Hekirashun_chakan.jpg"
+    },
+    "green-biluochun": {
+      "credit": "Qirille, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Suzhou_Biluochun_%E8%8B%8F%E5%B7%9E%E7%A2%A7%E8%9E%BA%E6%98%A5.jpg"
+    },
     "green-dragon-well-longjing": {
       "credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
       "exacte": false,
       "source": "https://commons.wikimedia.org/wiki/File:Longjing_tea.jpg"
+    },
+    "green-earl-grey-vert": {
+      "credit": "Ash Crow, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Tekoe_-_Green_Grey_tea_-_WikiTea.jpg"
+    },
+    "green-enshi-yulu": {
+      "credit": "Washing Machine, CC0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Gyokuro-after-steeping.jpg"
     },
     "green-funmatsucha": {
       "credit": "Kaminix, CC0 (Wikimedia Commons)",
@@ -117,6 +307,11 @@
       "exacte": true,
       "source": "https://commons.wikimedia.org/wiki/File:Genmaicha_-_Sencha_green_tea_with_toasted_rice.jpg"
     },
+    "green-gokou-sencha": {
+      "credit": "Rama, CC BY-SA 2.0 fr (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Sencha_img_0597.jpg"
+    },
     "green-gunpowder": {
       "credit": "Veganlover1993, CC BY-SA 3.0 (Wikimedia Commons)",
       "exacte": false,
@@ -132,10 +327,25 @@
       "exacte": true,
       "source": "https://commons.wikimedia.org/wiki/File:Hojicha_Dark_Roast.jpg"
     },
+    "green-huangshan-maofeng": {
+      "credit": "Verylikerice, CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Maofeng_(medium_grade,_spring_2007).jpg"
+    },
     "green-jukro": {
       "credit": "예향, CC BY 2.0 kr (Wikimedia Commons)",
       "exacte": false,
       "source": "https://commons.wikimedia.org/wiki/File:Jakseol_green_tea_leaves_2.jpg"
+    },
+    "green-jungjak": {
+      "credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Jungjak_tea_leaves.jpg"
+    },
+    "green-kabusecha": {
+      "credit": "Shizuha, CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Green_tea_kabuse-cha.jpg"
     },
     "green-kamairicha": {
       "credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
@@ -152,25 +362,160 @@
       "exacte": true,
       "source": "https://commons.wikimedia.org/wiki/File:Kukicha.jpg"
     },
+    "green-laoshan-green": {
+      "credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Laoshan_green_tea.jpg"
+    },
+    "green-longjing-mei-jia-wu": {
+      "credit": "http://www.chah.co.uk, CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Dragon_Well_A.jpg"
+    },
+    "green-longjing-shi-feng": {
+      "credit": "Gerd Eichmann, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Hangzhou-Teeplantage-36-Teeglas-2012-gje.jpg"
+    },
+    "green-mao-feng": {
+      "credit": "Pannet, CC BY 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Maofeng_Tea_03.jpg"
+    },
+    "green-mao-jian": {
+      "credit": "Francesc Fort, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Xinyang_Maojian.jpg"
+    },
+    "green-ming-qian-longjing": {
+      "credit": "Gary Stevens, CC BY 2.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Longjing_tea_7.jpg"
+    },
     "green-moroccan-mint": {
       "credit": "Marie-Lan Nguyen, CC BY 2.5 (Wikimedia Commons)",
       "exacte": true,
       "source": "https://commons.wikimedia.org/wiki/File:Green_mint_tea_Touareg_Damann.jpg"
+    },
+    "green-nokcha": {
+      "credit": "강응규, CC BY 2.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Boseong_green_tea_and_green_tea_desserts.jpg"
     },
     "green-sencha": {
       "credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
       "exacte": false,
       "source": "https://commons.wikimedia.org/wiki/File:2017_Kagoshima_sencha.jpg"
     },
+    "green-sencha-asamushi": {
+      "credit": "El mosati, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:00122615-Sencha-tea-Leaves.jpg"
+    },
+    "green-sencha-chumushi": {
+      "credit": "観光・CP課, CC BY 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Fukamushi_Kakegawa_Cha_201803mid.jpg"
+    },
+    "green-sencha-fukamushi": {
+      "credit": "FCartegnie, CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Snv34502.jpg"
+    },
     "green-shincha": {
       "credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
       "exacte": false,
       "source": "https://commons.wikimedia.org/wiki/File:2018_Uji_lightly_steamed_sencha.jpg"
     },
+    "green-shizuoka-sencha": {
+      "credit": "観光・CP課, CC BY 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Fukamushi_Kakegawa_Cha_201812mid.jpg"
+    },
+    "green-taiping-houkui": {
+      "credit": "Pannet, CC BY 4.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Taiping_houkui_10.jpg"
+    },
     "green-tamaryokucha": {
       "credit": "Fanny Schertzer, CC BY-SA 3.0 (Wikimedia Commons)",
       "exacte": false,
       "source": "https://commons.wikimedia.org/wiki/File:Tamaryokucha.jpg"
+    },
+    "green-tencha": {
+      "credit": "Derjochenmeyer, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Tencha_on_traditional_stone_mill_in_Uji_Japan.jpg"
+    },
+    "green-the-vert-a-la-noix-de-coco": {
+      "credit": "Selena N. B. H., CC BY 2.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Coconut_green_tea.jpg"
+    },
+    "green-the-vert-a-la-rose": {
+      "credit": "Selena N. B. H., CC BY 2.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Green_tea_with_rose,_jasmine,_and_sunflower_blossoms.jpg"
+    },
+    "green-the-vert-au-gingembre": {
+      "credit": "Elmer Centeno Guevarra, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Honey_Yellow_Ginger_Tea.jpg"
+    },
+    "green-the-vert-au-jasmin": {
+      "credit": "Hayden Soloviev, CC BY 4.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Loose_Jasmine_Tea_Leaves.jpg"
+    },
+    "green-the-vert-coreen-sejak": {
+      "credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Sejak_tea_leaves.jpg"
+    },
+    "green-uji-gyokuro": {
+      "credit": "Rama, CC BY-SA 2.0 fr (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:The-IMG_0015.jpg"
+    },
+    "green-uji-sencha": {
+      "credit": "Maša Sinreih et al., CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Theae_folium_%22sencha%221.JPG"
+    },
+    "green-vietnam-thai-nguyen": {
+      "credit": "Binh Giang, Public domain (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Vietnamese_green_tea.jpg"
+    },
+    "green-white-monkey": {
+      "credit": "soultea.de /André Helbig, CC BY 3.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:White-monkey-gross.jpg"
+    },
+    "green-xinyang-maojian": {
+      "credit": "Maojian.jpg, CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Maojian.jpg"
+    },
+    "green-yunnan-green": {
+      "credit": "MrsMyer, CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:BoneChinaTassemitgr%C3%BCnemTee.JPG"
+    },
+    "green-yunnan-silver-strands": {
+      "credit": "CEphoto, Uwe Aranas, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Zhu-Ye-Qing-Tea-03.jpg"
+    },
+    "green-zhejiang-green": {
+      "credit": "Zantastik, CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Th%C3%A9_vert_gunpowder_entass%C3%A9_01.jpg"
+    },
+    "green-zhu-ye-qing": {
+      "credit": "CEphoto, Uwe Aranas, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Zhu-Ye-Qing-Tea-02.jpg"
     },
     "herbal-achillee-blanche": {
       "credit": "Neuchâtel Herbarium, CC BY-SA 3.0 (Wikimedia Commons)",
@@ -231,6 +576,16 @@
       "credit": "Mostafameraji, CC BY-SA 4.0 (Wikimedia Commons)",
       "exacte": true,
       "source": "https://commons.wikimedia.org/wiki/File:Zinnia_Flowers_%DA%AF%D9%84_%D8%A2%D9%87%D8%A7%D8%B1%DB%8C_01.jpg"
+    },
+    "herbal-camomille": {
+      "credit": "Danny Steven S., CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Flores_Matricariae_by_Danny_S._-_001.JPG"
+    },
+    "herbal-camomille-romaine": {
+      "credit": "Rillke, CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Chamomillae_romanae_flos_276060.jpg"
     },
     "herbal-cannelle": {
       "credit": "Galib Tufan, CC BY-SA 4.0 (Wikimedia Commons)",
@@ -337,6 +692,11 @@
       "exacte": true,
       "source": "https://commons.wikimedia.org/wiki/File:La_Sabina,_La_Palma,_PR-LP_16.1,_orange_flowers_against_wall.jpg"
     },
+    "herbal-fleur-de-bleuet": {
+      "credit": "Rillke, CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Cyani_flos_250083.jpg"
+    },
     "herbal-fleur-de-bruyere": {
       "credit": "Forest Service Alaska Region…, CC BY 2.0 (Wikimedia Commons)",
       "exacte": true,
@@ -362,6 +722,11 @@
       "exacte": true,
       "source": "https://commons.wikimedia.org/wiki/File:Freeze-dried_strawberry_yogurt_cubes.jpg"
     },
+    "herbal-fruits-rouges-seches": {
+      "credit": "Fumikas Sagisavas, CC0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Dried_fruit_tea_(20240909).jpg"
+    },
     "herbal-gingembre": {
       "credit": "Friday musa, CC BY-SA 4.0 (Wikimedia Commons)",
       "exacte": false,
@@ -371,6 +736,11 @@
       "credit": "Mauricio Caceres Vega, CC BY-SA 4.0 (Wikimedia Commons)",
       "exacte": true,
       "source": "https://commons.wikimedia.org/wiki/File:Ilex_guayusa.jpg"
+    },
+    "herbal-hibiscus": {
+      "credit": "Danny Steven S., CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Hibisci_sabdariffae_flos_by_Danny_S._-_001.jpg"
     },
     "herbal-honeybush": {
       "credit": "soultea.de/André Helbig, CC BY-SA 3.0 (Wikimedia Commons)",
@@ -406,6 +776,11 @@
       "credit": "Napendakukula, CC BY-SA 4.0 (Wikimedia Commons)",
       "exacte": true,
       "source": "https://commons.wikimedia.org/wiki/File:Achari_(dried_mango_from_Mombasa).JPG"
+    },
+    "herbal-mate-vert": {
+      "credit": "soultea.de /André Helbig, CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Gr%C3%BCner_Mate_geschnitten.jpg"
     },
     "herbal-melisse": {
       "credit": "Rillke, CC BY-SA 3.0 de (Wikimedia Commons)",
@@ -492,6 +867,31 @@
       "exacte": false,
       "source": "https://commons.wikimedia.org/wiki/File:Rosemary_leaves.jpg"
     },
+    "herbal-rooibos": {
+      "credit": "Rooibos Téi.jpg, CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Rooibos_T%C3%A9i.jpg"
+    },
+    "herbal-rooibos-a-la-menthe": {
+      "credit": "Sarkar Sayantan, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Moroccan_Mint_Tea_-_1.jpg"
+    },
+    "herbal-rooibos-fruits-rouges": {
+      "credit": "Vyacheslav Argenberg, CC BY 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Krasnoyarsk_Stolby,_Herbal_tea,_Herbal_infusion,_Taiga_forest_tea,_Russia.jpg"
+    },
+    "herbal-rooibos-orange": {
+      "credit": "Miomir Magdevski, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Mixture_for_herbal_tea_05.jpg"
+    },
+    "herbal-rooibos-vanille": {
+      "credit": "Żółwiciel, CC BY 3.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Rooibos_tea_in_a_glass_with_dry_rooibos.jpg"
+    },
     "herbal-sauge": {
       "credit": "USFWS Mountain-Prairie, Public domain (Wikimedia Commons)",
       "exacte": true,
@@ -526,6 +926,16 @@
       "credit": "W.carter, CC BY-SA 4.0 (Wikimedia Commons)",
       "exacte": true,
       "source": "https://commons.wikimedia.org/wiki/File:White_mug_with_red_herbal_Advent_tea_in_Tuntorp.jpg"
+    },
+    "herbal-tisane-fruits-des-bois": {
+      "credit": "Miomir Magdevski, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Mixture_for_herbal_tea_01.jpg"
+    },
+    "herbal-tisane-fruits-rouges": {
+      "credit": "Miomir Magdevski, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Mixture_for_herbal_tea_04.jpg"
     },
     "herbal-tisane-menthe-citron": {
       "credit": "Andy Li, CC0 (Wikimedia Commons)",
@@ -572,6 +982,16 @@
       "exacte": false,
       "source": "https://commons.wikimedia.org/wiki/File:Matcha_Green_Tea_Powder_(9409937063).jpg"
     },
+    "oolong-ali-shan": {
+      "credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Jin_Xuan_oolong_tea.jpg"
+    },
+    "oolong-ali-shan-jin-xuan": {
+      "credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Jin_Xuan_oolong_tea_steeping_in_gaiwan.jpg"
+    },
     "oolong-ba-xian": {
       "credit": "BaiyuenPlennra Guumz, CC0 (Wikimedia Commons)",
       "exacte": true,
@@ -592,15 +1012,30 @@
       "exacte": true,
       "source": "https://commons.wikimedia.org/wiki/File:Wuyi_oolong_tea.jpg"
     },
+    "oolong-ben-shan": {
+      "credit": "Peaceeverywhere, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Huang_Jin_Gui_Tea.jpeg"
+    },
     "oolong-da-hong-pao": {
       "credit": "Shizuha, CC BY-SA 3.0 (Wikimedia Commons)",
       "exacte": true,
       "source": "https://commons.wikimedia.org/wiki/File:Daikouhou_02.jpg"
     },
+    "oolong-da-yu-ling": {
+      "credit": "Mx. Granger, CC0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:%E9%AB%98%E5%B1%B1%E8%8C%B6_1.jpg"
+    },
     "oolong-dan-cong-song-zhong": {
       "credit": "Mx. Granger, CC0 (Wikimedia Commons)",
       "exacte": false,
       "source": "https://commons.wikimedia.org/wiki/File:Duck_shit_aroma_tea_4.jpg"
+    },
+    "oolong-dong-ding": {
+      "credit": "Pancrat, CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Dongding_feuilles_liqueur.jpg"
     },
     "oolong-dong-ding-torrefie": {
       "credit": "Waliy sherpa, CC BY-SA 4.0 (Wikimedia Commons)",
@@ -617,15 +1052,50 @@
       "exacte": false,
       "source": "https://commons.wikimedia.org/wiki/File:Dung-ti-oolong-gross.jpg"
     },
+    "oolong-gaba-oolong": {
+      "credit": "Pannet, CC BY 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:GABA_tea_02.jpg"
+    },
+    "oolong-huang-guan-yin": {
+      "credit": "HGY Oolong tea leaf.jpg, CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:HGY_Oolong_tea_leaf.jpg"
+    },
+    "oolong-huang-jin-gui": {
+      "credit": "Ougonkei.jpg, CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Ougonkei.jpg"
+    },
     "oolong-jin-fo": {
       "credit": "Nadav Spiegelman, CC BY-SA 4.0 (Wikimedia Commons)",
       "exacte": true,
       "source": "https://commons.wikimedia.org/wiki/File:Wuyi_oolong_tea.jpg"
     },
+    "oolong-jin-xuan": {
+      "credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Jin_Xuan_oolong_tea_after_steeping.jpg"
+    },
+    "oolong-li-shan": {
+      "credit": "Mx. Granger, CC0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:%E9%AB%98%E5%B1%B1%E8%8C%B6_2.jpg"
+    },
     "oolong-mi-lan-xiang": {
       "credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
       "exacte": true,
       "source": "https://commons.wikimedia.org/wiki/File:Mi_Lan_Xiang_Oolong_Tea.jpg"
+    },
+    "oolong-oolong-au-jasmin": {
+      "credit": "Usernet123u, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Oolong_Tea_wrapped_tea_balls.jpg"
+    },
+    "oolong-oolong-darjeeling": {
+      "credit": "Benoy, CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Darjeeling_Oolong_Tea.jpg"
     },
     "oolong-oriental-beauty": {
       "credit": "Gcd822, CC BY-SA 4.0 (Wikimedia Commons)",
@@ -661,6 +1131,16 @@
       "credit": "Nadav Spiegelman, CC BY-SA 4.0 (Wikimedia Commons)",
       "exacte": true,
       "source": "https://commons.wikimedia.org/wiki/File:Wuyi_oolong_tea.jpg"
+    },
+    "oolong-tie-guan-yin": {
+      "credit": "Francesc Fort, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Fulles_de_Tieguanyin.jpg"
+    },
+    "oolong-tie-guan-yin-anxi": {
+      "credit": "Maximilian Wimmer, CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Maxim-2a-TinKuanYinLeaves.JPG"
     },
     "oolong-tie-guan-yin-torrefie": {
       "credit": "Tieguanyin.jpg, CC BY-SA 3.0 (Wikimedia Commons)",
@@ -772,6 +1252,11 @@
       "exacte": true,
       "source": "https://commons.wikimedia.org/wiki/File:Yunnan_Sourcing_%22Golden_Pig%22_Raw_Pu-erh_Tea_Cake_-_inner_packaging_-_WikiTea.jpg"
     },
+    "pu_erh-shou-pu-erh": {
+      "credit": "Copypaiste, CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:%22Da_Yi_Gong_Tuo%22_Pu-erh_shou_cha,_2010.jpg"
+    },
     "pu_erh-tuo-cha": {
       "credit": "Ash Crow, CC BY-SA 4.0 (Wikimedia Commons)",
       "exacte": true,
@@ -792,6 +1277,16 @@
       "exacte": false,
       "source": "https://commons.wikimedia.org/wiki/File:110601_204646.jpg"
     },
+    "white-aiguilles-d-argent-au-jasmin": {
+      "credit": "soultea.de /André Helbig, CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Soultea_Black_Jasmin,_Jasminbl%C3%BCten_und_Assam_SFTGFOP1.jpg"
+    },
+    "white-bai-hao-yin-zhen": {
+      "credit": "Kaminix, Public domain (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:2010_FirstFlush_Yunnan_Baihao_Yinzhen.jpg"
+    },
     "white-bai-mudan": {
       "credit": "Selena N. B. H. from Fayette…, CC BY 2.0 (Wikimedia Commons)",
       "exacte": false,
@@ -802,10 +1297,90 @@
       "exacte": false,
       "source": "https://commons.wikimedia.org/wiki/File:Baimudan.JPG"
     },
+    "white-bourgeons-de-neige-du-yunnan": {
+      "credit": "Björn König, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:White_tea_close-up.jpg"
+    },
+    "white-ceylon-white": {
+      "credit": "WJ Houtman, CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Meepitiya-White_tea-Silver_Tips.jpg"
+    },
+    "white-fuding-white": {
+      "credit": "chaidrakon.ru, CC BY 3.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Bai_Mudan.jpg"
+    },
+    "white-galette-de-the-blanc-vieilli": {
+      "credit": "Qirille, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:White_pu_erh_silver_buds_2.jpg"
+    },
+    "white-nepal-white": {
+      "credit": "Benoy, CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Darjeeling_White_Tea.jpg"
+    },
     "white-shou-mei": {
       "credit": "Matros, Public domain (Wikimedia Commons)",
       "exacte": true,
       "source": "https://commons.wikimedia.org/wiki/File:Shou_Mei_tea.JPG"
+    },
+    "white-silver-needle-yunnan": {
+      "credit": "Pannet, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%B0%D0%B9%D1%85%D0%B0%D0%BE_%D0%98%D0%BD%D1%8C%D1%87%D0%B6%D1%8D%D0%BD%D1%8C.jpg"
+    },
+    "white-white-darjeeling": {
+      "credit": "yoppy, CC BY 2.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Darjeeling_white_tea.jpg"
+    },
+    "white-zhenghe-white": {
+      "credit": "soultea.de /André Helbig, CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Wei%C3%9Fer_Tee_Pai_Mu_Tan.jpg"
+    },
+    "yellow-bei-gang-mao-jian": {
+      "credit": "KirillK, CC0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Gaiwan-yellow-tea-huang-ya.jpg"
+    },
+    "yellow-huang-xiao-cha": {
+      "credit": "Whiteness, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Yellow-Tea-Hunan_(1).JPG"
+    },
+    "yellow-huang-ya": {
+      "credit": "Pannet, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B9_%D0%B6%D0%B5%D0%BB%D1%82%D1%8B%D0%B9_%D1%87%D0%B0%D0%B9_%D0%A5%D0%BE%D1%88%D0%B0%D0%BD%D1%8C_%D0%A5%D1%83%D0%B0%D0%BD_%D0%AF.jpg"
+    },
+    "yellow-huo-shan-huang-ya": {
+      "credit": "Iateasquirrel, CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Huoshan_Huangya_tea_leaves_close.jpg"
+    },
+    "yellow-huo-shan-huang-ya-palais-des-thes": {
+      "credit": "Huoshan Huangya tea leaves.jpg, CC BY-SA 3.0 (Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Huoshan_Huangya_tea_leaves.jpg"
+    },
+    "yellow-jun-shan-yin-zhen": {
+      "credit": "Commonsenses, CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Kunzanginshin(1).jpg"
+    },
+    "yellow-mo-gan-huang-ya": {
+      "credit": "Vypij.cz, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Huo_Shan_Huang_Ya_-_%C5%BElut%C3%BD_%C4%8Daj.jpg"
+    },
+    "yellow-yellow-tea-hunan": {
+      "credit": "Whiteness, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Yellow-Tea-Hunan_(2).JPG"
     }
   }
 }

@@ -41,7 +41,7 @@
     },
     "with_notes": 458,
     "commons_photos": 0,
-    "with_photo": 161,
+    "with_photo": 276,
     "style_referenced_entries": 441,
     "aligned_on_style": 7
   },
@@ -433,7 +433,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-assam.webp",
+        "photo_credit": "USAGI-WRP, CC BY 3.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -671,7 +677,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-assam-halmari.webp",
+        "photo_credit": "Gogerr, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -746,7 +758,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-assam-mangalam.webp",
+        "photo_credit": "Gogerr, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -821,7 +839,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-assam-second-flush.webp",
+        "photo_credit": "Gogerr, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -896,7 +920,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-assam-tgfop.webp",
+        "photo_credit": "Patrick Kolencherry, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -2513,7 +2543,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-dian-hong.webp",
+        "photo_credit": "Shwabb1, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -2681,7 +2717,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-earl-grey-creme.webp",
+        "photo_credit": "Sjhan81, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -2755,7 +2797,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-earl-grey-fume.webp",
+        "photo_credit": "WJ Houtman, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -2831,7 +2879,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-english-afternoon.webp",
+        "photo_credit": "HarshLight, CC BY 2.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -2907,7 +2961,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-english-breakfast.webp",
+        "photo_credit": "ashishlohorung, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -3054,7 +3114,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-french-earl-grey.webp",
+        "photo_credit": "Selena N. B. H., CC BY 2.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -3286,7 +3352,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-irish-breakfast.webp",
+        "photo_credit": "Lexane Sirac, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -3581,7 +3653,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-keemun.webp",
+        "photo_credit": "Whiteness, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -3657,7 +3735,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-keemun-hao-ya.webp",
+        "photo_credit": "Whiteness, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -3733,7 +3817,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-keemun-mao-feng.webp",
+        "photo_credit": "Whiteness, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -3880,7 +3970,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-lady-grey.webp",
+        "photo_credit": "Jan Dvorak, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -3956,7 +4052,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-lapsang-souchong.webp",
+        "photo_credit": "JacksonsLapsangSouchong low.jpg, CC BY-SA 3.0 (Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -4032,7 +4134,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-lapsang-souchong-non-fume.webp",
+        "photo_credit": "Maša Sinreih et al., CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -4106,7 +4214,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-london-fog.webp",
+        "photo_credit": "Andy Li, CC0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -4247,7 +4361,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-nepal-black.webp",
+        "photo_credit": "Oraola, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -4543,7 +4663,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-noel-the-noir.webp",
+        "photo_credit": "Daniel Lepoittevin, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -4701,7 +4827,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-prince-of-wales.webp",
+        "photo_credit": "Whiteness, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -4850,7 +4982,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-russian-caravan.webp",
+        "photo_credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -5514,7 +5652,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-the-noir-a-l-orange.webp",
+        "photo_credit": "Selena N. B. H., CC BY 2.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -5655,7 +5799,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-the-noir-a-la-cannelle.webp",
+        "photo_credit": "Selena N. B. H., CC BY 2.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -5729,7 +5879,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-the-noir-a-la-mangue.webp",
+        "photo_credit": "Selena N. B. H., CC BY 2.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -6179,7 +6335,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-the-noir-au-citron.webp",
+        "photo_credit": "Peachyeung316, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -6253,7 +6415,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-the-noir-aux-epices.webp",
+        "photo_credit": "A Girl With Tea from USA, CC BY 2.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -6327,7 +6495,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-the-noir-aux-fruits-rouges.webp",
+        "photo_credit": "Kay Yuen from Hong Kong, CC BY 2.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -6403,7 +6577,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-the-noir-chai.webp",
+        "photo_credit": "Miansari66, Public domain (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -7531,7 +7711,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-zheng-shan-xiao-zhong.webp",
+        "photo_credit": "Ash Crow, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -7661,7 +7847,13 @@
           "notes_fr": "Valeur compilée avec source, lien non revérifié individuellement ; privilégier la consigne sur l’emballage."
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/cold-the-vert-glace-a-temperatu-99871427.webp",
+        "photo_credit": "Missvain, CC BY 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -7721,7 +7913,13 @@
           "notes_fr": "Valeur compilée avec source, lien non revérifié individuellement ; privilégier la consigne sur l’emballage."
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/cold-tisane-glacee-a-temperatur-d9505d99.webp",
+        "photo_credit": "Andy Li, CC0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -8853,7 +9051,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-anji-bai-cha.webp",
+        "photo_credit": "Walter Grassroot, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -9191,7 +9395,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-bi-luo-chun-dongting.webp",
+        "photo_credit": "USAGI-WRP, CC BY 3.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -9266,7 +9476,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-biluochun.webp",
+        "photo_credit": "Qirille, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -9651,7 +9867,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-earl-grey-vert.webp",
+        "photo_credit": "Ash Crow, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -9728,7 +9950,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-enshi-yulu.webp",
+        "photo_credit": "Washing Machine, CC0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -10249,7 +10477,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-gokou-sencha.webp",
+        "photo_credit": "Rama, CC BY-SA 2.0 fr (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [
         "commons_sencha"
       ],
@@ -10648,7 +10882,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-huangshan-maofeng.webp",
+        "photo_credit": "Verylikerice, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -10936,7 +11176,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-jungjak.webp",
+        "photo_credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -11017,7 +11263,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-kabusecha.webp",
+        "photo_credit": "Shizuha, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -11566,7 +11818,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-laoshan-green.webp",
+        "photo_credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -11712,7 +11970,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-longjing-mei-jia-wu.webp",
+        "photo_credit": "http://www.chah.co.uk, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -11785,7 +12049,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-longjing-shi-feng.webp",
+        "photo_credit": "Gerd Eichmann, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -11931,7 +12201,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-mao-feng.webp",
+        "photo_credit": "Pannet, CC BY 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -12004,7 +12280,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-mao-jian.webp",
+        "photo_credit": "Francesc Fort, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -12216,7 +12498,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-ming-qian-longjing.webp",
+        "photo_credit": "Gary Stevens, CC BY 2.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -12601,7 +12889,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-nokcha.webp",
+        "photo_credit": "강응규, CC BY 2.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -12965,7 +13259,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-sencha-asamushi.webp",
+        "photo_credit": "El mosati, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [
         "commons_sencha"
       ],
@@ -13044,7 +13344,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-sencha-chumushi.webp",
+        "photo_credit": "観光・CP課, CC BY 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [
         "commons_sencha"
       ],
@@ -13125,7 +13431,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-sencha-fukamushi.webp",
+        "photo_credit": "FCartegnie, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [
         "commons_sencha"
       ],
@@ -13291,7 +13603,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-shizuoka-sencha.webp",
+        "photo_credit": "観光・CP課, CC BY 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [
         "commons_sencha"
       ],
@@ -13366,7 +13684,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-taiping-houkui.webp",
+        "photo_credit": "Pannet, CC BY 4.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -13530,7 +13854,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-tencha.webp",
+        "photo_credit": "Derjochenmeyer, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -14044,7 +14374,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-the-vert-a-la-noix-de-coco.webp",
+        "photo_credit": "Selena N. B. H., CC BY 2.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -14196,7 +14532,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-the-vert-a-la-rose.webp",
+        "photo_credit": "Selena N. B. H., CC BY 2.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -14502,7 +14844,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-the-vert-au-gingembre.webp",
+        "photo_credit": "Elmer Centeno Guevarra, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -14579,7 +14927,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-the-vert-au-jasmin.webp",
+        "photo_credit": "Hayden Soloviev, CC BY 4.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -15022,7 +15376,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-the-vert-coreen-sejak.webp",
+        "photo_credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -15525,7 +15885,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-uji-gyokuro.webp",
+        "photo_credit": "Rama, CC BY-SA 2.0 fr (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [
         "commons_sencha"
       ],
@@ -15604,7 +15970,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-uji-sencha.webp",
+        "photo_credit": "Maša Sinreih et al., CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [
         "commons_sencha"
       ],
@@ -15679,7 +16051,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-vietnam-thai-nguyen.webp",
+        "photo_credit": "Binh Giang, Public domain (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -15752,7 +16130,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-white-monkey.webp",
+        "photo_credit": "soultea.de /André Helbig, CC BY 3.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -15907,7 +16291,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-xinyang-maojian.webp",
+        "photo_credit": "Maojian.jpg, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -16057,7 +16447,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-yunnan-green.webp",
+        "photo_credit": "MrsMyer, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -16203,7 +16599,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-yunnan-silver-strands.webp",
+        "photo_credit": "CEphoto, Uwe Aranas, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -16276,7 +16678,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-zhejiang-green.webp",
+        "photo_credit": "Zantastik, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -16349,7 +16757,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-zhu-ye-qing.webp",
+        "photo_credit": "CEphoto, Uwe Aranas, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -17556,7 +17970,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-camomille.webp",
+        "photo_credit": "Danny Steven S., CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -17631,7 +18051,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-camomille-romaine.webp",
+        "photo_credit": "Rillke, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -19705,7 +20131,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-fleur-de-bleuet.webp",
+        "photo_credit": "Rillke, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -20297,7 +20729,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-fruits-rouges-seches.webp",
+        "photo_credit": "Fumikas Sagisavas, CC0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -20605,7 +21043,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-hibiscus.webp",
+        "photo_credit": "Danny Steven S., CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -21445,7 +21889,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-mate-vert.webp",
+        "photo_credit": "soultea.de /André Helbig, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -23227,7 +23677,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-rooibos.webp",
+        "photo_credit": "Rooibos Téi.jpg, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [
         "commons_rooibos"
       ],
@@ -23301,7 +23757,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-rooibos-a-la-menthe.webp",
+        "photo_credit": "Sarkar Sayantan, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [
         "commons_rooibos"
       ],
@@ -23743,7 +24205,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-rooibos-fruits-rouges.webp",
+        "photo_credit": "Vyacheslav Argenberg, CC BY 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [
         "commons_rooibos"
       ],
@@ -23817,7 +24285,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-rooibos-orange.webp",
+        "photo_credit": "Miomir Magdevski, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [
         "commons_rooibos"
       ],
@@ -23891,7 +24365,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-rooibos-vanille.webp",
+        "photo_credit": "Żółwiciel, CC BY 3.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [
         "commons_rooibos"
       ],
@@ -24862,7 +25342,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-tisane-fruits-des-bois.webp",
+        "photo_credit": "Miomir Magdevski, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -24932,7 +25418,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-tisane-fruits-rouges.webp",
+        "photo_credit": "Miomir Magdevski, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -26244,7 +26736,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/oolong-ali-shan.webp",
+        "photo_credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [
         "commons_oolong"
       ],
@@ -26327,7 +26825,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/oolong-ali-shan-jin-xuan.webp",
+        "photo_credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [
         "commons_oolong"
       ],
@@ -26821,7 +27325,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/oolong-ben-shan.webp",
+        "photo_credit": "Peaceeverywhere, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [
         "commons_oolong"
       ],
@@ -26985,7 +27495,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/oolong-da-yu-ling.webp",
+        "photo_credit": "Mx. Granger, CC0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [
         "commons_oolong"
       ],
@@ -27149,7 +27665,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/oolong-dong-ding.webp",
+        "photo_credit": "Pancrat, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [
         "commons_oolong"
       ],
@@ -27716,7 +28238,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/oolong-gaba-oolong.webp",
+        "photo_credit": "Pannet, CC BY 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [
         "commons_oolong"
       ],
@@ -27882,7 +28410,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/oolong-huang-guan-yin.webp",
+        "photo_credit": "HGY Oolong tea leaf.jpg, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [
         "commons_oolong"
       ],
@@ -27965,7 +28499,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/oolong-huang-jin-gui.webp",
+        "photo_credit": "Ougonkei.jpg, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [
         "commons_oolong"
       ],
@@ -28209,7 +28749,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/oolong-jin-xuan.webp",
+        "photo_credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [
         "commons_oolong"
       ],
@@ -28296,7 +28842,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/oolong-li-shan.webp",
+        "photo_credit": "Mx. Granger, CC0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [
         "commons_oolong"
       ],
@@ -28986,7 +29538,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/oolong-oolong-au-jasmin.webp",
+        "photo_credit": "Usernet123u, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [
         "commons_oolong"
       ],
@@ -29140,7 +29698,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/oolong-oolong-darjeeling.webp",
+        "photo_credit": "Benoy, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [
         "commons_oolong"
       ],
@@ -30683,7 +31247,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/oolong-tie-guan-yin.webp",
+        "photo_credit": "Francesc Fort, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [
         "commons_oolong"
       ],
@@ -30766,7 +31336,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/oolong-tie-guan-yin-anxi.webp",
+        "photo_credit": "Maximilian Wimmer, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [
         "commons_oolong"
       ],
@@ -33899,7 +34475,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/pu_erh-shou-pu-erh.webp",
+        "photo_credit": "Copypaiste, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [
         "commons_puerh"
       ],
@@ -34503,7 +35085,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/white-aiguilles-d-argent-au-jasmin.webp",
+        "photo_credit": "soultea.de /André Helbig, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -34584,7 +35172,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/white-bai-hao-yin-zhen.webp",
+        "photo_credit": "Kaminix, Public domain (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -34835,7 +35429,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/white-bourgeons-de-neige-du-yunnan.webp",
+        "photo_credit": "Björn König, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -34913,7 +35513,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/white-ceylon-white.webp",
+        "photo_credit": "WJ Houtman, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -35123,7 +35729,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/white-fuding-white.webp",
+        "photo_credit": "chaidrakon.ru, CC BY 3.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -35197,7 +35809,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/white-galette-de-the-blanc-vieilli.webp",
+        "photo_credit": "Qirille, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -35546,7 +36164,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/white-nepal-white.webp",
+        "photo_credit": "Benoy, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -35910,7 +36534,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/white-silver-needle-yunnan.webp",
+        "photo_credit": "Pannet, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -36728,7 +37358,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/white-white-darjeeling.webp",
+        "photo_credit": "yoppy, CC BY 2.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -37595,7 +38231,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/white-zhenghe-white.webp",
+        "photo_credit": "soultea.de /André Helbig, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -37673,7 +38315,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/yellow-bei-gang-mao-jian.webp",
+        "photo_credit": "KirillK, CC0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -37968,7 +38616,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/yellow-huang-xiao-cha.webp",
+        "photo_credit": "Whiteness, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -38041,7 +38695,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/yellow-huang-ya.webp",
+        "photo_credit": "Pannet, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -38212,7 +38872,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/yellow-huo-shan-huang-ya.webp",
+        "photo_credit": "Iateasquirrel, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -38312,7 +38978,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/yellow-huo-shan-huang-ya-palais-des-thes.webp",
+        "photo_credit": "Huoshan Huangya tea leaves.jpg, CC BY-SA 3.0 (Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -38456,7 +39128,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/yellow-jun-shan-yin-zhen.webp",
+        "photo_credit": "Commonsenses, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -38679,7 +39357,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/yellow-mo-gan-huang-ya.webp",
+        "photo_credit": "Vypij.cz, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -39019,7 +39703,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/yellow-yellow-tea-hunan.webp",
+        "photo_credit": "Whiteness, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
