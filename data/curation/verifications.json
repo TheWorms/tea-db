@@ -2,15 +2,15 @@
   "_doc_fr": "Recettes sourcées dont les valeurs ont été relues sur la page source à la date indiquée (lecture automatisée de la page). curate.py renseigne source.checked_on seulement si les valeurs du catalogue sont toujours identiques à expected ; sinon il s'arrête en erreur.",
   "verifications": [
     {
-      "id": "green-sencha",
-      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-      "checked_on": "2026-11-13",
+      "id": "black-annapurna-blossom",
+      "url": "https://www.palaisdesthes.com/fr/annapurna-blossom-2026.html",
+      "checked_on": "2026-11-14",
       "expected": {
-        "tea_g": 3,
-        "water_ml": 250,
-        "temperature_c": 80,
-        "duration_seconds_min": 90,
-        "duration_seconds_max": 90
+        "tea_g": 6,
+        "water_ml": 300,
+        "temperature_c": 85,
+        "duration_seconds_min": 225,
+        "duration_seconds_max": 225
       }
     },
     {
@@ -26,135 +26,27 @@
       }
     },
     {
-      "id": "green-dragon-well-longjing",
-      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-      "checked_on": "2026-11-13",
+      "id": "black-darjeeling-badamtam-dj25",
+      "url": "https://www.palaisdesthes.com/fr/badamtam-dj25-tippy-clonal2026.html",
+      "checked_on": "2026-11-14",
       "expected": {
-        "tea_g": 3,
-        "water_ml": 250,
-        "temperature_c": 80,
-        "duration_seconds_min": 120,
-        "duration_seconds_max": 120
-      }
-    },
-    {
-      "id": "oolong-tie-guan-yin",
-      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-      "checked_on": "2026-11-13",
-      "expected": {
-        "tea_g": 4,
-        "water_ml": 250,
-        "temperature_c": 90,
-        "duration_seconds_min": 120,
-        "duration_seconds_max": 120
-      }
-    },
-    {
-      "id": "pu_erh-shou-pu-erh",
-      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-      "checked_on": "2026-11-13",
-      "expected": {
-        "tea_g": 3,
-        "water_ml": 250,
-        "temperature_c": 100,
-        "duration_seconds_min": 60,
-        "duration_seconds_max": 60
-      }
-    },
-    {
-      "id": "oolong-da-hong-pao",
-      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-      "checked_on": "2026-11-13",
-      "expected": {
-        "tea_g": 5,
-        "water_ml": 250,
-        "temperature_c": 93,
-        "duration_seconds_min": 90,
-        "duration_seconds_max": 90
-      }
-    },
-    {
-      "id": "oolong-li-shan",
-      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-      "checked_on": "2026-11-13",
-      "expected": {
-        "tea_g": 3,
-        "water_ml": 250,
-        "temperature_c": 88,
-        "duration_seconds_min": 120,
-        "duration_seconds_max": 120
-      }
-    },
-    {
-      "id": "oolong-ali-shan",
-      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-      "checked_on": "2026-11-13",
-      "expected": {
-        "tea_g": 3,
-        "water_ml": 250,
-        "temperature_c": 88,
-        "duration_seconds_min": 120,
-        "duration_seconds_max": 120
-      }
-    },
-    {
-      "id": "white-bai-hao-yin-zhen",
-      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-      "checked_on": "2026-11-13",
-      "expected": {
-        "tea_g": 3,
-        "water_ml": 250,
+        "tea_g": 6,
+        "water_ml": 300,
         "temperature_c": 85,
-        "duration_seconds_min": 300,
-        "duration_seconds_max": 300
+        "duration_seconds_min": 225,
+        "duration_seconds_max": 225
       }
     },
     {
-      "id": "white-bai-mudan",
-      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-      "checked_on": "2026-11-13",
+      "id": "black-darjeeling-thurbo-dj15",
+      "url": "https://www.palaisdesthes.com/fr/thurbo-dj15-bliss-2026.html",
+      "checked_on": "2026-11-14",
       "expected": {
-        "tea_g": 3,
-        "water_ml": 250,
+        "tea_g": 6,
+        "water_ml": 300,
         "temperature_c": 85,
-        "duration_seconds_min": 240,
-        "duration_seconds_max": 240
-      }
-    },
-    {
-      "id": "white-moonlight-white",
-      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-      "checked_on": "2026-11-13",
-      "expected": {
-        "tea_g": 4,
-        "water_ml": 250,
-        "temperature_c": 88,
-        "duration_seconds_min": 180,
-        "duration_seconds_max": 180
-      }
-    },
-    {
-      "id": "white-bourgeons-de-neige-du-yunnan",
-      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-      "checked_on": "2026-11-13",
-      "expected": {
-        "tea_g": 3,
-        "water_ml": 250,
-        "temperature_c": 82,
-        "duration_seconds_min": 300,
-        "duration_seconds_max": 300
-      }
-    },
-    {
-      "id": "white-white-darjeeling",
-      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
-      "checked_on": "2026-11-13",
-      "expected": {
-        "tea_g": 3,
-        "water_ml": 250,
-        "temperature_c": 85,
-        "duration_seconds_min": 240,
-        "duration_seconds_max": 240
+        "duration_seconds_min": 225,
+        "duration_seconds_max": 225
       }
     },
     {
@@ -170,6 +62,18 @@
       }
     },
     {
+      "id": "black-kalapani",
+      "url": "https://www.palaisdesthes.com/fr/kalapani-yak-100201.html",
+      "checked_on": "2026-11-14",
+      "expected": {
+        "tea_g": 6,
+        "water_ml": 300,
+        "temperature_c": 85,
+        "duration_seconds_min": 225,
+        "duration_seconds_max": 225
+      }
+    },
+    {
       "id": "black-the-noir-chai",
       "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
       "checked_on": "2026-11-13",
@@ -182,6 +86,138 @@
       }
     },
     {
+      "id": "green-annapurna-momocha",
+      "url": "https://www.palaisdesthes.com/fr/annapurna-momocha-green-2026.html",
+      "checked_on": "2026-11-14",
+      "expected": {
+        "tea_g": 6,
+        "water_ml": 300,
+        "temperature_c": 75,
+        "duration_seconds_min": 240,
+        "duration_seconds_max": 240
+      }
+    },
+    {
+      "id": "green-batabatacha",
+      "url": "https://www.palaisdesthes.com/fr/batabatacha-de-itoigawa-100048.html",
+      "checked_on": "2026-11-14",
+      "expected": {
+        "tea_g": 6,
+        "water_ml": 300,
+        "temperature_c": 90,
+        "duration_seconds_min": 300,
+        "duration_seconds_max": 300
+      }
+    },
+    {
+      "id": "green-dragon-well-longjing",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 80,
+        "duration_seconds_min": 120,
+        "duration_seconds_max": 120
+      }
+    },
+    {
+      "id": "green-earl-grey-vert",
+      "url": "https://teafinity.app/fr/charts/temperature-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 80,
+        "duration_seconds_min": 120,
+        "duration_seconds_max": 120
+      }
+    },
+    {
+      "id": "green-enshi-yulu",
+      "url": "https://teafinity.app/fr/charts/temperature-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 80,
+        "duration_seconds_min": 120,
+        "duration_seconds_max": 120
+      }
+    },
+    {
+      "id": "green-genmaicha",
+      "url": "https://teafinity.app/fr/thes/genmaicha/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 4,
+        "water_ml": 250,
+        "temperature_c": 82,
+        "duration_seconds_min": 120,
+        "duration_seconds_max": 120
+      }
+    },
+    {
+      "id": "green-gyokuro",
+      "url": "https://teafinity.app/fr/thes/gyokuro/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 6,
+        "water_ml": 250,
+        "temperature_c": 60,
+        "duration_seconds_min": 120,
+        "duration_seconds_max": 120
+      }
+    },
+    {
+      "id": "green-hojicha",
+      "url": "https://teafinity.app/fr/thes/hojicha/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 90,
+        "duration_seconds_min": 60,
+        "duration_seconds_max": 60
+      }
+    },
+    {
+      "id": "green-jukro",
+      "url": "https://www.palaisdesthes.com/fr/jukro-100318.html",
+      "checked_on": "2026-11-14",
+      "expected": {
+        "tea_g": 6,
+        "water_ml": 300,
+        "temperature_c": 90,
+        "duration_seconds_min": 240,
+        "duration_seconds_max": 240
+      }
+    },
+    {
+      "id": "green-liu-an-gua-pian",
+      "url": "https://teafinity.app/fr/charts/temperature-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 82,
+        "duration_seconds_min": 90,
+        "duration_seconds_max": 90
+      }
+    },
+    {
+      "id": "green-mao-feng",
+      "url": "https://teafinity.app/fr/charts/temperature-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 80,
+        "duration_seconds_min": 90,
+        "duration_seconds_max": 90
+      }
+    },
+    {
       "id": "green-moroccan-mint",
       "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
       "checked_on": "2026-11-13",
@@ -191,6 +227,30 @@
         "temperature_c": 100,
         "duration_seconds_min": 180,
         "duration_seconds_max": 180
+      }
+    },
+    {
+      "id": "green-phonsavang-mao-cha",
+      "url": "https://www.palaisdesthes.com/fr/phonsavang-mao-cha-2020.html",
+      "checked_on": "2026-11-14",
+      "expected": {
+        "tea_g": 6,
+        "water_ml": 300,
+        "temperature_c": 90,
+        "duration_seconds_min": 240,
+        "duration_seconds_max": 240
+      }
+    },
+    {
+      "id": "green-sencha",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 80,
+        "duration_seconds_min": 90,
+        "duration_seconds_max": 90
       }
     },
     {
@@ -218,6 +278,30 @@
       }
     },
     {
+      "id": "oolong-ali-shan",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 88,
+        "duration_seconds_min": 120,
+        "duration_seconds_max": 120
+      }
+    },
+    {
+      "id": "oolong-da-hong-pao",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 5,
+        "water_ml": 250,
+        "temperature_c": 93,
+        "duration_seconds_min": 90,
+        "duration_seconds_max": 90
+      }
+    },
+    {
       "id": "oolong-jin-xuan",
       "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
       "checked_on": "2026-11-13",
@@ -225,6 +309,18 @@
         "tea_g": 3,
         "water_ml": 250,
         "temperature_c": 90,
+        "duration_seconds_min": 120,
+        "duration_seconds_max": 120
+      }
+    },
+    {
+      "id": "oolong-li-shan",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 88,
         "duration_seconds_min": 120,
         "duration_seconds_max": 120
       }
@@ -239,6 +335,18 @@
         "temperature_c": 85,
         "duration_seconds_min": 150,
         "duration_seconds_max": 150
+      }
+    },
+    {
+      "id": "oolong-tie-guan-yin",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 4,
+        "water_ml": 250,
+        "temperature_c": 90,
+        "duration_seconds_min": 120,
+        "duration_seconds_max": 120
       }
     },
     {
@@ -278,87 +386,123 @@
       }
     },
     {
-      "id": "green-enshi-yulu",
-      "url": "https://teafinity.app/fr/charts/temperature-infusion-the/",
+      "id": "pu_erh-shou-pu-erh",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
       "checked_on": "2026-11-13",
       "expected": {
         "tea_g": 3,
         "water_ml": 250,
-        "temperature_c": 80,
-        "duration_seconds_min": 120,
-        "duration_seconds_max": 120
-      }
-    },
-    {
-      "id": "green-mao-feng",
-      "url": "https://teafinity.app/fr/charts/temperature-infusion-the/",
-      "checked_on": "2026-11-13",
-      "expected": {
-        "tea_g": 3,
-        "water_ml": 250,
-        "temperature_c": 80,
-        "duration_seconds_min": 90,
-        "duration_seconds_max": 90
-      }
-    },
-    {
-      "id": "green-liu-an-gua-pian",
-      "url": "https://teafinity.app/fr/charts/temperature-infusion-the/",
-      "checked_on": "2026-11-13",
-      "expected": {
-        "tea_g": 3,
-        "water_ml": 250,
-        "temperature_c": 82,
-        "duration_seconds_min": 90,
-        "duration_seconds_max": 90
-      }
-    },
-    {
-      "id": "green-earl-grey-vert",
-      "url": "https://teafinity.app/fr/charts/temperature-infusion-the/",
-      "checked_on": "2026-11-13",
-      "expected": {
-        "tea_g": 3,
-        "water_ml": 250,
-        "temperature_c": 80,
-        "duration_seconds_min": 120,
-        "duration_seconds_max": 120
-      }
-    },
-    {
-      "id": "green-gyokuro",
-      "url": "https://teafinity.app/fr/thes/gyokuro/",
-      "checked_on": "2026-11-13",
-      "expected": {
-        "tea_g": 6,
-        "water_ml": 250,
-        "temperature_c": 60,
-        "duration_seconds_min": 120,
-        "duration_seconds_max": 120
-      }
-    },
-    {
-      "id": "green-hojicha",
-      "url": "https://teafinity.app/fr/thes/hojicha/",
-      "checked_on": "2026-11-13",
-      "expected": {
-        "tea_g": 3,
-        "water_ml": 250,
-        "temperature_c": 90,
+        "temperature_c": 100,
         "duration_seconds_min": 60,
         "duration_seconds_max": 60
       }
     },
     {
-      "id": "green-genmaicha",
-      "url": "https://teafinity.app/fr/thes/genmaicha/",
+      "id": "white-bai-hao-yin-zhen",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 85,
+        "duration_seconds_min": 300,
+        "duration_seconds_max": 300
+      }
+    },
+    {
+      "id": "white-bai-mudan",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 85,
+        "duration_seconds_min": 240,
+        "duration_seconds_max": 240
+      }
+    },
+    {
+      "id": "white-bourgeons-de-neige-du-yunnan",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 82,
+        "duration_seconds_min": 300,
+        "duration_seconds_max": 300
+      }
+    },
+    {
+      "id": "white-fengqing-bourgeons-sauvages",
+      "url": "https://www.palaisdesthes.com/fr/bourgeons-sauvages-de-fengqing-100265.html",
+      "checked_on": "2026-11-14",
+      "expected": {
+        "tea_g": 6,
+        "water_ml": 300,
+        "temperature_c": 70,
+        "duration_seconds_min": 600,
+        "duration_seconds_max": 600
+      }
+    },
+    {
+      "id": "white-malate",
+      "url": "https://www.palaisdesthes.com/fr/malate-white-spring-2025.html",
+      "checked_on": "2026-11-14",
+      "expected": {
+        "tea_g": 6,
+        "water_ml": 300,
+        "temperature_c": 80,
+        "duration_seconds_min": 300,
+        "duration_seconds_max": 300
+      }
+    },
+    {
+      "id": "white-mani-danda",
+      "url": "https://www.palaisdesthes.com/fr/mani-danda-white-summer.html",
+      "checked_on": "2026-11-14",
+      "expected": {
+        "tea_g": 6,
+        "water_ml": 300,
+        "temperature_c": 85,
+        "duration_seconds_min": 240,
+        "duration_seconds_max": 240
+      }
+    },
+    {
+      "id": "white-moonlight-white",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
       "checked_on": "2026-11-13",
       "expected": {
         "tea_g": 4,
         "water_ml": 250,
-        "temperature_c": 82,
-        "duration_seconds_min": 120,
-        "duration_seconds_max": 120
+        "temperature_c": 88,
+        "duration_seconds_min": 180,
+        "duration_seconds_max": 180
+      }
+    },
+    {
+      "id": "white-white-darjeeling",
+      "url": "https://teafinity.app/fr/charts/temps-infusion-the/",
+      "checked_on": "2026-11-13",
+      "expected": {
+        "tea_g": 3,
+        "water_ml": 250,
+        "temperature_c": 85,
+        "duration_seconds_min": 240,
+        "duration_seconds_max": 240
+      }
+    },
+    {
+      "id": "yellow-the-jaune-de-bretagne",
+      "url": "https://www.palaisdesthes.com/fr/the-jaune-de-bretagne-bio-100244.html",
+      "checked_on": "2026-11-14",
+      "expected": {
+        "tea_g": 6,
+        "water_ml": 300,
+        "temperature_c": 80,
+        "duration_seconds_min": 240,
+        "duration_seconds_max": 240
       }
     }
   ]

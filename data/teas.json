@@ -1,47 +1,47 @@
 {
   "schema_version": "1.3.0",
-  "dataset_version": "0.3.0",
+  "dataset_version": "0.4.0",
   "built_from_snapshot": "2026-11-13",
   "language": "fr",
   "license_data": "CC-BY-4.0 for original annotations; third-party rights remain with their respective owners",
   "stats": {
-    "entries": 500,
-    "entries_with_legacy_recipe": 80,
+    "entries": 512,
+    "entries_with_legacy_recipe": 92,
     "inherited_family_only": 3,
-    "legacy_recipe_count": 80,
+    "legacy_recipe_count": 92,
     "by_family": {
-      "black": 92,
-      "cold": 3,
-      "dark": 15,
-      "green": 97,
-      "herbal": 126,
-      "matcha": 3,
-      "oolong": 67,
-      "pu_erh": 37,
-      "white": 40,
-      "yellow": 20
+      "black": 188,
+      "cold": 6,
+      "dark": 30,
+      "green": 198,
+      "herbal": 252,
+      "matcha": 6,
+      "oolong": 134,
+      "pu_erh": 74,
+      "white": 83,
+      "yellow": 41
     },
-    "active_entries": 446,
+    "active_entries": 458,
     "merged_entries": 54,
     "subfamily_default_entries": 0,
-    "verified_recipes": 30,
+    "verified_recipes": 42,
     "needs_review_entries": 2,
     "own_photos": 0,
     "active_by_family": {
-      "black": 87,
+      "black": 91,
       "cold": 3,
       "dark": 12,
-      "green": 85,
+      "green": 89,
       "herbal": 111,
       "matcha": 3,
       "oolong": 60,
       "pu_erh": 35,
-      "white": 34,
-      "yellow": 16
+      "white": 37,
+      "yellow": 17
     },
-    "with_notes": 446,
+    "with_notes": 458,
     "commons_photos": 0,
-    "with_photo": 238,
+    "with_photo": 272,
     "style_referenced_entries": 440,
     "aligned_on_style": 77
   },
@@ -299,6 +299,62 @@
     }
   ],
   "entries": [
+    {
+      "id": "black-annapurna-blossom",
+      "name": "Annapurna Blossom",
+      "family": "black",
+      "family_label_fr": "Thé noir",
+      "aliases": [],
+      "brand": null,
+      "gtin": [],
+      "kind": "variety_or_style",
+      "is_specific_retail_product": false,
+      "catalog_status": "recipe_referenced_from_legacy",
+      "recipes": [
+        {
+          "id": "western-palais-2026-06",
+          "method": "western",
+          "method_label_fr": "Occidentale",
+          "water_ml": 300,
+          "tea_g": 6,
+          "temperature_c": 85,
+          "temperature_note": null,
+          "duration_seconds": 225,
+          "duration_seconds_min": 225,
+          "duration_seconds_max": 225,
+          "duration_original": "3 min45",
+          "rinse_recommended": false,
+          "water_scaling": "linear_dose_only",
+          "reliability": "legacy_referenced",
+          "source": {
+            "url": "https://www.palaisdesthes.com/fr/annapurna-blossom-2026.html",
+            "kind": "manufacturer_product_page",
+            "checked_on": "2026-11-14",
+            "check_note_fr": "Valeurs relues sur la page source (lecture automatisée) ; identiques au catalogue."
+          },
+          "notes_fr": "Consigne publiée sur la fiche produit du Palais des Thés (relevé comparatif du 14 nov. 2026)."
+        }
+      ],
+      "image": null,
+      "photo_references": [],
+      "quality_notes_fr": "Consigne lue sur la fiche produit Palais des Thés le 14 nov. 2026 (relevé comparatif).",
+      "status": "active",
+      "replaced_by": null,
+      "merge_reason_fr": null,
+      "merged_from": [],
+      "merged_aliases": [],
+      "subfamily": null,
+      "style": null,
+      "needs_review": null,
+      "caffeine": {
+        "status": "contains",
+        "note_fr": null
+      },
+      "medicinal_caution_fr": null,
+      "short_name": null,
+      "origin_fr": "Népal (Annapurna)",
+      "notes_fr": "Thé noir récolté au pied de l'Annapurna (Népal) : feuilles entières, liqueur ambrée et ronde."
+    },
     {
       "id": "black-assam",
       "name": "Assam",
@@ -1790,6 +1846,64 @@
       "notes_fr": "Récolte d'automne, après la mousson. Tasse plus ronde et plus douce que les récoltes de printemps et d'été, liqueur cuivrée, notes boisées et de fruits mûrs."
     },
     {
+      "id": "black-darjeeling-badamtam-dj25",
+      "name": "Badamtam DJ 25 Tippy Clonal",
+      "family": "black",
+      "family_label_fr": "Thé noir",
+      "aliases": [
+        "Badamtam DJ25 F.T.G.F.O.P.1"
+      ],
+      "brand": null,
+      "gtin": [],
+      "kind": "variety_or_style",
+      "is_specific_retail_product": false,
+      "catalog_status": "recipe_referenced_from_legacy",
+      "recipes": [
+        {
+          "id": "western-palais-2026-09",
+          "method": "western",
+          "method_label_fr": "Occidentale",
+          "water_ml": 300,
+          "tea_g": 6,
+          "temperature_c": 85,
+          "temperature_note": null,
+          "duration_seconds": 225,
+          "duration_seconds_min": 225,
+          "duration_seconds_max": 225,
+          "duration_original": "3 min45",
+          "rinse_recommended": false,
+          "water_scaling": "linear_dose_only",
+          "reliability": "legacy_referenced",
+          "source": {
+            "url": "https://www.palaisdesthes.com/fr/badamtam-dj25-tippy-clonal2026.html",
+            "kind": "manufacturer_product_page",
+            "checked_on": "2026-11-14",
+            "check_note_fr": "Valeurs relues sur la page source (lecture automatisée) ; identiques au catalogue."
+          },
+          "notes_fr": "Consigne publiée sur la fiche produit du Palais des Thés (relevé comparatif du 14 nov. 2026)."
+        }
+      ],
+      "image": null,
+      "photo_references": [],
+      "quality_notes_fr": "Consigne lue sur la fiche produit Palais des Thés le 14 nov. 2026 (relevé comparatif).",
+      "status": "active",
+      "replaced_by": null,
+      "merge_reason_fr": null,
+      "merged_from": [],
+      "merged_aliases": [],
+      "subfamily": null,
+      "style": null,
+      "needs_review": null,
+      "caffeine": {
+        "status": "contains",
+        "note_fr": null
+      },
+      "medicinal_caution_fr": null,
+      "short_name": null,
+      "origin_fr": "Darjeeling (jardin Badamtam)",
+      "notes_fr": "Darjeeling clonal tippy du jardin Badamtam (DJ 25), grade F.T.G.F.O.P.1 : beaucoup de pointes dorées, liqueur vive."
+    },
+    {
       "id": "black-darjeeling-castleton",
       "name": "Darjeeling Castleton",
       "family": "black",
@@ -2263,6 +2377,64 @@
       "notes_fr": "Récolte d'été, de mai à juin. Feuilles plus sombres, tasse ambrée et ronde aux célèbres notes de muscat ; plus corsée que la première récolte."
     },
     {
+      "id": "black-darjeeling-thurbo-dj15",
+      "name": "Thurbo DJ 15 Bliss",
+      "family": "black",
+      "family_label_fr": "Thé noir",
+      "aliases": [
+        "Thurbo DJ15 F.T.G.F.O.P.1"
+      ],
+      "brand": null,
+      "gtin": [],
+      "kind": "variety_or_style",
+      "is_specific_retail_product": false,
+      "catalog_status": "recipe_referenced_from_legacy",
+      "recipes": [
+        {
+          "id": "western-palais-2026-08",
+          "method": "western",
+          "method_label_fr": "Occidentale",
+          "water_ml": 300,
+          "tea_g": 6,
+          "temperature_c": 85,
+          "temperature_note": null,
+          "duration_seconds": 225,
+          "duration_seconds_min": 225,
+          "duration_seconds_max": 225,
+          "duration_original": "3 min45",
+          "rinse_recommended": false,
+          "water_scaling": "linear_dose_only",
+          "reliability": "legacy_referenced",
+          "source": {
+            "url": "https://www.palaisdesthes.com/fr/thurbo-dj15-bliss-2026.html",
+            "kind": "manufacturer_product_page",
+            "checked_on": "2026-11-14",
+            "check_note_fr": "Valeurs relues sur la page source (lecture automatisée) ; identiques au catalogue."
+          },
+          "notes_fr": "Consigne publiée sur la fiche produit du Palais des Thés (relevé comparatif du 14 nov. 2026)."
+        }
+      ],
+      "image": null,
+      "photo_references": [],
+      "quality_notes_fr": "Consigne lue sur la fiche produit Palais des Thés le 14 nov. 2026 (relevé comparatif).",
+      "status": "active",
+      "replaced_by": null,
+      "merge_reason_fr": null,
+      "merged_from": [],
+      "merged_aliases": [],
+      "subfamily": null,
+      "style": null,
+      "needs_review": null,
+      "caffeine": {
+        "status": "contains",
+        "note_fr": null
+      },
+      "medicinal_caution_fr": null,
+      "short_name": null,
+      "origin_fr": "Darjeeling (jardin Thurbo)",
+      "notes_fr": "Darjeeling de second flush du jardin Thurbo (DJ 15), grade F.T.G.F.O.P.1 : feuilles cuivrées, liqueur claire et fleurie."
+    },
+    {
       "id": "black-dian-hong",
       "name": "Dian Hong",
       "family": "black",
@@ -2421,7 +2593,7 @@
       ],
       "image": {
         "path": "assets/photos/catalogue/black-earl-grey.webp",
-        "photo_credit": "Théothèque (IA)",
+        "photo_credit": "soultea.de/André Helbig, CC BY-SA 3.0 (Wikimedia Commons)",
         "photo_exacte": false,
         "width": 1200,
         "height": 800
@@ -3289,7 +3461,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-jin-jun-mei.webp",
+        "photo_credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -3311,6 +3489,65 @@
       "short_name": null,
       "origin_fr": "Chine (Fujian, Wuyi)",
       "notes_fr": "Thé noir d'exception des monts Wuyi, fait uniquement de bourgeons minuscules, dorés et noirs. Tasse douce et sucrée, aux notes de miel, de fruits secs et de patate douce."
+    },
+    {
+      "id": "black-kalapani",
+      "name": "Kalapani",
+      "family": "black",
+      "family_label_fr": "Thé noir",
+      "aliases": [
+        "Kalapani Yak",
+        "Kalapani Basantah"
+      ],
+      "brand": null,
+      "gtin": [],
+      "kind": "variety_or_style",
+      "is_specific_retail_product": false,
+      "catalog_status": "recipe_referenced_from_legacy",
+      "recipes": [
+        {
+          "id": "western-palais-2026-05",
+          "method": "western",
+          "method_label_fr": "Occidentale",
+          "water_ml": 300,
+          "tea_g": 6,
+          "temperature_c": 85,
+          "temperature_note": null,
+          "duration_seconds": 225,
+          "duration_seconds_min": 225,
+          "duration_seconds_max": 225,
+          "duration_original": "3 min45",
+          "rinse_recommended": false,
+          "water_scaling": "linear_dose_only",
+          "reliability": "legacy_referenced",
+          "source": {
+            "url": "https://www.palaisdesthes.com/fr/kalapani-yak-100201.html",
+            "kind": "manufacturer_product_page",
+            "checked_on": "2026-11-14",
+            "check_note_fr": "Valeurs relues sur la page source (lecture automatisée) ; identiques au catalogue."
+          },
+          "notes_fr": "Consigne publiée sur la fiche produit du Palais des Thés (relevé comparatif du 14 nov. 2026)."
+        }
+      ],
+      "image": null,
+      "photo_references": [],
+      "quality_notes_fr": "Consigne lue sur la fiche produit Palais des Thés le 14 nov. 2026 (relevé comparatif).",
+      "status": "active",
+      "replaced_by": null,
+      "merge_reason_fr": null,
+      "merged_from": [],
+      "merged_aliases": [],
+      "subfamily": null,
+      "style": null,
+      "needs_review": null,
+      "caffeine": {
+        "status": "contains",
+        "note_fr": null
+      },
+      "medicinal_caution_fr": null,
+      "short_name": null,
+      "origin_fr": "Népal (Kalapani)",
+      "notes_fr": "Thé noir de haute altitude du jardin de Kalapani (Népal), récolte de printemps : liqueur ambrée, notes maltées."
     },
     {
       "id": "black-keemun",
@@ -8702,6 +8939,62 @@
       "notes_fr": "Thé vert d'Anji issu d'un cultivar aux jeunes feuilles presque blanches au printemps, d'où son nom de « thé blanc ». Feuilles en aiguilles, tasse douce, fraîche et peu amère."
     },
     {
+      "id": "green-annapurna-momocha",
+      "name": "Annapurna Momocha Green",
+      "family": "green",
+      "family_label_fr": "Thé vert",
+      "aliases": [],
+      "brand": null,
+      "gtin": [],
+      "kind": "variety_or_style",
+      "is_specific_retail_product": false,
+      "catalog_status": "recipe_referenced_from_legacy",
+      "recipes": [
+        {
+          "id": "western-palais-2026-07",
+          "method": "western",
+          "method_label_fr": "Occidentale",
+          "water_ml": 300,
+          "tea_g": 6,
+          "temperature_c": 75,
+          "temperature_note": null,
+          "duration_seconds": 240,
+          "duration_seconds_min": 240,
+          "duration_seconds_max": 240,
+          "duration_original": "4 min",
+          "rinse_recommended": false,
+          "water_scaling": "linear_dose_only",
+          "reliability": "legacy_referenced",
+          "source": {
+            "url": "https://www.palaisdesthes.com/fr/annapurna-momocha-green-2026.html",
+            "kind": "manufacturer_product_page",
+            "checked_on": "2026-11-14",
+            "check_note_fr": "Valeurs relues sur la page source (lecture automatisée) ; identiques au catalogue."
+          },
+          "notes_fr": "Consigne publiée sur la fiche produit du Palais des Thés (relevé comparatif du 14 nov. 2026)."
+        }
+      ],
+      "image": null,
+      "photo_references": [],
+      "quality_notes_fr": "Consigne lue sur la fiche produit Palais des Thés le 14 nov. 2026 (relevé comparatif).",
+      "status": "active",
+      "replaced_by": null,
+      "merge_reason_fr": null,
+      "merged_from": [],
+      "merged_aliases": [],
+      "subfamily": null,
+      "style": null,
+      "needs_review": null,
+      "caffeine": {
+        "status": "contains",
+        "note_fr": null
+      },
+      "medicinal_caution_fr": null,
+      "short_name": null,
+      "origin_fr": "Népal (Annapurna)",
+      "notes_fr": "Thé vert du jardin de l'Annapurna (Népal), cueilli au printemps : liqueur jaune-vert, goût végétal doux."
+    },
+    {
       "id": "green-bancha",
       "name": "Bancha",
       "family": "green",
@@ -8771,7 +9064,7 @@
       ],
       "image": {
         "path": "assets/photos/catalogue/green-bancha.webp",
-        "photo_credit": "Théothèque (IA)",
+        "photo_credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
         "photo_exacte": false,
         "width": 1200,
         "height": 800
@@ -8864,6 +9157,64 @@
       "short_name": null,
       "origin_fr": null,
       "notes_fr": null
+    },
+    {
+      "id": "green-batabatacha",
+      "name": "Batabatacha",
+      "family": "green",
+      "family_label_fr": "Thé vert",
+      "aliases": [
+        "Batabatacha d'Itoigawa"
+      ],
+      "brand": null,
+      "gtin": [],
+      "kind": "variety_or_style",
+      "is_specific_retail_product": false,
+      "catalog_status": "recipe_referenced_from_legacy",
+      "recipes": [
+        {
+          "id": "western-palais-2026-01",
+          "method": "western",
+          "method_label_fr": "Occidentale",
+          "water_ml": 300,
+          "tea_g": 6,
+          "temperature_c": 90,
+          "temperature_note": null,
+          "duration_seconds": 300,
+          "duration_seconds_min": 300,
+          "duration_seconds_max": 300,
+          "duration_original": "5 min",
+          "rinse_recommended": false,
+          "water_scaling": "linear_dose_only",
+          "reliability": "legacy_referenced",
+          "source": {
+            "url": "https://www.palaisdesthes.com/fr/batabatacha-de-itoigawa-100048.html",
+            "kind": "manufacturer_product_page",
+            "checked_on": "2026-11-14",
+            "check_note_fr": "Valeurs relues sur la page source (lecture automatisée) ; identiques au catalogue."
+          },
+          "notes_fr": "Consigne publiée sur la fiche produit du Palais des Thés (relevé comparatif du 14 nov. 2026)."
+        }
+      ],
+      "image": null,
+      "photo_references": [],
+      "quality_notes_fr": "Consigne lue sur la fiche produit Palais des Thés le 14 nov. 2026 (relevé comparatif).",
+      "status": "active",
+      "replaced_by": null,
+      "merge_reason_fr": null,
+      "merged_from": [],
+      "merged_aliases": [],
+      "subfamily": null,
+      "style": null,
+      "needs_review": null,
+      "caffeine": {
+        "status": "contains",
+        "note_fr": null
+      },
+      "medicinal_caution_fr": null,
+      "short_name": null,
+      "origin_fr": "Japon (Itoigawa)",
+      "notes_fr": "Thé vert japonais de Itoigawa, récolté tardivement et faiblement oxydé : feuilles plus mûres, tasse douce et peu amère."
     },
     {
       "id": "green-bi-luo-chun-dongting",
@@ -9245,7 +9596,7 @@
       ],
       "image": {
         "path": "assets/photos/catalogue/green-dragon-well-longjing.webp",
-        "photo_credit": "Théothèque (IA)",
+        "photo_credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
         "photo_exacte": false,
         "width": 1200,
         "height": 800
@@ -10143,7 +10494,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-gunpowder.webp",
+        "photo_credit": "Veganlover1993, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -10308,7 +10665,7 @@
       ],
       "image": {
         "path": "assets/photos/catalogue/green-gyokuro.webp",
-        "photo_credit": "Théothèque (IA)",
+        "photo_credit": "Rama, CC BY-SA 2.0 fr (Wikimedia Commons)",
         "photo_exacte": false,
         "width": 1200,
         "height": 800
@@ -10408,7 +10765,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-hojicha.webp",
+        "photo_credit": "Francois Mathieu, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -10660,6 +11023,64 @@
       "notes_fr": "Thé vert de l'île volcanique de Jeju, au sud de la Corée. Tasse fraîche et douce, aux notes végétales et marines."
     },
     {
+      "id": "green-jukro",
+      "name": "Jukro",
+      "family": "green",
+      "family_label_fr": "Thé vert",
+      "aliases": [
+        "Jukro vert"
+      ],
+      "brand": null,
+      "gtin": [],
+      "kind": "variety_or_style",
+      "is_specific_retail_product": false,
+      "catalog_status": "recipe_referenced_from_legacy",
+      "recipes": [
+        {
+          "id": "western-palais-2026-02",
+          "method": "western",
+          "method_label_fr": "Occidentale",
+          "water_ml": 300,
+          "tea_g": 6,
+          "temperature_c": 90,
+          "temperature_note": null,
+          "duration_seconds": 240,
+          "duration_seconds_min": 240,
+          "duration_seconds_max": 240,
+          "duration_original": "4 min",
+          "rinse_recommended": false,
+          "water_scaling": "linear_dose_only",
+          "reliability": "legacy_referenced",
+          "source": {
+            "url": "https://www.palaisdesthes.com/fr/jukro-100318.html",
+            "kind": "manufacturer_product_page",
+            "checked_on": "2026-11-14",
+            "check_note_fr": "Valeurs relues sur la page source (lecture automatisée) ; identiques au catalogue."
+          },
+          "notes_fr": "Consigne publiée sur la fiche produit du Palais des Thés (relevé comparatif du 14 nov. 2026)."
+        }
+      ],
+      "image": null,
+      "photo_references": [],
+      "quality_notes_fr": "Consigne lue sur la fiche produit Palais des Thés le 14 nov. 2026 (relevé comparatif).",
+      "status": "active",
+      "replaced_by": null,
+      "merge_reason_fr": null,
+      "merged_from": [],
+      "merged_aliases": [],
+      "subfamily": null,
+      "style": null,
+      "needs_review": null,
+      "caffeine": {
+        "status": "contains",
+        "note_fr": null
+      },
+      "medicinal_caution_fr": null,
+      "short_name": null,
+      "origin_fr": "Corée du Sud",
+      "notes_fr": "Thé vert coréen « jukro » (feuilles de bambou, littéralement), récolté à la main : liqueur vert clair, goût frais et légèrement sucré."
+    },
+    {
       "id": "green-jungjak",
       "name": "Jungjak",
       "family": "green",
@@ -10889,7 +11310,7 @@
       ],
       "image": {
         "path": "assets/photos/catalogue/green-kamairicha.webp",
-        "photo_credit": "Théothèque (IA)",
+        "photo_credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
         "photo_exacte": false,
         "width": 1200,
         "height": 800
@@ -11134,7 +11555,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-kukicha.webp",
+        "photo_credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -12478,6 +12905,64 @@
       "notes_fr": "Nom coréen du thé vert en général. Tasse fraîche et douce, aux notes végétales et de noisette ; la qualité dépend du grade (Woojeon, Sejak, Jungjak, Daejak)."
     },
     {
+      "id": "green-phonsavang-mao-cha",
+      "name": "Phonsavang Mao Cha 2020",
+      "family": "green",
+      "family_label_fr": "Thé vert",
+      "aliases": [
+        "Mao Cha du Laos"
+      ],
+      "brand": null,
+      "gtin": [],
+      "kind": "variety_or_style",
+      "is_specific_retail_product": false,
+      "catalog_status": "recipe_referenced_from_legacy",
+      "recipes": [
+        {
+          "id": "western-palais-2026-10",
+          "method": "western",
+          "method_label_fr": "Occidentale",
+          "water_ml": 300,
+          "tea_g": 6,
+          "temperature_c": 90,
+          "temperature_note": null,
+          "duration_seconds": 240,
+          "duration_seconds_min": 240,
+          "duration_seconds_max": 240,
+          "duration_original": "4 min",
+          "rinse_recommended": false,
+          "water_scaling": "linear_dose_only",
+          "reliability": "legacy_referenced",
+          "source": {
+            "url": "https://www.palaisdesthes.com/fr/phonsavang-mao-cha-2020.html",
+            "kind": "manufacturer_product_page",
+            "checked_on": "2026-11-14",
+            "check_note_fr": "Valeurs relues sur la page source (lecture automatisée) ; identiques au catalogue."
+          },
+          "notes_fr": "Consigne publiée sur la fiche produit du Palais des Thés (relevé comparatif du 14 nov. 2026)."
+        }
+      ],
+      "image": null,
+      "photo_references": [],
+      "quality_notes_fr": "Consigne lue sur la fiche produit Palais des Thés le 14 nov. 2026 (relevé comparatif).",
+      "status": "active",
+      "replaced_by": null,
+      "merge_reason_fr": null,
+      "merged_from": [],
+      "merged_aliases": [],
+      "subfamily": null,
+      "style": null,
+      "needs_review": null,
+      "caffeine": {
+        "status": "contains",
+        "note_fr": null
+      },
+      "medicinal_caution_fr": null,
+      "short_name": null,
+      "origin_fr": "Laos (Phonsavang)",
+      "notes_fr": "Thé vert du Laos (province de Phonsavang), millésime 2020 : feuilles roulées, liqueur ambrée pour un vert, goût grillé doux."
+    },
+    {
       "id": "green-pi-lo-chun",
       "name": "Pi Lo Chun",
       "family": "green",
@@ -12699,7 +13184,7 @@
       ],
       "image": {
         "path": "assets/photos/catalogue/green-sencha.webp",
-        "photo_credit": "Théothèque (IA)",
+        "photo_credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
         "photo_exacte": false,
         "width": 1200,
         "height": 800
@@ -13021,7 +13506,7 @@
       ],
       "image": {
         "path": "assets/photos/catalogue/green-shincha.webp",
-        "photo_credit": "Théothèque (IA)",
+        "photo_credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
         "photo_exacte": false,
         "width": 1200,
         "height": 800
@@ -13254,7 +13739,7 @@
       ],
       "image": {
         "path": "assets/photos/catalogue/green-tamaryokucha.webp",
-        "photo_credit": "Théothèque (IA)",
+        "photo_credit": "Fanny Schertzer, CC BY-SA 3.0 (Wikimedia Commons)",
         "photo_exacte": false,
         "width": 1200,
         "height": 800
@@ -16513,7 +16998,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-ananas-seche.webp",
+        "photo_credit": "Forest and Kim Starr, CC BY 2.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -16586,7 +17077,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-anis-etoile.webp",
+        "photo_credit": "Sanjay Acharya, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -16874,7 +17371,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-baies-de-goji.webp",
+        "photo_credit": "Myrabella, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -17637,7 +18140,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-cannelle.webp",
+        "photo_credit": "Galib Tufan, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -17864,7 +18373,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-chrysantheme.webp",
+        "photo_credit": "Auteur inconnu, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -18034,7 +18549,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-clou-de-girofle.webp",
+        "photo_credit": "BogTar201213, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -18180,7 +18701,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-curcuma.webp",
+        "photo_credit": "Shobha Tai Gaydhane, CC0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -19340,7 +19867,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-feuille-de-murier.webp",
+        "photo_credit": "François Nguyen, CC BY 2.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -19796,7 +20329,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-fleur-de-pois-bleu.webp",
+        "photo_credit": "Fumikas Sagisavas, CC0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -20261,7 +20800,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-gingembre.webp",
+        "photo_credit": "Friday musa, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -20613,7 +21158,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-honeybush.webp",
+        "photo_credit": "soultea.de/André Helbig, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -20759,7 +21310,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-infusion-de-cacao.webp",
+        "photo_credit": "Kai Schreiber from Münste…, CC BY-SA 2.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -21549,7 +22106,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-melisse.webp",
+        "photo_credit": "Rillke, CC BY-SA 3.0 de (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -21870,7 +22433,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-moringa.webp",
+        "photo_credit": "Kambai Akau, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -21949,7 +22518,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-mugicha-orge-grillee.webp",
+        "photo_credit": "WolfgangMichel, CC0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -22275,7 +22850,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-osmanthus-osmanthe.webp",
+        "photo_credit": "Fumikas Sagisavas, CC0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -22353,7 +22934,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-passiflore.webp",
+        "photo_credit": "Rillke, CC BY-SA 3.0 de (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -22430,7 +23017,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-petales-de-rose.webp",
+        "photo_credit": "Fumikas Sagisavas, CC0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -22586,7 +23179,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-poivre-rose.webp",
+        "photo_credit": "Netherzone, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -22656,7 +23255,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-pomme-sechee.webp",
+        "photo_credit": "Matthieu Deuté, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -23021,7 +23626,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-reine-des-pres.webp",
+        "photo_credit": "Rillke, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -23095,7 +23706,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-romarin.webp",
+        "photo_credit": "Mauro Cateb, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -24362,7 +24979,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-thym.webp",
+        "photo_credit": "Daniel78, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -25639,7 +26262,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-valeriane.webp",
+        "photo_credit": "Rillke, CC BY-SA 3.0 de (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -26052,7 +26681,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/matcha-matcha.webp",
+        "photo_credit": "Koumei Matcha, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -26188,7 +26823,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/matcha-matcha-culinaire.webp",
+        "photo_credit": "Veganbaking.net from USA, CC BY-SA 2.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -26684,7 +27325,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/oolong-baozhong.webp",
+        "photo_credit": "Richard Corner, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [
         "commons_oolong"
       ],
@@ -28579,7 +29226,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/oolong-mi-lan-xiang.webp",
+        "photo_credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [
         "commons_oolong"
       ],
@@ -31388,7 +32041,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/oolong-wuyi-shui-xian.webp",
+        "photo_credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [
         "commons_oolong"
       ],
@@ -35145,7 +35804,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/white-bai-mudan.webp",
+        "photo_credit": "Selena N. B. H. from Fayette…, CC BY 2.0 (Wikimedia Commons)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -35519,6 +36184,64 @@
       "notes_fr": "Thé blanc parfumé à la bergamote. Plus doux et plus léger que l'Earl Grey noir."
     },
     {
+      "id": "white-fengqing-bourgeons-sauvages",
+      "name": "Bourgeons sauvages de Fengqing",
+      "family": "white",
+      "family_label_fr": "Thé blanc",
+      "aliases": [
+        "Fengqing wild buds"
+      ],
+      "brand": null,
+      "gtin": [],
+      "kind": "variety_or_style",
+      "is_specific_retail_product": false,
+      "catalog_status": "recipe_referenced_from_legacy",
+      "recipes": [
+        {
+          "id": "western-palais-2026-12",
+          "method": "western",
+          "method_label_fr": "Occidentale",
+          "water_ml": 300,
+          "tea_g": 6,
+          "temperature_c": 70,
+          "temperature_note": null,
+          "duration_seconds": 600,
+          "duration_seconds_min": 600,
+          "duration_seconds_max": 600,
+          "duration_original": "10 min",
+          "rinse_recommended": false,
+          "water_scaling": "linear_dose_only",
+          "reliability": "legacy_referenced",
+          "source": {
+            "url": "https://www.palaisdesthes.com/fr/bourgeons-sauvages-de-fengqing-100265.html",
+            "kind": "manufacturer_product_page",
+            "checked_on": "2026-11-14",
+            "check_note_fr": "Valeurs relues sur la page source (lecture automatisée) ; identiques au catalogue."
+          },
+          "notes_fr": "Consigne publiée sur la fiche produit du Palais des Thés (relevé comparatif du 14 nov. 2026)."
+        }
+      ],
+      "image": null,
+      "photo_references": [],
+      "quality_notes_fr": "Consigne lue sur la fiche produit Palais des Thés le 14 nov. 2026 (relevé comparatif).",
+      "status": "active",
+      "replaced_by": null,
+      "merge_reason_fr": null,
+      "merged_from": [],
+      "merged_aliases": [],
+      "subfamily": null,
+      "style": null,
+      "needs_review": null,
+      "caffeine": {
+        "status": "contains",
+        "note_fr": null
+      },
+      "medicinal_caution_fr": null,
+      "short_name": null,
+      "origin_fr": "Yunnan (Fengqing), Chine",
+      "notes_fr": "Bourgeons sauvages de théiers anciens de Fengqing (Yunnan), cueillis au printemps : duvet argenté, infusion longue et douce."
+    },
+    {
       "id": "white-fuding-white",
       "name": "Fuding White",
       "family": "white",
@@ -35784,6 +36507,123 @@
       "short_name": null,
       "origin_fr": "Chine (Fujian)",
       "notes_fr": "« Sourcil d'hommage » : thé blanc de feuilles un peu plus grandes, entre le Bai Mudan et le Shou Mei. Tasse dorée, douce et fruitée."
+    },
+    {
+      "id": "white-malate",
+      "name": "Malate White",
+      "family": "white",
+      "family_label_fr": "Thé blanc",
+      "aliases": [
+        "Malate White Spring",
+        "Malate White Velvet"
+      ],
+      "brand": null,
+      "gtin": [],
+      "kind": "variety_or_style",
+      "is_specific_retail_product": false,
+      "catalog_status": "recipe_referenced_from_legacy",
+      "recipes": [
+        {
+          "id": "western-palais-2026-04",
+          "method": "western",
+          "method_label_fr": "Occidentale",
+          "water_ml": 300,
+          "tea_g": 6,
+          "temperature_c": 80,
+          "temperature_note": null,
+          "duration_seconds": 300,
+          "duration_seconds_min": 300,
+          "duration_seconds_max": 300,
+          "duration_original": "5 min",
+          "rinse_recommended": false,
+          "water_scaling": "linear_dose_only",
+          "reliability": "legacy_referenced",
+          "source": {
+            "url": "https://www.palaisdesthes.com/fr/malate-white-spring-2025.html",
+            "kind": "manufacturer_product_page",
+            "checked_on": "2026-11-14",
+            "check_note_fr": "Valeurs relues sur la page source (lecture automatisée) ; identiques au catalogue."
+          },
+          "notes_fr": "Consigne publiée sur la fiche produit du Palais des Thés (relevé comparatif du 14 nov. 2026)."
+        }
+      ],
+      "image": null,
+      "photo_references": [],
+      "quality_notes_fr": "Consigne lue sur la fiche produit Palais des Thés le 14 nov. 2026 (relevé comparatif).",
+      "status": "active",
+      "replaced_by": null,
+      "merge_reason_fr": null,
+      "merged_from": [],
+      "merged_aliases": [],
+      "subfamily": null,
+      "style": null,
+      "needs_review": null,
+      "caffeine": {
+        "status": "contains",
+        "note_fr": null
+      },
+      "medicinal_caution_fr": null,
+      "short_name": null,
+      "origin_fr": "Népal (Malate)",
+      "notes_fr": "Thé blanc de haute montagne du jardin de Malate (Népal), bourgeons duveteux et liqueur claire."
+    },
+    {
+      "id": "white-mani-danda",
+      "name": "Mani Danda White",
+      "family": "white",
+      "family_label_fr": "Thé blanc",
+      "aliases": [
+        "Mani Danda White Summer"
+      ],
+      "brand": null,
+      "gtin": [],
+      "kind": "variety_or_style",
+      "is_specific_retail_product": false,
+      "catalog_status": "recipe_referenced_from_legacy",
+      "recipes": [
+        {
+          "id": "western-palais-2026-03",
+          "method": "western",
+          "method_label_fr": "Occidentale",
+          "water_ml": 300,
+          "tea_g": 6,
+          "temperature_c": 85,
+          "temperature_note": null,
+          "duration_seconds": 240,
+          "duration_seconds_min": 240,
+          "duration_seconds_max": 240,
+          "duration_original": "4 min",
+          "rinse_recommended": false,
+          "water_scaling": "linear_dose_only",
+          "reliability": "legacy_referenced",
+          "source": {
+            "url": "https://www.palaisdesthes.com/fr/mani-danda-white-summer.html",
+            "kind": "manufacturer_product_page",
+            "checked_on": "2026-11-14",
+            "check_note_fr": "Valeurs relues sur la page source (lecture automatisée) ; identiques au catalogue."
+          },
+          "notes_fr": "Consigne publiée sur la fiche produit du Palais des Thés (relevé comparatif du 14 nov. 2026)."
+        }
+      ],
+      "image": null,
+      "photo_references": [],
+      "quality_notes_fr": "Consigne lue sur la fiche produit Palais des Thés le 14 nov. 2026 (relevé comparatif).",
+      "status": "active",
+      "replaced_by": null,
+      "merge_reason_fr": null,
+      "merged_from": [],
+      "merged_aliases": [],
+      "subfamily": null,
+      "style": null,
+      "needs_review": null,
+      "caffeine": {
+        "status": "contains",
+        "note_fr": null
+      },
+      "medicinal_caution_fr": null,
+      "short_name": null,
+      "origin_fr": "Népal (Mani Danda)",
+      "notes_fr": "Thé blanc du jardin de Mani Danda, au pied de l'Himalaya : bourgeons argentés, liqueur dorée et douce."
     },
     {
       "id": "white-moonlight-white",
@@ -39253,6 +40093,62 @@
       "short_name": null,
       "origin_fr": "Chine (Zhejiang, Pingyang)",
       "notes_fr": "« Soupe jaune » de Pingyang, dans le sud du Zhejiang. Tasse jaune clair, douce et ronde."
+    },
+    {
+      "id": "yellow-the-jaune-de-bretagne",
+      "name": "Thé Jaune de Bretagne",
+      "family": "yellow",
+      "family_label_fr": "Thé jaune",
+      "aliases": [],
+      "brand": null,
+      "gtin": [],
+      "kind": "variety_or_style",
+      "is_specific_retail_product": false,
+      "catalog_status": "recipe_referenced_from_legacy",
+      "recipes": [
+        {
+          "id": "western-palais-2026-11",
+          "method": "western",
+          "method_label_fr": "Occidentale",
+          "water_ml": 300,
+          "tea_g": 6,
+          "temperature_c": 80,
+          "temperature_note": null,
+          "duration_seconds": 240,
+          "duration_seconds_min": 240,
+          "duration_seconds_max": 240,
+          "duration_original": "4 min",
+          "rinse_recommended": false,
+          "water_scaling": "linear_dose_only",
+          "reliability": "legacy_referenced",
+          "source": {
+            "url": "https://www.palaisdesthes.com/fr/the-jaune-de-bretagne-bio-100244.html",
+            "kind": "manufacturer_product_page",
+            "checked_on": "2026-11-14",
+            "check_note_fr": "Valeurs relues sur la page source (lecture automatisée) ; identiques au catalogue."
+          },
+          "notes_fr": "Consigne publiée sur la fiche produit du Palais des Thés (relevé comparatif du 14 nov. 2026)."
+        }
+      ],
+      "image": null,
+      "photo_references": [],
+      "quality_notes_fr": "Consigne lue sur la fiche produit Palais des Thés le 14 nov. 2026 (relevé comparatif).",
+      "status": "active",
+      "replaced_by": null,
+      "merge_reason_fr": null,
+      "merged_from": [],
+      "merged_aliases": [],
+      "subfamily": null,
+      "style": null,
+      "needs_review": null,
+      "caffeine": {
+        "status": "contains",
+        "note_fr": null
+      },
+      "medicinal_caution_fr": null,
+      "short_name": null,
+      "origin_fr": "Bretagne, France",
+      "notes_fr": "Thé jaune artisanal produit en Bretagne : oxydation lente contrôlée, liqueur dorée, goût rond et légèrement miellé."
     },
     {
       "id": "yellow-wan-xi-huang-da-cha",
