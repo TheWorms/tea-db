@@ -41,7 +41,7 @@
     },
     "with_notes": 431,
     "commons_photos": 0,
-    "with_photo": 237,
+    "with_photo": 244,
     "style_referenced_entries": 425,
     "aligned_on_style": 77
   },
@@ -3289,7 +3289,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-jin-jun-mei.webp",
+        "photo_credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -9826,7 +9832,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-genmaicha.webp",
+        "photo_credit": "Matt Gibson, CC BY-SA 3.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -10330,7 +10342,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-hojicha.webp",
+        "photo_credit": "Francois Mathieu, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -11056,7 +11074,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-kukicha.webp",
+        "photo_credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -15852,7 +15876,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-anis-etoile.webp",
+        "photo_credit": "Sanjay Acharya, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -25172,7 +25202,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/matcha-matcha.webp",
+        "photo_credit": "Koumei Matcha, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -27699,7 +27735,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/oolong-mi-lan-xiang.webp",
+        "photo_credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [
         "commons_oolong"
       ],

@@ -1,5 +1,41 @@
 {
-  "_doc_fr": "Crédit des images de docs/assets/photos/catalogue/. Un thé a une photo si le fichier <id>.webp existe. Le crédit par défaut s'applique à toutes les images (illustrations générées par IA, photo_exacte = false). Exception pour une vraie photo du produit : \"photos\": {\"<id>\": {\"credit\": \"Thib\", \"exacte\": true}}.",
+  "_doc_fr": "Crédit des images de docs/assets/photos/catalogue/. Un thé a une photo si le fichier <id>.webp existe. Le crédit par défaut s'applique à toutes les images (illustrations générées par IA, photo_exacte = false). Exception pour une vraie photo du produit : \"photos\": {\"<id>\": {\"credit\": \"...\", \"exacte\": true, \"source\": \"<page de la photo>\"}}.",
   "credit_par_defaut": "Théothèque (IA)",
-  "photos": {}
+  "photos": {
+    "green-genmaicha": {
+      "credit": "Matt Gibson, CC BY-SA 3.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Genmaicha_tea_brewed_and_unbrewed.jpg"
+    },
+    "black-jin-jun-mei": {
+      "credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Jin_Jun_Mei.jpg"
+    },
+    "green-hojicha": {
+      "credit": "Francois Mathieu, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Hojicha_Dark_Roast.jpg"
+    },
+    "green-kukicha": {
+      "credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Kukicha.jpg"
+    },
+    "herbal-anis-etoile": {
+      "credit": "Sanjay Acharya, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Dried_Star_Anise_Fruit_Seeds.jpg"
+    },
+    "matcha-matcha": {
+      "credit": "Koumei Matcha, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Gr%C3%BCner_Tee,_Matcha1.jpg"
+    },
+    "oolong-mi-lan-xiang": {
+      "credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
+      "exacte": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Mi_Lan_Xiang_Oolong_Tea.jpg"
+    }
+  }
 }

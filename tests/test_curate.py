@@ -144,7 +144,9 @@ class CurateTests(unittest.TestCase):
             else:
                 self.assertEqual(tea["photo"], f"assets/photos/catalogue/{tea['id']}.webp")
                 self.assertTrue((ROOT / "docs" / tea["photo"]).is_file(), tea["id"])
-                self.assertEqual(tea["photo_credit"], self.cur["photos"]["credit_par_defaut"])
+                extra = self.cur["photos"]["photos"].get(tea["id"], {})
+                self.assertEqual(tea["photo_credit"], extra.get("credit", self.cur["photos"]["credit_par_defaut"]))
+                self.assertEqual(tea["photo_exacte"], bool(extra.get("exacte", False)))
 
     def test_new_photo_is_used_and_can_be_removed(self):
         tid = self.test_id
