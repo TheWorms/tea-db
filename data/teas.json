@@ -41,7 +41,7 @@
     },
     "with_notes": 458,
     "commons_photos": 0,
-    "with_photo": 263,
+    "with_photo": 266,
     "style_referenced_entries": 441,
     "aligned_on_style": 7
   },
@@ -2545,7 +2545,7 @@
       ],
       "image": {
         "path": "assets/photos/catalogue/black-dian-hong.webp",
-        "photo_credit": "Shwabb1, CC BY-SA 4.0 (Wikimedia Commons)",
+        "photo_credit": "Thib, CC BY 4.0 (photo Théothèque)",
         "photo_exacte": true,
         "width": 1200,
         "height": 800
@@ -6541,7 +6541,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/black-the-noir-chai.webp",
+        "photo_credit": "Thib, CC BY 4.0 (photo Théothèque)",
+        "photo_exacte": true,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Dosage issu du tableau de 80 références, à recontrôler sur la fiche source ou l’emballage.",
       "status": "active",
@@ -10503,8 +10509,8 @@
       ],
       "image": {
         "path": "assets/photos/catalogue/green-gunpowder.webp",
-        "photo_credit": "Veganlover1993, CC BY-SA 3.0 (Wikimedia Commons)",
-        "photo_exacte": false,
+        "photo_credit": "Thib, CC BY 4.0 (photo Théothèque)",
+        "photo_exacte": true,
         "width": 1200,
         "height": 800
       },
@@ -14936,7 +14942,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/green-the-vert-au-litchi.webp",
+        "photo_credit": "Thib, CC BY 4.0 (photo Théothèque)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",
@@ -21667,7 +21679,13 @@
           }
         }
       ],
-      "image": null,
+      "image": {
+        "path": "assets/photos/catalogue/herbal-mate-citron.webp",
+        "photo_credit": "Thib, CC BY 4.0 (photo Théothèque)",
+        "photo_exacte": false,
+        "width": 1200,
+        "height": 800
+      },
       "photo_references": [],
       "quality_notes_fr": "Pas une fiche de produit acheté ; recette par défaut à confirmer.",
       "status": "active",

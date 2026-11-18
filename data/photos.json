@@ -1,5 +1,5 @@
 {
-  "_doc_fr": "Crédit des images de docs/assets/photos/catalogue/. Un thé a une photo si le fichier <id>.webp existe. Le crédit par défaut s'applique à toutes les images (illustrations générées par IA, photo_exacte = false). Exception pour une vraie photo du produit : \"photos\": {\"<id>\": {\"credit\": \"...\", \"exacte\": true, \"source\": \"<page de la photo>\"}}.",
+  "_doc_fr": "Crédit des images de docs/assets/photos/catalogue/. Un thé a une photo si le fichier <id>.webp existe ; chaque photo doit avoir son entrée ici : \"photos\": {\"<id>\": {\"credit\": \"Auteur, licence\", \"exacte\": true ou false, \"source\": \"<page de la photo>\"}}. exacte vaut true quand la photo montre bien ce thé.",
   "credit_par_defaut": "Théothèque (IA)",
   "photos": {
     "black-annapurna-blossom": {
@@ -58,9 +58,9 @@
       "source": "https://commons.wikimedia.org/wiki/File:Darjeeling-tea-first-flush-leaf-dry.jpg"
     },
     "black-dian-hong": {
-      "credit": "Shwabb1, CC BY-SA 4.0 (Wikimedia Commons)",
+      "credit": "Thib, CC BY 4.0 (photo Théothèque)",
       "exacte": true,
-      "source": "https://commons.wikimedia.org/wiki/File:Dianhong_Jinluo.jpg"
+      "source": "https://github.com/TheWorms/tea-db"
     },
     "black-earl-grey": {
       "credit": "soultea.de/André Helbig, CC BY-SA 3.0 (Wikimedia Commons)",
@@ -172,6 +172,11 @@
       "exacte": false,
       "source": "https://commons.wikimedia.org/wiki/File:Pumpkin_Spice_Tea_-_Adagio.jpg"
     },
+    "black-the-noir-chai": {
+      "credit": "Thib, CC BY 4.0 (photo Théothèque)",
+      "exacte": true,
+      "source": "https://github.com/TheWorms/tea-db"
+    },
     "black-yunnan-gold": {
       "credit": "Whiteness, CC BY-SA 4.0 (Wikimedia Commons)",
       "exacte": true,
@@ -263,9 +268,9 @@
       "source": "https://commons.wikimedia.org/wiki/File:Sencha_img_0597.jpg"
     },
     "green-gunpowder": {
-      "credit": "Veganlover1993, CC BY-SA 3.0 (Wikimedia Commons)",
-      "exacte": false,
-      "source": "https://commons.wikimedia.org/wiki/File:Gunpowder_Green_Tea.jpg"
+      "credit": "Thib, CC BY 4.0 (photo Théothèque)",
+      "exacte": true,
+      "source": "https://github.com/TheWorms/tea-db"
     },
     "green-gyokuro": {
       "credit": "Rama, CC BY-SA 2.0 fr (Wikimedia Commons)",
@@ -406,6 +411,11 @@
       "credit": "Hayden Soloviev, CC BY 4.0 (Wikimedia Commons)",
       "exacte": true,
       "source": "https://commons.wikimedia.org/wiki/File:Loose_Jasmine_Tea_Leaves.jpg"
+    },
+    "green-the-vert-au-litchi": {
+      "credit": "Thib, CC BY 4.0 (photo Théothèque)",
+      "exacte": false,
+      "source": "https://github.com/TheWorms/tea-db"
     },
     "green-the-vert-coreen-sejak": {
       "credit": "Difference engine, CC BY-SA 4.0 (Wikimedia Commons)",
@@ -711,6 +721,11 @@
       "credit": "Napendakukula, CC BY-SA 4.0 (Wikimedia Commons)",
       "exacte": true,
       "source": "https://commons.wikimedia.org/wiki/File:Achari_(dried_mango_from_Mombasa).JPG"
+    },
+    "herbal-mate-citron": {
+      "credit": "Thib, CC BY 4.0 (photo Théothèque)",
+      "exacte": false,
+      "source": "https://github.com/TheWorms/tea-db"
     },
     "herbal-mate-vert": {
       "credit": "soultea.de /André Helbig, CC BY-SA 3.0 (Wikimedia Commons)",
